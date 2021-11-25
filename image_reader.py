@@ -9,8 +9,5 @@ import easyocr
 # print(im)
 reader = easyocr.Reader(['en'])
 result = reader.readtext(
-    'Albuna pyramidalis coloradensis female (1dorsal).jpg')
+    'examples_images/Albuna pyramidalis coloradensis female (1dorsal).jpg')
 print(result[1][0])
-
-workbook = xlsxwriter.Workbook('image.xlsx')
-worksheet = workbook.add_worksheet()
