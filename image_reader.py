@@ -96,11 +96,10 @@ for imageName in os.listdir(directory):
     else:
         SEM_number_matches = str(SEM_number_filename == SEM_number_image)
 
-     #   SEM_number_matches == '' ?
-    if angle_matches == 'true' and scientific_name_matches == 'true' and (SEM_number_matches == 'true' or SEM_number_matches == ''):
-        all_matches = 'true'
+    if angle_matches == "TRUE" and scientific_name_matches == "TRUE" and (SEM_number_matches == "TRUE" or SEM_number_matches == ''):
+        all_matches = 'TRUE'
     else:
-        all_matches = 'false'
+        all_matches = 'FALSE'
 
     # Writing CSV
 
