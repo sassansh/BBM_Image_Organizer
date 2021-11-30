@@ -78,27 +78,23 @@ for imageName in os.listdir(directory):
     scientific_name_filename = imageName.split(' (')[0]
     SEM_number_filename = ''
     if 'SEM' in imageName:
-        SEM_number_filename = imageName.split('SEM')[1]
-    raw_SEM_filename = imageName.split(' (')[1].split(') ')[0]
-    angle_filename = ''.join(i for i in raw_SEM_filename if not i.isdigit())
+        SEM_number_filename = 'SEM' + imageName.split('SEM')[1].split('.')[0]
+
+    raw_angle_filename = imageName.split(' (')[1].split(')')[0]
+    angle_filename = ''.join(i for i in raw_angle_filename if not i.isdigit())
 
     # Matching analysis
-    if scientific_name_filename == scientific_name_image:
-        scientific_name_matches = 'true'
-    else:
-        scientific_name_matches = 'false'
+    angle_filename.replace(' ', '')
+    angle_image.replace(' ', '')
+
+    scientific_name_matches = str(
+        scientific_name_filename == scientific_name_image)
+    angle_matches = str(angle_filename == angle_image)
 
     if SEM_number_filename == '':
         SEM_number_matches = ''
-    elif SEM_number_filename == SEM_number_image:
-        SEM_number_matches = 'true'
     else:
-        SEM_number_matches = 'false'
-
-    if angle_filename == angle_image:
-        angle_matches = 'true'
-    else:
-        angle_matches = 'false'
+        SEM_number_matches = str(SEM_number_filename == SEM_number_image)
 
      #   SEM_number_matches == '' ?
     if angle_matches == 'true' and scientific_name_matches == 'true' and (SEM_number_matches == 'true' or SEM_number_matches == ''):
