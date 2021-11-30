@@ -84,8 +84,8 @@ for imageName in os.listdir(directory):
     angle_filename = ''.join(i for i in raw_angle_filename if not i.isdigit())
 
     # Matching analysis
-    angle_filename.replace(' ', '')
-    angle_image.replace(' ', '')
+    angle_filename.replace(" ", "")
+    angle_image.replace(" ", "")
 
     scientific_name_matches = str(
         scientific_name_filename == scientific_name_image)
@@ -96,10 +96,10 @@ for imageName in os.listdir(directory):
     else:
         SEM_number_matches = str(SEM_number_filename == SEM_number_image)
 
-    if angle_matches == "TRUE" and scientific_name_matches == "TRUE" and (SEM_number_matches == "TRUE" or SEM_number_matches == ''):
-        all_matches = 'TRUE'
+    if angle_matches == "True" and scientific_name_matches == "True" and (SEM_number_matches == "True" or SEM_number_matches == ''):
+        all_matches = 'True'
     else:
-        all_matches = 'FALSE'
+        all_matches = 'False'
 
     # Writing CSV
 
