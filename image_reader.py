@@ -20,9 +20,18 @@ with open('results.csv', 'a', encoding='UTF8') as f:
 directory = 'example_images'
 for imageName in os.listdir(directory):
 
+    # Skip non-image files
+    if not imageName.endswith(".jpg") and not imageName.endswith(".png"):
+        print("skipping file: " + imageName)
+        continue
+
     # Open Image
     image = cv2.imread(
         'example_images/' + imageName, cv2.IMREAD_UNCHANGED)
+
+    # Skip non-image files
+    if not hasattr(image, 'shape'):
+        continue
 
     # Pre processing
     # Crop image
@@ -84,12 +93,11 @@ for imageName in os.listdir(directory):
     angle_filename = ''.join(i for i in raw_angle_filename if not i.isdigit())
 
     # Matching analysis
-    angle_filename.replace(" ", "")
-    angle_image.replace(" ", "")
 
     scientific_name_matches = str(
         scientific_name_filename == scientific_name_image)
-    angle_matches = str(angle_filename == angle_image)
+    angle_matches = str(angle_filename.replace(" ", "")
+                        == angle_image.replace(" ", ""))
 
     if SEM_number_filename == '':
         SEM_number_matches = ''
