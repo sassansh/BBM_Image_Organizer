@@ -22,7 +22,6 @@ for imageName in os.listdir(directory):
 
     # Skip non-image files
     if not imageName.endswith(".jpg") and not imageName.endswith(".png"):
-        print("skipping file: " + imageName)
         continue
 
     # Open Image
