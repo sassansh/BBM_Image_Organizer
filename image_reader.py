@@ -19,8 +19,10 @@ image = image[top:bottom, left:right]
 
 # Extract red channel
 red_channel = image[:, :, 2]
-cv2.imshow('image', red_channel)
-cv2.waitKey(0)
+
+# Preview image
+# cv2.imshow('image', red_channel)
+# cv2.waitKey(0)
 
 # Covert Image to Byte Array
 is_success, im_buf_arr = cv2.imencode(".jpg", red_channel)
