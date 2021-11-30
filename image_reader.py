@@ -12,9 +12,9 @@ image = cv2.imread(
 # Crop image
 height, width, channels = image.shape
 left = 0
-top = int(height * 4 / 5)
+top = int(height * 5.1 / 6)
 right = width
-bottom = height
+bottom = int(height * 5.8 / 6)
 image = image[top:bottom, left:right]
 
 # Extract red channel
