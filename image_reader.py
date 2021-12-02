@@ -3,9 +3,13 @@ import cv2
 import io
 import easyocr
 import os
+from datetime import datetime
 
+now = datetime.now()
 
-with open('results.csv', 'a', encoding='UTF8') as f:
+date_time = now.strftime("%m-%d-%Y %H.%M.%S")
+
+with open('results ' + date_time + '.csv', 'a', encoding='UTF8') as f:
     header = ['filename', 'scientific_name_image', 'scientific_name_image_conf',
               'SEM_number_image', 'SEM_number_image_conf', 'angle_image', 'angle_image_conf',
               'scientific_name_filename', 'SEM_number_filename', 'angle_filename',
@@ -19,6 +23,8 @@ with open('results.csv', 'a', encoding='UTF8') as f:
 
 directory = 'example_images'
 for imageName in os.listdir(directory):
+
+    print("========== STARTING: " + imageName + " ==========")
 
     # Skip non-image files
     if not imageName.endswith(".jpg") and not imageName.endswith(".png") and not imageName.endswith(".jpeg"):
@@ -62,6 +68,9 @@ for imageName in os.listdir(directory):
         sem_conf_orignal = 0
 
     result = result_original
+    original_better = True
+    print("ORIGINAL OCR:")
+    print(result_original)
 
     if (name_conf_orignal < 0.65 or sem_conf_orignal < 0.65):
         print('Poor detection, trying red channel')
@@ -78,18 +87,20 @@ for imageName in os.listdir(directory):
         try:
             name_conf_red = result_red[0][2]
             sem_conf_red = result_red[1][2]
+            print("RED OCR:")
+            print(result_red)
         except:
             name_conf_red = 0
             sem_conf_red = 0
 
         if (name_conf_red > name_conf_orignal and sem_conf_red > sem_conf_orignal):
-            print('Red channel better')
             result = result_red
-        else:
-            print('Original channel better')
+            original_better = False
 
-    # Print chosen OCR result
-    print(result_red)
+    if (original_better):
+        print("Picking Original OCR")
+    else:
+        print("Picking Red OCR")
 
     # Prepare data from image
     filename = imageName
@@ -155,8 +166,9 @@ for imageName in os.listdir(directory):
             scientific_name_filename, SEM_number_filename, angle_filename,
             scientific_name_matches, SEM_number_matches, angle_matches, all_matches]
 
-    with open('results.csv', 'a', encoding='UTF8') as f:
+    with open('results ' + date_time + '.csv', 'a', encoding='UTF8') as f:
         writer = csv.writer(f)
 
         # write the data
         writer.writerow(data)
+    print("========== FINISHED: " + imageName + " ==========\n\n")
