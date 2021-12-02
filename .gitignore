@@ -294,5 +294,6 @@ cython_debug/
 
 # extra
 *.png
+*.jpeg
 *.jpg
 *.csv

@@ -21,7 +21,7 @@ directory = 'example_images'
 for imageName in os.listdir(directory):
 
     # Skip non-image files
-    if not imageName.endswith(".jpg") and not imageName.endswith(".png"):
+    if not imageName.endswith(".jpg") and not imageName.endswith(".png") and not imageName.endswith(".jpeg"):
         continue
 
     # Open Image
@@ -51,16 +51,20 @@ for imageName in os.listdir(directory):
 
     # Perform OCR on Image(Byte Array)
     reader = easyocr.Reader(['en'])
-    result = reader.readtext(byte_im)
-    print(result)
+    result_original = reader.readtext(byte_im)
 
     # Extract red channel
-    name_conf = result[0][2]
-    sem_conf = result[1][2]
+    name_conf_orignal = result_original[0][2]
+    sem_conf_orignal = result_original[1][2]
 
-    if (name_conf < 0.5 or sem_conf < 0.5):
+    result = result_original
+
+    if (name_conf_orignal < 0.65 or sem_conf_orignal < 0.65):
         print('Poor detection, trying red channel')
-        red_channel = image[:, :, 2]
+        red_channel = image[:, :, 4]
+
+        cv2.imshow('image', red_channel)
+        cv2.waitKey(0)
 
         # Covert Image to Byte Array
         is_success, im_buf_arr = cv2.imencode(".jpg", red_channel)
@@ -68,18 +72,39 @@ for imageName in os.listdir(directory):
 
         # Perform OCR on Image(Byte Array)
         reader = easyocr.Reader(['en'])
-        result = reader.readtext(byte_im)
-        print(result)
+        result_red = reader.readtext(byte_im)
+
+        name_conf_red = result_red[0][2]
+        sem_conf_red = result_red[1][2]
+
+        if (name_conf_red > name_conf_orignal and sem_conf_red > sem_conf_orignal):
+            print('Red channel better')
+            result = result_red
+        else:
+            print('Original channel better')
+
+    # Print chosen OCR result
+    print(result_red)
 
     # Prepare data from image
     filename = imageName
-    scientific_name_image = result[0][1].split(' (')[0]
-    scientific_name_image_conf = result[0][2]
-    SEM_number_image = 'SEM' + result[1][1].split('SEM')[1]
-    print(SEM_number_image)
-    SEM_number_image_conf = result[1][2]
-    angle_image = (result[0][1].split(' (')[1]).split(')')[0]
-    angle_image_conf = result[0][2]
+
+    try:
+        scientific_name_image = result[0][1].split(' (')[0]
+        scientific_name_image_conf = result[0][2]
+        SEM_number_image = 'SEM' + result[1][1].upper().split('SEM')[1]
+        SEM_number_image_conf = result[1][2]
+        angle_image = (result[0][1].split(' (')[1]).split(')')[0]
+        angle_image_conf = result[0][2]
+    except Exception as e:
+        print(e)
+        print("OCR failed for " + imageName)
+        scientific_name_image = 'OCR FAILED'
+        scientific_name_image_conf = '0'
+        SEM_number_image = 'OCR FAILED'
+        SEM_number_image_conf = '0'
+        angle_image = 'OCR FAILED'
+        angle_image_conf = '0'
 
     # Prepare data from filename
 
