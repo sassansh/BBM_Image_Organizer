@@ -293,7 +293,4 @@ cython_debug/
 !.vscode/*.code-snippets
 
 # extra
-*.png
-*.jpeg
-*.jpg
 *.csv

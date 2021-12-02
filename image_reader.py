@@ -54,17 +54,18 @@ for imageName in os.listdir(directory):
     result_original = reader.readtext(byte_im)
 
     # Extract red channel
-    name_conf_orignal = result_original[0][2]
-    sem_conf_orignal = result_original[1][2]
+    try:
+        name_conf_orignal = result_original[0][2]
+        sem_conf_orignal = result_original[1][2]
+    except:
+        name_conf_orignal = 0
+        sem_conf_orignal = 0
 
     result = result_original
 
     if (name_conf_orignal < 0.65 or sem_conf_orignal < 0.65):
         print('Poor detection, trying red channel')
-        red_channel = image[:, :, 4]
-
-        cv2.imshow('image', red_channel)
-        cv2.waitKey(0)
+        red_channel = image[:, :, 2]
 
         # Covert Image to Byte Array
         is_success, im_buf_arr = cv2.imencode(".jpg", red_channel)
@@ -74,8 +75,12 @@ for imageName in os.listdir(directory):
         reader = easyocr.Reader(['en'])
         result_red = reader.readtext(byte_im)
 
-        name_conf_red = result_red[0][2]
-        sem_conf_red = result_red[1][2]
+        try:
+            name_conf_red = result_red[0][2]
+            sem_conf_red = result_red[1][2]
+        except:
+            name_conf_red = 0
+            sem_conf_red = 0
 
         if (name_conf_red > name_conf_orignal and sem_conf_red > sem_conf_orignal):
             print('Red channel better')
@@ -108,13 +113,23 @@ for imageName in os.listdir(directory):
 
     # Prepare data from filename
 
-    scientific_name_filename = imageName.split(' (')[0]
-    SEM_number_filename = ''
-    if 'SEM' in imageName:
-        SEM_number_filename = 'SEM' + imageName.split('SEM')[1].split('.')[0]
+    try:
+        scientific_name_filename = imageName.split(' (')[0]
+        SEM_number_filename = ''
+        if 'SEM' in imageName:
+            SEM_number_filename = 'SEM' + \
+                imageName.split('SEM')[1].split('.')[0]
 
-    raw_angle_filename = imageName.split(' (')[1].split(')')[0]
-    angle_filename = ''.join(i for i in raw_angle_filename if not i.isdigit())
+        raw_angle_filename = imageName.split(' (')[1].split(')')[0]
+        angle_filename = ''.join(
+            i for i in raw_angle_filename if not i.isdigit())
+    except Exception as e:
+        print(e)
+        print("Filename parsing failed for " + imageName)
+        scientific_name_filename = 'PARSING FAILED'
+        SEM_number_filename = 'PARSING FAILED'
+        raw_angle_filename = 'PARSING FAILED'
+        angle_filename = 'PARSING FAILED'
 
     # Matching analysis
 
