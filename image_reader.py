@@ -144,15 +144,16 @@ for imageName in os.listdir(directory):
 
     # Matching analysis
 
-    scientific_name_matches = str(
-        scientific_name_filename == scientific_name_image)
-    angle_matches = str(angle_filename.replace(" ", "")
-                        == angle_image.replace(" ", ""))
+    scientific_name_matches = str(scientific_name_filename.replace(" ", "").lower()
+                                  == scientific_name_image.replace(" ", "").lower())
+    angle_matches = str(angle_filename.replace(" ", "").lower()
+                        == angle_image.replace(" ", "").lower())
 
     if SEM_number_filename == '':
         SEM_number_matches = ''
     else:
-        SEM_number_matches = str(SEM_number_filename == SEM_number_image)
+        SEM_number_matches = str(SEM_number_filename.replace(" ", "").lower()
+                                 == SEM_number_image.replace(" ", "").lower())
 
     if angle_matches == "True" and scientific_name_matches == "True" and (SEM_number_matches == "True" or SEM_number_matches == ''):
         all_matches = 'True'
