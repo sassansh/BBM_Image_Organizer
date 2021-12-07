@@ -8,6 +8,7 @@ from datetime import datetime
 now = datetime.now()
 
 date_time = now.strftime("%m-%d-%Y %H.%M.%S")
+reader = easyocr.Reader(['en'])
 
 with open('results ' + date_time + '.csv', 'a', encoding='UTF8') as f:
     header = ['filename', 'scientific_name_image', 'scientific_name_image_conf',
@@ -56,7 +57,6 @@ for imageName in os.listdir(directory):
     byte_im = im_buf_arr.tobytes()
 
     # Perform OCR on Image(Byte Array)
-    reader = easyocr.Reader(['en'])
     result_original = reader.readtext(byte_im)
 
     # Extract red channel
@@ -81,7 +81,6 @@ for imageName in os.listdir(directory):
         byte_im = im_buf_arr.tobytes()
 
         # Perform OCR on Image(Byte Array)
-        reader = easyocr.Reader(['en'])
         result_red = reader.readtext(byte_im)
 
         try:
