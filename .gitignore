@@ -291,6 +291,3 @@ cython_debug/
 
 # Support for Project snippet scope
 !.vscode/*.code-snippets
-
-# extra
-*.csv
