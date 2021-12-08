@@ -158,11 +158,12 @@ for imageName in os.listdir(directory):
 
     # Convert capital I to l
     if ("I" in scientific_name_image[1:] and scientific_name_image != 'OCR FAILED'):
-        print("Found I in " + imageName + "'s OCR name")
+        print("Replacing I with l")
         scientific_name_image = scientific_name_image[0] + \
             scientific_name_image[1:].replace("I", "l")
 
     # Convert € to C
+    print("Replacing € with C")
     scientific_name_image = scientific_name_image.replace("€", "C")
 
     try:
