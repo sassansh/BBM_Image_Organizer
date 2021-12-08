@@ -1,0 +1,3 @@
+filename,scientific_name_image,scientific_name_image_conf,SEM_number_image,SEM_number_image_conf,angle_image,angle_image_conf,scientific_name_filename,SEM_number_filename,angle_filename,scientific_name_matches,SEM_number_matches,angle_matches,all_matches
+Pteroloma nebrioides (4front) .jpg,Pteroloma nebrioides,0.8093886994782455,SEM-UBC COL-28998,0.9982957795588459,front,0.8093886994782455,Pteroloma nebrioides,,front,True,,True,True
+Isotoma viridis (1left) COLL-0005.jpeg,Isotoma viridis,0.9886132850708408,SEM-UBC COLL-0005,0.8400589104158752,left,0.9886132850708408,Isotoma viridis,,left,True,,True,True
