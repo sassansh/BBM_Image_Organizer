@@ -1,3 +1,156 @@
 filename,scientific_name_image,scientific_name_image_conf,SEM_number_image,SEM_number_image_conf,angle_image,angle_image_conf,scientific_name_filename,SEM_number_filename,angle_filename,scientific_name_matches,SEM_number_matches,angle_matches,all_matches
 Pteroloma nebrioides (4front) .jpg,Pteroloma nebrioides,0.8093886994782455,SEM-UBC COL-28998,0.9982957795588459,front,0.8093886994782455,Pteroloma nebrioides,,front,True,,True,True
 Isotoma viridis (1left) COLL-0005.jpeg,Isotoma viridis,0.9886132850708408,SEM-UBC COLL-0005,0.8400589104158752,left,0.9886132850708408,Isotoma viridis,,left,True,,True,True
+Blattella germanica (2ventral) .jpg,Blatella germanica,0.8534344512200972,SEM-UBC DIC-0112,0.7474611111493894,ventral,0.8534344512200972,Blattella germanica,,ventral,False,,True,False
+Blatta orientalis nymph (2ventral) .jpg,Blatta orientalis nymph,0.9994197722386354,SEM-UBC DIC-0016,0.832704997854432,ventral,0.9994197722386354,Blatta orientalis nymph,,ventral,True,,True,True
+Panchlora sp Form B (3lateral) .jpg,Panchlora Sp form B,0.4520858339655151,SEM-UBC DIC-0069,0.7631481981133533,Fteral,0.4520858339655151,Panchlora sp Form B,,lateral,True,,False,False
+Nyctibora sp form B (1dorsal) .jpg,Nyctibora Sp form B,0.9818466359946816,SEM-UBC DIC-0078,0.9176034458054307,dorsal,0.9818466359946816,Nyctibora sp form B,,dorsal,True,,True,True
+Blatta orientalis (2ventral) .jpg,Blatta orientalis,0.8859443715842887,SEM-UBC DIC-0001,0.9220429931486956,ventral,0.8859443715842887,Blatta orientalis,,ventral,True,,True,True
+Climaciella brunnea (1dorsal).jpg,Climaciella brunnea,0.9814673970609539,SEM-UBC NEU-0911,0.9589249511799803,dorsal,0.9814673970609539,Climaciella brunnea,,dorsal,True,,True,True
+Euthyrrhapha pacifica (2ventral) SEM-UBC DIC-0172.jpg,Euthyrrhapa pacifica,0.8385621264607012,SEM-UBC DIC-0172,0.5816115642343933,ventral,0.8385621264607012,Euthyrrhapha pacifica,SEM-UBC DIC-0172,ventral,False,True,True,False
+Caenurgina careulea (1dorsal).jpg,Caenurgina careulea,0.9803734335804607,SEM-UBC NOC-0946,0.6529837165825857,dorsal,0.9803734335804607,Caenurgina careulea,,dorsal,True,,True,True
+Ipelates latus form A (1dorsal) .jpg,Ipelates latus form A,0.8900919151548666,SEM-UBC COL-28994,0.8114613980002972,dorsal,0.8900919151548666,Ipelates latus form A,,dorsal,True,,True,True
+Leptomantispa pulchella (3lateral).jpg,Leptomantispa pulchella,0.8082604162068917,SEM-UBC NEU-0917,0.8432021106509322,lateral,0.8082604162068917,Leptomantispa pulchella,,lateral,True,,True,True
+Agyrtes longulus (1dorsal) .jpg,Agyrtes longulus,0.9599269819733481,SEM-UBC COL-28989,0.9988754874928562,dorsal,0.9599269819733481,Agyrtes longulus,,dorsal,True,,True,True
+Aegialia crassa (3lateral) .jpeg,Aegialia crassa,0.7112293751463026,SEM-UBC COL-27498,0.6394953210183594,lateral,0.7112293751463026,Aegialia crassa,,lateral,True,,True,True
+Folsomia fimetaria (1left) COLL-0008.jpeg,Folsomia fimetaria,0.7967933151532491,SEM-UBC COLL-0008,0.7488909411378142,left,0.7967933151532491,Folsomia fimetaria,,left,True,,True,True
+Aderus populneus (4front).jpg,Aderus brunnipennis,0.8952166357801536,SEM-UBC COL-28948,0.998714803318708,front,0.8952166357801536,Aderus populneus,,front,False,,True,False
+Amphizoa lecontei (3lateral).jpg,Amphizoa lecontei,0.7747296056986573,SEM-UBC COL-0057,0.7977915784034283,lateral,0.7747296056986573,Amphizoa lecontei,,lateral,True,,True,True
+Blattella vaga (2ventral) SEM-UBC DIC-0172.jpg,Blattella vaga,0.9472103352262897,SEM-UBC DIC-0172,0.9909053372998232,ventral,0.9472103352262897,Blattella vaga,SEM-UBC DIC-0172,ventral,True,True,True,True
+Parcoblatta pennsylvanica (1dorsal) SEM-UBC DIC-0186.jpg,Parcoblatta pennsylvanica,0.8379201179089604,SEM-UBC DIC-0186,0.8355270723784037,dorsal,0.8379201179089604,Parcoblatta pennsylvanica,SEM-UBC DIC-0186,dorsal,True,True,True,True
+Cryptotermes brevis (1dorsal) wings only.jpg,Cryptotermes brevis,0.7975980210857673,SEM-UBC ISO-0050,0.601638694708432,dorsal,0.7975980210857673,Cryptotermes brevis,,dorsal,True,,True,True
+Isotoma viridis (6fullslide) COLL-0005.jpeg,Isotoma viridis,0.9765000110378448,SEM-UBC COLL-0005,0.782060521620341,full slide,0.9765000110378448,Isotoma viridis,,fullslide,True,,True,True
+Pteroloma nebrioides (3lateral) .jpg,Pteroloma nebrioides,0.814385583512048,SEM-UBC COL-28998,0.6854314616584426,lateral,0.814385583512048,Pteroloma nebrioides,,lateral,True,,True,True
+Ptenothrix unicolor (2right) COLL-0004.jpeg,Ptenothrix unicolor,0.7627998996985381,SEM-UBC COLL-0004,0.750961079758957,right,0.7627998996985381,Ptenothrix unicolor,,right,True,,True,True
+Aegialia conferta (3lateral)   SEM-UBC COL-32354.jpeg,Aegialia conferta,0.8049182641088005,SEM-UBC COL-32354,0.7704633250561441,lateral,0.8049182641088005,Aegialia conferta,SEM-UBC COL-32354,lateral,True,True,True,True
+Tomocerus brevimucronatus (5full) COLL-0012.jpeg,Tomocerus brevimucronatus,0.8783833044213063,SEM-UBC COLL-0012,0.7992007189212778,full,0.8783833044213063,Tomocerus brevimucronatus,,full,True,,True,True
+Supella longipalpa form B (3lateral) .jpg,Supella longipalpa form B,0.7592991299465662,SEM-UBC DIC-0090,0.9772549673278907,lateral,0.7592991299465662,Supella longipalpa form B,,lateral,True,,True,True
+Ptenothrix unicolor (2right) COLL-0004.jpg,Ptenothrix unicolor,0.7627998996985381,SEM-UBC COLL-0004,0.750961079758957,right,0.7627998996985381,Ptenothrix unicolor,,right,True,,True,True
+Aegialia blanchardi (4front).jpeg,Aegialia blanchardi,0.8310811409111469,SEM-UBC COL-27497,0.6269385586807178,front,0.8310811409111469,Aegialia blanchardi,,front,True,,True,True
+Hemerobius bistrigatus (2ventral).jpeg,OCR FAILED,0,SEM-UBC NEU-0557,0.5381670759974999,OCR FAILED,0,Hemerobius bistrigatus,,ventral,False,,False,False
+Paruroctonus boreus (5claw) SCO-0001.jpeg,Paruroctonus boreus,0.9613005214763625,SEM-UBC SCO-0001,0.8447432843085149,claw,0.9613005214763625,Paruroctonus boreus,,claw,True,,True,True
+Apteroloma caraboides (3lateral) .jpg,Apteroloma caraboides,0.7174218638053959,SEM-UBC COL-28991,0.911323229085013,lateral,0.7174218638053959,Apteroloma caraboides,,lateral,True,,True,True
+Aderus populneus (3lateral) .jpg,Aderus brunnipennis,0.35172035416140446,SEM-UBC COL-28948,0.782535331872241,arelrall,0.35172035416140446,Aderus populneus,,lateral,False,,False,False
+Amphizoa striata (2ventral).jpg,Amphizoa striata,0.9565304255423369,SEM-UBC COL-0090,0.8238390442482053,ventral,0.9565304255423369,Amphizoa striata,,ventral,True,,True,True
+Apteroloma caraboides (1dorsal) .jpg,Apteroloma caraboides,0.9991231063589141,SEM-UBC COL-28991,0.8380301269820815,dorsal,0.9991231063589141,Apteroloma caraboides,,dorsal,True,,True,True
+Aegialia criddlei (3lateral) .jpeg,Aegialia criddlei,0.9948243753606242,SEM-UBC COL-27499,0.9994717997656402,lateral,0.9948243753606242,Aegialia criddlei,,lateral,True,,True,True
+Pycnoscelus surinamensis (1dorsal) .jpg,Pycnoscelus surinamensis,0.7756222200636241,SEM-UBC DIC-0072,0.9389928074051209,dorsal,0.7756222200636241,Pycnoscelus surinamensis,,dorsal,True,,True,True
+Caenurgina annexa (2ventral).jpg,Caenurgina annexa,0.8413356722189327,SEM-UBC NOC-0945,0.9208900893711618,ventral,0.8413356722189327,Caenurgina annexa,,ventral,True,,True,True
+Supella longipalpa form B (1dorsal) .jpg,Supella longipalpa form B,0.956682614651836,SEM-UBC DIC-0090,0.8269355549404868,dorsal,0.956682614651836,Supella longipalpa form B,,dorsal,True,,True,True
+Zootermopsis angusticollis form D (2ventral) .jpg,Zootermopsis angusticollis form D,0.7423505045915864,SEM-UBC ISO-0035,0.8620684124791198,ventral,0.7423505045915864,Zootermopsis angusticollis form D,,ventral,True,,True,True
+Ipelates latus form A (3lateral) .jpg,Ipelates latus form A,0.8870316965662642,SEM-UBC COL-28994,0.9998029859610658,lateral,0.8870316965662642,Ipelates latus form A,,lateral,True,,True,True
+Blattella germanica nymph (3lateral) .jpg,Blatella germanica nymph,0.8588138707973173,SEM-UBC DIC-0108,0.9793476062880517,lateral,0.8588138707973173,Blattella germanica nymph,,lateral,False,,True,False
+Zootermopsis angusticollis form A (3lateral) .jpg,Zootermopsis angusticollis form,0.5896004351248294,SEM-UBC ISO-0015,0.7223808803245433,lateral,0.5896004351248294,Zootermopsis angusticollis form A,,lateral,False,,True,False
+Albuna pyramidalis coloradensis female (1dorsal).jpg,Albuna pyramidalis coloradensis female,0.9985751316024462,SEM-UBC SES-0103,0.8446344894572357,dorsal,0.9985751316024462,Albuna pyramidalis coloradensis female,,dorsal,True,,True,True
+Agyrtes longulus (3lateral) .jpg,Agyrtes longulus,0.6973776089791367,SEM-UBC COL-28989,0.9991212267268291,lateral,0.6973776089791367,Agyrtes longulus,,lateral,True,,True,True
+Sinella baca (4right) COLL-0011.jpeg,Sinella baca,0.8159719183218569,SEM-UBC COLL-0011,0.9435630941384467,right,0.8159719183218569,Sinella baca,,right,True,,True,True
+Nyctibora sp form C (1dorsal) .jpg,Nyctibora sp form C,0.7661081548620711,SEM-UBC DIC-0076,0.9961910361844826,dorsal,0.7661081548620711,Nyctibora sp form C,,dorsal,True,,True,True
+Nyctibora sp form B (3lateral) .jpg,Nyctibora Sp form B,0.9087044460688598,SEM-UBC DIC-0078,0.6868880766915476,lateral,0.9087044460688598,Nyctibora sp form B,,lateral,True,,True,True
+Blatta orientalis (1dorsal) .jpg,Blatta orientalis,0.9908857543662268,SEM-UBC DIC-0001,0.9759602747983402,dorsal,0.9908857543662268,Blatta orientalis,,dorsal,True,,True,True
+Lepidocyrtus cyaneus (1left) COLL-0006.jpeg,Lepidocyrtus cyaneus,0.9976762971547196,SEM-UBC COLL-0006,0.7511873908256727,left,0.9976762971547196,Lepidocyrtus cyaneus,,left,True,,True,True
+Sinella baca (6label) COLL-0011.jpg,Sinella baca,0.5151318761276138,SEM-UBC COLL-0011,0.82096577936408,label,0.5151318761276138,Sinella baca,,label,True,,True,True
+Reticulitermes hesperus (2ventral) .jpg,Reticulitermes hesperus,0.9988307534508244,SEM-UBC ISO-0130,0.9159425703186775,ventral,0.9988307534508244,Reticulitermes hesperus,,ventral,True,,True,True
+Tragosoma depsarium (1dorsal).jpg,Tragosoma depsarium,0.8619045802761959,SEM-UBC COL-9815,0.5535360928636993,dorsal,0.8619045802761959,Tragosoma depsarium,,dorsal,True,,True,True
+Necrophilus hydrophiloides form B (3lateral) .jpg,Necrophilus hydrophiloides form B,0.8357470820566405,SEM-UBC COL-28997,0.9771686461598821,lateral,0.8357470820566405,Necrophilus hydrophiloides form B,,lateral,True,,True,True
+Parcoblatta pennsylvanica (3lateral) SEM-UBC DIC-0186.jpg,Parcoblatta pennsylvanica,0.7171046207095623,SEM-UBC DIC-0186,0.9822374050618884,lateral,0.7171046207095623,Parcoblatta pennsylvanica,SEM-UBC DIC-0186,lateral,True,True,True,True
+Lamprochernes minor (6fullslide).jpeg,,0.2278701663017273,SEM-UBC PSEU-0002,0.8415823718668216,7J?,0.2278701663017273,Lamprochernes minor,,fullslide,False,,False,False
+Climaciella brunnea (3lateral).jpg,Climaciella brunnea,0.5450685309033799,SEM-UBC NEU-0911,0.5654989855460864,latere,0.5450685309033799,Climaciella brunnea,,lateral,True,,False,False
+Ipelates latus form B (1dorsal) .jpg,Ipelates latus form B,0.663690061384436,SEM-UBC COL-28995,0.9928555858450353,dorsal,0.663690061384436,Ipelates latus form B,,dorsal,True,,True,True
+Eureum spenceri Allotype (7label) Allotype-0086 female.jpg,OCR FAILED,0,OCR FAILED,0,OCR FAILED,0,Eureum spenceri Allotype,,label,False,,False,False
+Aphodius pedellus (4front).jpeg,Aphodius iletarius,0.726869877627788,SEM-UBC COL-27515,0.9978523658839346,front,0.726869877627788,Aphodius pedellus,,front,False,,True,False
+Apteroloma tenuicorne (1dorsal) .jpg,Apteroloma tenuicorne,0.9717468573790435,SEM-UBC COL-28992,0.7167493677571032,dorsal,0.9717468573790435,Apteroloma tenuicorne,,dorsal,True,,True,True
+Amphizoa striata (1dorsal).jpg,Amphizoa striata,0.996714227582403,SEM-UBC COL-0090,0.9519425276185075,dorsal,0.996714227582403,Amphizoa striata,,dorsal,True,,True,True
+Nyctibora sp form A (1dorsal) .jpg,Nyctibora sp form A,0.6625628430196754,SEM-UBC DIC-0073,0.8802068978857726,dorsal,0.6625628430196754,Nyctibora sp form A,,dorsal,True,,True,True
+Sinella baca (3left) COLL-0011.jpeg,Sinella baca,0.99232534334937,SEM-UBC COLL-0011,0.9414888842509629,left,0.99232534334937,Sinella baca,,left,True,,True,True
+Blattella vaga (3lateral) SEM-UBC DIC-0172.jpg,Blattella vaga,0.8298636820203115,SEM-UBC DIC-0172,0.9326558242732228,lateral,0.8298636820203115,Blattella vaga,SEM-UBC DIC-0172,lateral,True,True,True,True
+Euthyrrhapha pacifica (3lateral) SEM-UBC DIC-0172.jpg,Euthyrrhapa pacifica,0.8978574443930067,SEM-UBC DIC-0172,0.7320133681268881,lateral,0.8978574443930067,Euthyrrhapha pacifica,SEM-UBC DIC-0172,lateral,False,True,True,False
+Periplaneta americana nymph (1dorsal) .jpg,Periplaneta americana nymph,0.7675815003818436,SEM-UBC DIC-0027,0.8045333949907059,dorsal,0.7675815003818436,Periplaneta americana nymph,,dorsal,True,,True,True
+Scoliopteryx libatrix (2ventral).jpg,Scoliopteryx libatrix,0.7748819830529649,SEM-UBC NOC-0941,0.8834239803288894,ventral,0.7748819830529649,Scoliopteryx libatrix,,ventral,True,,True,True
+Pteroloma nebrioides (1dorsal) .jpg,Pteroloma nebrioides,0.7888383087125886,SEM-UBC COL-28998,0.9976898334261703,dorsal,0.7888383087125886,Pteroloma nebrioides,,dorsal,True,,True,True
+Periplaneta americana (3lateral) .jpg,Periplaneta americana,0.8140200238513844,SEM-UBC DIC-0039,0.9832591487764649,lateral,0.8140200238513844,Periplaneta americana,,lateral,True,,True,True
+Dicyrtoma sp. (6label) COLL-0010.jpeg,Dicyrtoma sp.,0.2399272836689087,SEM-UBC COLL-0010,0.6395659445459909,label,0.2399272836689087,Dicyrtoma sp.,,label,True,,True,True
+Ptenothrix unicolor (1left) COLL-0004.jpg,Ptenothrix unicolor,0.795068583761484,SEM-UBC COLL-0004,0.7346181160088918,left,0.795068583761484,Ptenothrix unicolor,,left,True,,True,True
+Pycnoscelus surinamensis (2ventral) .jpg,Pycnoscelus surinamensis,0.9979156057266662,SEM-UBC DIC-0072,0.9866369413549505,ventral,0.9979156057266662,Pycnoscelus surinamensis,,ventral,True,,True,True
+Zootermopsis angusticollis form D (1dorsal) body only.jpg,Zootermopsis angusticollis forn   D,0.554484090775895,SEM-UBC ISO-0035,0.8514562272291283,dorsal,0.554484090775895,Zootermopsis angusticollis form D,,dorsal,False,,True,False
+Dicyrtoma sp. (2right) COLL-0010.jpeg,Dicyrtoma sp.,0.9340511830586,SEM-UBC COLL-0010,0.7818686911319299,right,0.9340511830586,Dicyrtoma sp.,,right,True,,True,True
+Scoliopteryx libatrix (1dorsal).jpg,Scoliopteryx libatrix,0.8409615126563297,SEM-UBC NOC-0941,0.9278842577791104,dorsal,0.8409615126563297,Scoliopteryx libatrix,,dorsal,True,,True,True
+Supella longipalpa form A (2ventral) .jpg,Supella longipalpa form A,0.8299101414460706,SEM-UBC DIC-0085,0.8818987967393798,ventral,0.8299101414460706,Supella longipalpa form A,,ventral,True,,True,True
+Periplaneta australasiae (1dorsal) .jpg,Periplaneta australasiae,0.8556062375903972,SEM-UBC DIC-0044,0.9376489600843566,dorsal,0.8556062375903972,Periplaneta australasiae,,dorsal,True,,True,True
+Amphizoa insolens (2ventral).jpg,Amphizoa insolens,0.9990279346382767,SEM-UBC COL-0044,0.9140362358699136,ventral,0.9990279346382767,Amphizoa insolens,,ventral,True,,True,True
+Nyctibora sp form C (3lateral) .jpg,Nyctibora sp form C,0.7994218365975418,SEM-UBC DIC-0076,0.9494471793530489,lateral,0.7994218365975418,Nyctibora sp form C,,lateral,True,,True,True
+Entomobrya multifasciata (1left) COLL-0007.jpeg,Enomobrya multifasciata,0.9992261844649696,SEM-UBC COLL-0007,0.9306961632228129,left,0.9992261844649696,Entomobrya multifasciata,,left,False,,True,False
+Periplaneta australasiae (3lateral) .jpg,Periplaneta australasiae,0.6182159106188037,SEM-UBC DIC-0044,0.8382516625582632,lateral,0.6182159106188037,Periplaneta australasiae,,lateral,True,,True,True
+Entomobrya multifasciata (6fullslide) COLL-0007.jpeg,Entomobrya multifasciata,0.8867902726409325,SEM-UBC COLL-0007,0.7734953916334639,full slide,0.8867902726409325,Entomobrya multifasciata,,fullslide,True,,True,True
+Apteroloma caraboides (4front).jpg,Apteroloma caraboides,0.8288218396113051,SEM-UBC COL-28991,0.8858938851866394,front,0.8288218396113051,Apteroloma caraboides,,front,True,,True,True
+Supella longipalpa form A (1dorsal) .jpg,Supella longipalpa form,0.636501914162233,SEM-UBC DIC-0085,0.8461066242575453,dorsal,0.636501914162233,Supella longipalpa form A,,dorsal,False,,True,False
+Folsomia fimetaria (2right) COLL-0008.jpeg,Folsomia fimetaria,0.9594801500077559,SEM-UBC COLL-0008,0.7515228671985158,right,0.9594801500077559,Folsomia fimetaria,,right,True,,True,True
+Parcoblatta pennsylvanica (2ventral) SEM-UBC DIC-0186.jpg,Parcoblatta pennsylvanica,0.9827635614498489,SEM-UBC DIC-0186,0.9997278940798902,ventral,0.9827635614498489,Parcoblatta pennsylvanica,SEM-UBC DIC-0186,ventral,True,True,True,True
+Blatta orientalis nymph (1dorsal) .jpg,Blatta orientalis nymph,0.7501331552104101,SEM-UBC DIC-0016,0.8875870383545982,dorsal,0.7501331552104101,Blatta orientalis nymph,,dorsal,True,,True,True
+Isotomurus palustris (2right) COLL-0002.jpeg,Isotomurus palustris,0.9438147396649453,SEM-UBC COLL-0002,0.7898954793257823,right,0.9438147396649453,Isotomurus palustris,,right,True,,True,True
+Agulla bicolor female (2ventral).jpeg,Agulla bicolor female,0.6882046077802736,SEM-UBC RAP-0165,0.9431031250689862,ventral,0.6882046077802736,Agulla bicolor female,,ventral,True,,True,True
+Apteroloma tenuicorne (2ventral) .jpg,Apteroloma tenuicorne,0.9956560765202547,SEM-UBC COL-28992,0.9993393587195862,ventral,0.9956560765202547,Apteroloma tenuicorne,,ventral,True,,True,True
+Folsomia fimetaria (6fullslide) COLL-0008.jpeg,Folsomia fimetaria,0.5819744291700019,SEM-UBC COLL-0008,0.9970417505029373,full slide,0.5819744291700019,Folsomia fimetaria,,fullslide,True,,True,True
+Lamprochernes minor (2ventral).jpeg,Lamprochernes minor,0.8074054089091386,SEM-UBC PSEU-0002,0.9495603492277603,ventral,0.8074054089091386,Lamprochernes minor,,ventral,True,,True,True
+Mundochthonius pacificus (1dorsal).jpeg,Mundochthonius pacificus,0.9883008998058492,SEM-UBC PSEU-0001,0.9697487869813693,dorsal,0.9883008998058492,Mundochthonius pacificus,,dorsal,True,,True,True
+Isotomurus palustris (6fullslide) COLL-0002.jpeg,Isotomurus palustris,0.8354061597698316,SEM-UBC COLL-0002,0.8295221584859015,full slide,0.8354061597698316,Isotomurus palustris,,fullslide,True,,True,True
+Periplaneta americana nymph (2ventral) .jpg,Periplaneta americana nymph,0.8386752417980147,SEM-UBC DIC-0027,0.8190883388179189,ventral,0.8386752417980147,Periplaneta americana nymph,,ventral,True,,True,True
+Periplaneta australasiae nymph (2ventral) .jpg,Periplaneta australasiae nymph,0.9990867428072103,SEM-UBC DIC-0051,0.7431998436211366,ventral,0.9990867428072103,Periplaneta australasiae nymph,,ventral,True,,True,True
+Necrophilus hydrophiloides form A (2ventral) .jpg,Necrophilus hydrophiloides form A,0.8038810988436658,SEM-UBC COL-28996,0.7588426778851586,ventral,0.8038810988436658,Necrophilus hydrophiloides form A,,ventral,True,,True,True
+Nemoria darwiniata (2ventral).jpg,Chlorosea banksaria,0.7927049017197291,SEM-UBC GEO-0260,0.7195599652048879,ventral,0.7927049017197291,Nemoria darwiniata,,ventral,False,,True,False
+Sinella baca (2ventral) COLL-0011.jpeg,Sinella baca,0.79038049334731,SEM-UBC COLL-0011,0.9417845983680306,ventral,0.79038049334731,Sinella baca,,ventral,True,,True,True
+Aderus populneus (1dorsal) .jpg,Aderus brunnipennis,0.7680972407516058,SEM-UBC COL-28948,0.7139124814019097,dorsal,0.7680972407516058,Aderus populneus,,dorsal,False,,True,False
+Lepidocyrtus cyaneus (6fullslide) COLL-0006.jpeg,Lepidocyrtus cyaneus,0.7874835164947823,SEM-UBC COLL-0006,0.9111875530551604,full slide,0.7874835164947823,Lepidocyrtus cyaneus,,fullslide,True,,True,True
+Caenurgina annexa (1dorsal).jpg,Caenurgina annexa,0.8139911921882506,SEM-UBC NOC-0945,0.8539653948189702,dorsal,0.8139911921882506,Caenurgina annexa,,dorsal,True,,True,True
+Blaberus sp (2ventral) merged .jpg,Blaberus sp,0.9453118637275769,SEM-UBC DIC-0058,0.7429564500274288,ventral,0.9453118637275769,Blaberus sp,,ventral,True,,True,True
+Nyctibora sp form A (2ventral) .jpg,Nyctibora sp form A,0.7766710225560562,SEM-UBC DIC-0073,0.9875278139077921,ventral,0.7766710225560562,Nyctibora sp form A,,ventral,True,,True,True
+Blaberus sp (3lateral) .jpg,Blaberus sp,0.7234411751717038,SEM-UBC DIC-0058,0.8256878972667242,lateral,0.7234411751717038,Blaberus sp,,lateral,True,,True,True
+Agulla bicolor female (3lateral).jpeg,Agulla bicolor female,0.9892150582863607,SEM-UBC RAP-0165,0.8540361337798913,lateral,0.9892150582863607,Agulla bicolor female,,lateral,True,,True,True
+Reticulitermes hesperus (1dorsal) .jpg,Reticulitermes hesperus,0.8398802059601781,SEM-UBC ISO-0130,0.8775611230527743,dorsal,0.8398802059601781,Reticulitermes hesperus,,dorsal,True,,True,True
+Tomocerus brevimucronatus (1left) COLL-0012.jpeg,Tomocerus brevimucronatus,0.974464913507524,SEM-UBC COLL-0012,0.8044396716024925,left,0.974464913507524,Tomocerus brevimucronatus,,left,True,,True,True
+Apteroloma tenuicorne (3lateral) .jpg,Apteroloma tenuicorne,0.8685693799134319,SEM-UBC COL-28992,0.996875294223593,lateral,0.8685693799134319,Apteroloma tenuicorne,,lateral,True,,True,True
+Necrophilus hydrophiloides form A (4front).jpg,Necrophilus hydrophiloides form A,0.9216707119220922,SEM-UBC COL-28996,0.8044402726774799,front,0.9216707119220922,Necrophilus hydrophiloides form A,,front,True,,True,True
+Amphizoa striata (3lateral).jpg,Amphizoa striata,0.9969222902693058,SEM-UBC COL-0090,0.9987906050683104,lateral,0.9969222902693058,Amphizoa striata,,lateral,True,,True,True
+Zootermopsis angusticollis form D (1dorsal) .jpg,Zootermopsis angusticollis form D,0.9974873274219633,SEM-UBC ISO-0035,0.9529633986618947,dorsal,0.9974873274219633,Zootermopsis angusticollis form D,,dorsal,True,,True,True
+Periplaneta australasiae nymph (1dorsal) .jpg,Periplaneta australasiae nymph,0.6384169183002358,SEM-UBC DIC-0051,0.7796847860519791,dorsal,0.6384169183002358,Periplaneta australasiae nymph,,dorsal,True,,True,True
+Amphizoa insolens (1dorsal).jpg,Amphizoa insolens,0.894714691184894,SEM-UBC COL-0044,0.8592325341174927,dorsal,0.894714691184894,Amphizoa insolens,,dorsal,True,,True,True
+Panchlora sp Form A (1dorsal) .jpg,Panchlora sp form A,0.8622441203662748,SEM-UBC DIC-0066,0.8936747883424837,dorsal,0.8622441203662748,Panchlora sp Form A,,dorsal,True,,True,True
+Morulina sp. (6label) COLL-0009.jpeg,Morulina sp.,0.4369312462108663,SEM-UBC COLL-0009,0.9860910036047067,label,0.4369312462108663,Morulina sp.,,label,True,,True,True
+Mantispa interrupta (3lateral) SEM-UBC NEU-0919.jpg,Mantispa interrupta,0.8151312466315176,SEM-UBC NEU-0919,0.8703286979270627,lateral,0.8151312466315176,Mantispa interrupta,SEM-UBC NEU-0919,lateral,True,True,True,True
+Morulina sp. (2ventral) COLL-0009.jpeg,Morulina sp.,0.8856528877553146,SEM-UBC COLL-0009,0.7145647429061738,dorsal,0.8856528877553146,Morulina sp.,,ventral,True,,False,False
+Necrophilus hydrophiloides form A (3lateral) .jpg,Necrophilus hydrophiloides form,0.661286154193912,SEM-UBC COL-28996,0.9463794422927034,lateral,0.661286154193912,Necrophilus hydrophiloides form A,,lateral,False,,True,False
+Periplaneta americana (1dorsal) .jpg,Periplaneta americana,0.41954091554661094,SEM-UBC DIC-0039,0.8368784487116828,dorsal,0.41954091554661094,Periplaneta americana,,dorsal,True,,True,True
+Hemerobius discretus (3lateral) .jpeg,Hemerobius discretus,0.9665136208036291,SEM-UBC NEU-0579,0.9234118527827475,ateral,0.9665136208036291,Hemerobius discretus,,lateral,True,,False,False
+Nyctibora sp form A (3lateral) .jpg,Nyctibora sp form,0.6596146121856252,SEM-UBC DIC-0073,0.6043668978133726,lateral,0.6596146121856252,Nyctibora sp form A,,lateral,False,,True,False
+Zootermopsis angusticollis form C (1dorsal) .jpg,Zootermopsis angusticollis form C,0.872714462641387,SEM-UBC ISO-0010,0.98088767564765,dorsal,0.872714462641387,Zootermopsis angusticollis form C,,dorsal,True,,True,True
+Lamprochernes minor (1dorsal).jpeg,Lamprochernes minor,0.8157398956729285,SEM-UBC PSEU-0002,0.9608049774085863,dorsal,0.8157398956729285,Lamprochernes minor,,dorsal,True,,True,True
+Agyrtes longulus (4front).jpg,Agyrtes longulus,0.7535006285312608,SEM-UBC COL-28989,0.826087848922448,front,0.7535006285312608,Agyrtes longulus,,front,True,,True,True
+Tomocerus brevimucronatus (2right) COLL-0012.jpeg,Tomocerus brevimucronatus,0.8080508979483024,SEM-UBC COLL-0012,0.8050696991815213,right,0.8080508979483024,Tomocerus brevimucronatus,,right,True,,True,True
+Paruroctonus boreus (2ventral) SCO-0001.jpeg,Paruroctonus boreus,0.6607658718730582,SEM-UBC SCO-0001,0.9732859251485172,ventral,0.6607658718730582,Paruroctonus boreus,,ventral,True,,True,True
+Amphizoa lecontei (1dorsal).jpg,Amphizoa lecontei,0.7050709011413141,SEM-UBC COL-0057,0.7767905516492127,dorsal,0.7050709011413141,Amphizoa lecontei,,dorsal,True,,True,True
+Periplaneta australasiae nymph (3lateral) .jpg,Periplaneta australasiae nymph,0.7629168649317645,SEM-UBC DIC-0051,0.8451309678245854,lateral,0.7629168649317645,Periplaneta australasiae nymph,,lateral,True,,True,True
+Periplaneta americana nymph (3lateral) .jpg,Periplaneta americana nymph,0.9436853150853268,SEM-UBC DIC-0027,0.7157414181435713,lateral,0.9436853150853268,Periplaneta americana nymph,,lateral,True,,True,True
+Zootermopsis angusticollis form B (3lateral) .jpg,Zootermopsis angusticollis form B,0.9509838021676009,SEM-UBC ISO-0005,0.7900119211018989,lateral,0.9509838021676009,Zootermopsis angusticollis form B,,lateral,True,,True,True
+Tomocerus brevimucronatus (6label) COLL-0012.jpeg,Tomocerus brevimucronatus,0.4476153332028092,SEM-UBC COLL-0012,0.9176998907569893,label,0.4476153332028092,Tomocerus brevimucronatus,,label,True,,True,True
+Blattella vaga (1dorsal) SEM-UBC DIC-0172.jpg,Blattella vaga,0.7839714203245088,SEM-UBC DIC-0172,0.9990842429826812,dorsal,0.7839714203245088,Blattella vaga,SEM-UBC DIC-0172,dorsal,True,True,True,True
+Agulla bicolor male (3lateral).jpeg,Agulla bicolor male,0.876209531971536,SEM-UBC RAP-0166,0.8526811736325003,lateral,0.876209531971536,Agulla bicolor male,,lateral,True,,True,True
+Parcoblatta americana (2ventral) SEM-UBC DIC-0180.jpg,Parcoblatta americana,0.9378849511421486,SEM-UBC DIC-0180,0.9147832768425443,ventral,0.9378849511421486,Parcoblatta americana,SEM-UBC DIC-0180,ventral,True,True,True,True
+Euthyrrhapha pacifica (1dorsal) SEM-UBC DIC-0172.jpg,Euthyrrhapa pacifica,0.9999758041905471,SEM-UBC DIC-0172,0.9997375246748332,dorsal,0.9999758041905471,Euthyrrhapha pacifica,SEM-UBC DIC-0172,dorsal,False,True,True,False
+Leptomantispa pulchella (2ventral).jpg,OCR FAILED,0,SEM-UBC NEU-0947,0.5832724100347774,OCR FAILED,0,Leptomantispa pulchella,,ventral,False,,False,False
+Zootermopsis angusticollis form B (1dorsal) .jpg,Zootermopsis angusticollis form B,0.9914241498590464,SEM-UBC ISO-0005,0.953881171416956,dorsal,0.9914241498590464,Zootermopsis angusticollis form B,,dorsal,True,,True,True
+Lomamyia occidentalis (3lateral) SEM-UBC NEU-0472.jpeg,Lomamyia occidentalis,0.9142931488058571,SEM-UBC NEU-0472,0.9473940487308826,lateral,0.9142931488058571,Lomamyia occidentalis,SEM-UBC NEU-0472,lateral,True,True,True,True
+Supella longipalpa form A (3lateral) .jpg,Supella longipalpa form,0.5186336713157819,SEM-UBC DIC-0085,0.7576972455347943,lateral,0.5186336713157819,Supella longipalpa form A,,lateral,False,,True,False
+Ptenothrix unicolor (6fullslide) COLL-0004.jpeg,Ptenothrix unicolor,0.9993591488938318,SEM-UBC COLL-0004,0.960503188583379,full slide,0.9993591488938318,Ptenothrix unicolor,,fullslide,True,,True,True
+Amphizoa lecontei (2ventral).jpg,Amphizoa lecontei,0.7179321778676038,SEM-UBC COL-0057,0.9846801486576553,ventral,0.7179321778676038,Amphizoa lecontei,,ventral,True,,True,True
+Periplaneta australasiae (2ventral) .jpg,Periplaneta australasiae,0.9598336616043334,SEM-UBC DIC-0044,0.8182421453833749,ventral,0.9598336616043334,Periplaneta australasiae,,ventral,True,,True,True
+Nyctibora sp form C (2ventral) .jpg,Nyctibora Sp form C,0.6157572406452851,SEM-UBC DIC-0076,0.6934459271700223,ventral,0.6157572406452851,Nyctibora sp form C,,ventral,True,,True,True
+Periplaneta americana (2ventral) .jpg,Periplaneta americana,0.7211047452529808,SEM-UBC DIC-0039,0.9475606384991724,ventral,0.7211047452529808,Periplaneta americana,,ventral,True,,True,True
+Ipelates latus form A (4front).jpg,Ipelates latus form,0.5481032649212938,SEM-UBC COL-28994,0.8127622249254799,front,0.5481032649212938,Ipelates latus form A,,front,False,,True,False
+Pycnoscelus surinamensis (3lateral) .jpg,Pycnoscelus surinamensis,0.8676103594736879,SEM-UBC DIC-0072,0.980816226208944,lateral,0.8676103594736879,Pycnoscelus surinamensis,,lateral,True,,True,True
+Dicyrtoma sp. (2right) COLL-0010.jpg,Dicyrtoma sp.,0.9340511830586,SEM-UBC COLL-0010,0.7818686911319299,right,0.9340511830586,Dicyrtoma sp.,,right,True,,True,True
+Sinella baca (1dorsal) COLL-0011.jpeg,Sinella baca,0.8653237181538727,SEM-UBC COLL-0011,0.9369122633442946,dorsal,0.8653237181538727,Sinella baca,,dorsal,True,,True,True
+Ipelates latus form A (2ventral) .jpg,Ipelates latus form A,0.8851660652975638,SEM-UBC COL-28994,0.9556820859023235,ventral,0.8851660652975638,Ipelates latus form A,,ventral,True,,True,True
+Zootermopsis angusticollis form D (3lateral) .jpg,Zootermopsis angusticollis form D,0.9236295943386191,SEM-UBC ISO-0035,0.857146168720928,lateral,0.9236295943386191,Zootermopsis angusticollis form D,,lateral,True,,True,True
+Sinella baca (5full) COLL-0011.jpeg,Sinella baca,0.9795641968698364,SEM-UBC COLL-0011,0.9434696346094519,full,0.9795641968698364,Sinella baca,,full,True,,True,True
+Aderus populneus (2ventral) .jpg,Aderus brunnipennis,0.9999251251124379,SEM-UBC COL-28948,0.9461877208485283,ventral,0.9999251251124379,Aderus populneus,,ventral,False,,True,False
+Necrophilus hydrophiloides form B (1dorsal) .jpg,Necrophilus hydrophiloides form B,0.7734316687827727,SEM-UBC COL-28997,0.942502120548678,dorsal,0.7734316687827727,Necrophilus hydrophiloides form B,,dorsal,True,,True,True
+Apteroloma caraboides (2ventral) .jpg,Apteroloma caraboides,0.981181512347267,SEM-UBC COL-28991,0.9993347870319937,ventral,0.981181512347267,Apteroloma caraboides,,ventral,True,,True,True
