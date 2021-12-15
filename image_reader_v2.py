@@ -152,6 +152,8 @@ def parse_result(result):
     Parse the SEM number from the selected result 
     and put 'OCR FAILED' if it causes error.
     """
+    SEM_number = "OCR FAILED"
+    
     try:
         for row in result:
             if 'SEM' in row[1].upper():
@@ -171,7 +173,7 @@ def parse_result(result):
 # Global Static Variables
 MIN_CONFIDENCE = 0.65
 IMAGES_ROOT_DIRECTORY = 'example_images/'
-CSV_HEADER = ['file_path', 'SEM_number_image', 'SEM_number_image_conf',
+CSV_HEADER = ['file_path', 'image_file_name', 'SEM_number_image', 'SEM_number_image_conf',
               'scientific_name_filename', 'SEM_number_filename', 'angle_filename']
 
 # Initialize time & OCR Reader
@@ -271,10 +273,6 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + '**/*', recursive=True):
             else:
                 print("Picking Original OCR")
 
-        # empty all variables
-        SEM_number_image = 'OCR FAILED'
-        SEM_number_image_conf = '0'
-
         # Parse SEM number
         SEM_number_image_conf = find_SEM_conf(result)
         SEM_number_image = parse_result(result)
@@ -285,7 +283,7 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + '**/*', recursive=True):
         SEM_number_image_conf = "FROM FILENAME"
     
     # Writing CSV
-    data = [imagePath, SEM_number_image, SEM_number_image_conf,
+    data = [imagePath, imageFileName, SEM_number_image, SEM_number_image_conf,
             scientific_name_filename, SEM_number_filename, angle_filename]
     write_csv(results_csv_filename, data)
 
