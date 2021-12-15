@@ -5,6 +5,7 @@ import easyocr
 import os
 import re
 from datetime import datetime
+import glob
 
 
 def read_image(image, top, bottom, left, right, filter, reader):
@@ -47,7 +48,7 @@ date_time = now.strftime("%m-%d-%Y %H.%M.%S")
 reader = easyocr.Reader(['en'])
 
 with open('results ' + date_time + '.csv', 'a', encoding='UTF8') as f:
-    header = ['filename', 'SEM_number_image', 'SEM_number_image_conf',
+    header = ['file_path', 'SEM_number_image', 'SEM_number_image_conf',
               'scientific_name_filename', 'SEM_number_filename', 'angle_filename']
 
     writer = csv.writer(f)
@@ -56,18 +57,20 @@ with open('results ' + date_time + '.csv', 'a', encoding='UTF8') as f:
     writer.writerow(header)
 
 
-directory = 'example_images'
-for imageName in os.listdir(directory):
+directory = 'example_images/'
+for imagePath in glob.iglob(directory + '**/*', recursive=True):
+    # Extract filename
+    imageFileName = os.path.basename(imagePath)
 
     now_image = datetime.now()
     date_time_image = now_image.strftime("%H:%M:%S")
 
-    print("========== STARTING: " + imageName +
-          " ========== " + date_time_image)
-
     # Skip non-image files
-    if not imageName.endswith(".jpg") and not imageName.endswith(".png") and not imageName.endswith(".jpeg"):
+    if not imageFileName.endswith(".jpg") and not imageFileName.endswith(".png") and not imageFileName.endswith(".jpeg"):
         continue
+
+    print("\n========== STARTING: " + imagePath +
+        " ========== " + date_time_image)
 
     # Prepare data from filename
     scientific_name_filename = ""
@@ -75,18 +78,20 @@ for imageName in os.listdir(directory):
     raw_angle_filename = ""
     angle_filename = ""
 
+
+
     try:
-        scientific_name_filename = imageName.split(' (')[0]
+        scientific_name_filename = imageFileName.split(' (')[0]
         SEM_number_filename = ''
-        if 'SEM' in imageName:
+        if 'SEM' in imageFileName:
             SEM_number_filename = 'SEM' + \
-                imageName.split('SEM')[1].split('.')[0]
-        raw_angle_filename = imageName.split(' (')[1].split(')')[0]
+                imageFileName.split('SEM')[1].split('.')[0]
+        raw_angle_filename = imageFileName.split(' (')[1].split(')')[0]
         angle_filename = ''.join(
             i for i in raw_angle_filename if not i.isdigit())
 
         if SEM_number_filename == '':
-            x = re.search("[A-Z]{2,}-[0-9]{3,}", imageName)
+            x = re.search("[A-Z]{2,}-[0-9]{3,}", imageFileName)
             try:
                 SEM_number_filename = "SEM-UBC " + x.group()
                 print("SEM Filename using REGEX: " + SEM_number_filename)
@@ -96,7 +101,7 @@ for imageName in os.listdir(directory):
     except Exception as e:
         print("ERROR:")
         print(e)
-        print("Filename parsing failed for " + imageName)
+        print("Filename parsing failed for " + imagePath)
         scientific_name_filename = 'PARSING FAILED'
         SEM_number_filename = 'PARSING FAILED'
         angle_filename = 'PARSING FAILED'
@@ -104,7 +109,7 @@ for imageName in os.listdir(directory):
     if SEM_number_filename == "" or SEM_number_filename == 'PARSING FAILED':
         # Open Image
         image = cv2.imread(
-            'example_images/' + imageName, cv2.IMREAD_UNCHANGED)
+            imagePath, cv2.IMREAD_UNCHANGED)
 
         # Skip non-image files
         if not hasattr(image, 'shape'):
@@ -209,7 +214,7 @@ for imageName in os.listdir(directory):
         SEM_number_image_conf = '0'
 
         # Prepare data from image
-        filename = imageName
+        filename = imagePath
 
         try:
             for row in result:
@@ -220,7 +225,7 @@ for imageName in os.listdir(directory):
         except Exception as e:
             print("ERROR:")
             print(e)
-            print("OCR failed for " + imageName + "'s SEM_number")
+            print("OCR failed for " + imagePath + "'s SEM_number")
             SEM_number_image = 'OCR FAILED'
             SEM_number_image_conf = '0'
     else:
@@ -228,12 +233,9 @@ for imageName in os.listdir(directory):
         SEM_number_image = SEM_number_filename
         SEM_number_image_conf = "FROM FILENAME"
 
-    # Prepare data from image
-        filename = imageName
-
     # Writing CSV
 
-    data = [filename, SEM_number_image, SEM_number_image_conf,
+    data = [imagePath, SEM_number_image, SEM_number_image_conf,
             scientific_name_filename, SEM_number_filename, angle_filename]
 
     with open('results ' + date_time + '.csv', 'a', encoding='UTF8') as f:
@@ -245,5 +247,5 @@ for imageName in os.listdir(directory):
     date_time_image_finish = finish_image.strftime("%H:%M:%S")
     elapsed = finish_image - now_image
     print("Time to process file: " + str(elapsed))
-    print("========== FINISHED: " + imageName +
-          " ========== " + date_time_image_finish + "\n\n")
+    print("========== FINISHED: " + imagePath +
+          " ========== " + date_time_image_finish + "\n")
