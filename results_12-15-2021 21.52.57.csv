@@ -18,7 +18,7 @@ example_images/Aderus populneus (4front).jpg,Aderus populneus (4front).jpg,SEM-U
 example_images/Amphizoa lecontei (3lateral).jpg,Amphizoa lecontei (3lateral).jpg,SEM-UBC COL-0057,0.8040600754931415,Amphizoa lecontei,,lateral
 example_images/Blattella vaga (2ventral) SEM-UBC DIC-0172.jpg,Blattella vaga (2ventral) SEM-UBC DIC-0172.jpg,SEM-UBC DIC-0172,FROM FILENAME,Blattella vaga,SEM-UBC DIC-0172,ventral
 example_images/Parcoblatta pennsylvanica (1dorsal) SEM-UBC DIC-0186.jpg,Parcoblatta pennsylvanica (1dorsal) SEM-UBC DIC-0186.jpg,SEM-UBC DIC-0186,FROM FILENAME,Parcoblatta pennsylvanica,SEM-UBC DIC-0186,dorsal
-example_images/Cryptotermes brevis (1dorsal) wings only.jpg,Cryptotermes brevis (1dorsal) wings only.jpg,SEM-UBC ISO-0050,0.7294990367241059,Cryptotermes brevis,,dorsal
+example_images/Cryptotermes brevis (1dorsal) wings only.jpg,Cryptotermes brevis (1dorsal) wings only.jpg,SEM-UBC IS0-0050,0.9372274248802143,Cryptotermes brevis,,dorsal
 example_images/Isotoma viridis (6fullslide) COLL-0005.jpeg,Isotoma viridis (6fullslide) COLL-0005.jpeg,SEM-UBC COLL-0005,FROM FILENAME,Isotoma viridis,SEM-UBC COLL-0005,fullslide
 example_images/Pteroloma nebrioides (3lateral) .jpg,Pteroloma nebrioides (3lateral) .jpg,SEM-UBC COL-28998,0.7742597197375064,Pteroloma nebrioides,,lateral
 example_images/Ptenothrix unicolor (2right) COLL-0004.jpeg,Ptenothrix unicolor (2right) COLL-0004.jpeg,SEM-UBC COLL-0004,FROM FILENAME,Ptenothrix unicolor,SEM-UBC COLL-0004,right
@@ -29,7 +29,7 @@ example_images/Ptenothrix unicolor (2right) COLL-0004.jpg,Ptenothrix unicolor (2
 example_images/Aegialia blanchardi (4front).jpeg,Aegialia blanchardi (4front).jpeg,SEM-UBC COL-27497,0.8309258116579747,Aegialia blanchardi,,front
 example_images/Hemerobius bistrigatus (2ventral).jpeg,Hemerobius bistrigatus (2ventral).jpeg,SEM-UBC NEU-0557,0.9334466736135331,Hemerobius bistrigatus,,ventral
 example_images/Paruroctonus boreus (5claw) SCO-0001.jpeg,Paruroctonus boreus (5claw) SCO-0001.jpeg,SEM-UBC SCO-0001,FROM FILENAME,Paruroctonus boreus,SEM-UBC SCO-0001,claw
-example_images/Apteroloma caraboides (3lateral) .jpg,Apteroloma caraboides (3lateral) .jpg,SEM-UBC COL-28991,0.6965117496075803,Apteroloma caraboides,,lateral
+example_images/Apteroloma caraboides (3lateral) .jpg,Apteroloma caraboides (3lateral) .jpg,SEM-UBC COL-28991,0.7492399910038317,Apteroloma caraboides,,lateral
 example_images/Aderus populneus (3lateral) .jpg,Aderus populneus (3lateral) .jpg,SEM-UBC COL-28948,0.6777835243880126,Aderus populneus,,lateral
 example_images/Amphizoa striata (2ventral).jpg,Amphizoa striata (2ventral).jpg,SEM-UBC COL-0090,0.9440386067217327,Amphizoa striata,,ventral
 example_images/Apteroloma caraboides (1dorsal) .jpg,Apteroloma caraboides (1dorsal) .jpg,SEM-UBC COL-28991,0.8096176145433228,Apteroloma caraboides,,dorsal
@@ -53,7 +53,7 @@ example_images/Reticulitermes hesperus (2ventral) .jpg,Reticulitermes hesperus (
 example_images/Tragosoma depsarium (1dorsal).jpg,Tragosoma depsarium (1dorsal).jpg,SEM-UBC COL-9815,0.9911833989731671,Tragosoma depsarium,,dorsal
 example_images/Necrophilus hydrophiloides form B (3lateral) .jpg,Necrophilus hydrophiloides form B (3lateral) .jpg,SEM-UBC COL-28997,0.9793420389822413,Necrophilus hydrophiloides form B,,lateral
 example_images/Parcoblatta pennsylvanica (3lateral) SEM-UBC DIC-0186.jpg,Parcoblatta pennsylvanica (3lateral) SEM-UBC DIC-0186.jpg,SEM-UBC DIC-0186,FROM FILENAME,Parcoblatta pennsylvanica,SEM-UBC DIC-0186,lateral
-example_images/Lamprochernes minor (6fullslide).jpeg,Lamprochernes minor (6fullslide).jpeg,SEM-UBC PSEU-0002,0.6849845592131957,Lamprochernes minor,,fullslide
+example_images/Lamprochernes minor (6fullslide).jpeg,Lamprochernes minor (6fullslide).jpeg,SEM-UBC PSEU-0002,0.9445220329721766,Lamprochernes minor,,fullslide
 example_images/Climaciella brunnea (3lateral).jpg,Climaciella brunnea (3lateral).jpg,SEM-UBC NEU-0911,0.5564896230456936,Climaciella brunnea,,lateral
 example_images/Ipelates latus form B (1dorsal) .jpg,Ipelates latus form B (1dorsal) .jpg,SEM-UBC COL-28995,0.9939910364263647,Ipelates latus form B,,dorsal
 example_images/Eureum spenceri Allotype (7label) Allotype-0086 female.jpg,Eureum spenceri Allotype (7label) Allotype-0086 female.jpg,OCR FAILED,0,Eureum spenceri Allotype,,label
@@ -76,12 +76,12 @@ example_images/Dicyrtoma sp. (2right) COLL-0010.jpeg,Dicyrtoma sp. (2right) COLL
 example_images/Scoliopteryx libatrix (1dorsal).jpg,Scoliopteryx libatrix (1dorsal).jpg,SEM-UBC NOC-0941,0.9237189740552051,Scoliopteryx libatrix,,dorsal
 example_images/Supella longipalpa form A (2ventral) .jpg,Supella longipalpa form A (2ventral) .jpg,SEM-UBC DIC-0085,0.8884195025233429,Supella longipalpa form A,,ventral
 example_images/Periplaneta australasiae (1dorsal) .jpg,Periplaneta australasiae (1dorsal) .jpg,SEM-UBC DIC-0044,0.8667858044050087,Periplaneta australasiae,,dorsal
-example_images/Amphizoa insolens (2ventral).jpg,Amphizoa insolens (2ventral).jpg,SEM-UBC COL-0044,0.6513469687859107,Amphizoa insolens,,ventral
+example_images/Amphizoa insolens (2ventral).jpg,Amphizoa insolens (2ventral).jpg,SEM-UBC COL-0044,0.8875184747684205,Amphizoa insolens,,ventral
 example_images/Nyctibora sp form C (3lateral) .jpg,Nyctibora sp form C (3lateral) .jpg,SEM-UBC DIC-0076,0.9493931850500589,Nyctibora sp form C,,lateral
 example_images/Entomobrya multifasciata (1left) COLL-0007.jpeg,Entomobrya multifasciata (1left) COLL-0007.jpeg,SEM-UBC COLL-0007,FROM FILENAME,Entomobrya multifasciata,SEM-UBC COLL-0007,left
-example_images/Periplaneta australasiae (3lateral) .jpg,Periplaneta australasiae (3lateral) .jpg,SEM-UBC DIC-0044,0.6752908874064978,Periplaneta australasiae,,lateral
+example_images/Periplaneta australasiae (3lateral) .jpg,Periplaneta australasiae (3lateral) .jpg,SEM-UBC DIC-0044,0.8760412654621506,Periplaneta australasiae,,lateral
 example_images/Entomobrya multifasciata (6fullslide) COLL-0007.jpeg,Entomobrya multifasciata (6fullslide) COLL-0007.jpeg,SEM-UBC COLL-0007,FROM FILENAME,Entomobrya multifasciata,SEM-UBC COLL-0007,fullslide
-example_images/Apteroloma caraboides (4front).jpg,Apteroloma caraboides (4front).jpg,SEM-UBC COL-28991,0.7431580681606517,Apteroloma caraboides,,front
+example_images/Apteroloma caraboides (4front).jpg,Apteroloma caraboides (4front).jpg,SEM-UBC COL-28991,0.8247609758761193,Apteroloma caraboides,,front
 example_images/Supella longipalpa form A (1dorsal) .jpg,Supella longipalpa form A (1dorsal) .jpg,SEM-UBC DIC-0085,0.788389110643689,Supella longipalpa form A,,dorsal
 example_images/Folsomia fimetaria (2right) COLL-0008.jpeg,Folsomia fimetaria (2right) COLL-0008.jpeg,SEM-UBC COLL-0008,FROM FILENAME,Folsomia fimetaria,SEM-UBC COLL-0008,right
 example_images/Parcoblatta pennsylvanica (2ventral) SEM-UBC DIC-0186.jpg,Parcoblatta pennsylvanica (2ventral) SEM-UBC DIC-0186.jpg,SEM-UBC DIC-0186,FROM FILENAME,Parcoblatta pennsylvanica,SEM-UBC DIC-0186,ventral
@@ -122,23 +122,23 @@ example_images/Periplaneta americana (1dorsal) .jpg,Periplaneta americana (1dors
 example_images/Hemerobius discretus (3lateral) .jpeg,Hemerobius discretus (3lateral) .jpeg,SEM-UBC NEU-0579,0.9511353479224123,Hemerobius discretus,,lateral
 example_images/Nyctibora sp form A (3lateral) .jpg,Nyctibora sp form A (3lateral) .jpg,SEM-UBC DIC-0073,0.9444977473501601,Nyctibora sp form A,,lateral
 example_images/Zootermopsis angusticollis form C (1dorsal) .jpg,Zootermopsis angusticollis form C (1dorsal) .jpg,SEM-UBC ISO-0010,0.9816743960030693,Zootermopsis angusticollis form C,,dorsal
-example_images/Lamprochernes minor (1dorsal).jpeg,Lamprochernes minor (1dorsal).jpeg,SEM-UBC PSEU-0002,0.7402586240557298,Lamprochernes minor,,dorsal
+example_images/Lamprochernes minor (1dorsal).jpeg,Lamprochernes minor (1dorsal).jpeg,SEM-UBC PSEU-0002,0.9874596734373641,Lamprochernes minor,,dorsal
 example_images/Agyrtes longulus (4front).jpg,Agyrtes longulus (4front).jpg,SEM-UBC COL-28989,0.9873450456991936,Agyrtes longulus,,front
 example_images/Tomocerus brevimucronatus (2right) COLL-0012.jpeg,Tomocerus brevimucronatus (2right) COLL-0012.jpeg,SEM-UBC COLL-0012,FROM FILENAME,Tomocerus brevimucronatus,SEM-UBC COLL-0012,right
 example_images/Paruroctonus boreus (2ventral) SCO-0001.jpeg,Paruroctonus boreus (2ventral) SCO-0001.jpeg,SEM-UBC SCO-0001,FROM FILENAME,Paruroctonus boreus,SEM-UBC SCO-0001,ventral
 example_images/Amphizoa lecontei (1dorsal).jpg,Amphizoa lecontei (1dorsal).jpg,SEM-UBC COL-0057,0.7763953851381447,Amphizoa lecontei,,dorsal
 example_images/Periplaneta australasiae nymph (3lateral) .jpg,Periplaneta australasiae nymph (3lateral) .jpg,SEM-UBC DIC-0051,0.6270682560175037,Periplaneta australasiae nymph,,lateral
-example_images/Periplaneta americana nymph (3lateral) .jpg,Periplaneta americana nymph (3lateral) .jpg,SEM-UBC DIC-0027,0.71704514165699,Periplaneta americana nymph,,lateral
+example_images/Periplaneta americana nymph (3lateral) .jpg,Periplaneta americana nymph (3lateral) .jpg,SEM-UBC DIC-0027,0.9452039536284207,Periplaneta americana nymph,,lateral
 example_images/Zootermopsis angusticollis form B (3lateral) .jpg,Zootermopsis angusticollis form B (3lateral) .jpg,SEM-UBC ISO-0005,0.763214946877001,Zootermopsis angusticollis form B,,lateral
 example_images/Tomocerus brevimucronatus (6label) COLL-0012.jpeg,Tomocerus brevimucronatus (6label) COLL-0012.jpeg,SEM-UBC COLL-0012,FROM FILENAME,Tomocerus brevimucronatus,SEM-UBC COLL-0012,label
 example_images/Blattella vaga (1dorsal) SEM-UBC DIC-0172.jpg,Blattella vaga (1dorsal) SEM-UBC DIC-0172.jpg,SEM-UBC DIC-0172,FROM FILENAME,Blattella vaga,SEM-UBC DIC-0172,dorsal
-example_images/Agulla bicolor male (3lateral).jpeg,Agulla bicolor male (3lateral).jpeg,SEM-UBC RAP-0166,0.7297259862315967,Agulla bicolor male,,lateral
+example_images/Agulla bicolor male (3lateral).jpeg,Agulla bicolor male (3lateral).jpeg,SEM-UBC RAP-0166,0.9996456395806956,Agulla bicolor male,,lateral
 example_images/Parcoblatta americana (2ventral) SEM-UBC DIC-0180.jpg,Parcoblatta americana (2ventral) SEM-UBC DIC-0180.jpg,SEM-UBC DIC-0180,FROM FILENAME,Parcoblatta americana,SEM-UBC DIC-0180,ventral
 example_images/Euthyrrhapha pacifica (1dorsal) SEM-UBC DIC-0172.jpg,Euthyrrhapha pacifica (1dorsal) SEM-UBC DIC-0172.jpg,SEM-UBC DIC-0172,FROM FILENAME,Euthyrrhapha pacifica,SEM-UBC DIC-0172,dorsal
 example_images/Leptomantispa pulchella (2ventral).jpg,Leptomantispa pulchella (2ventral).jpg,SEM-UBC NEU-0917,0.9938733068993871,Leptomantispa pulchella,,ventral
 example_images/Zootermopsis angusticollis form B (1dorsal) .jpg,Zootermopsis angusticollis form B (1dorsal) .jpg,SEM-UBC ISO-0005,0.9542627844011332,Zootermopsis angusticollis form B,,dorsal
 example_images/Lomamyia occidentalis (3lateral) SEM-UBC NEU-0472.jpeg,Lomamyia occidentalis (3lateral) SEM-UBC NEU-0472.jpeg,SEM-UBC NEU-0472,FROM FILENAME,Lomamyia occidentalis,SEM-UBC NEU-0472,lateral
-example_images/Supella longipalpa form A (3lateral) .jpg,Supella longipalpa form A (3lateral) .jpg,SEM-UBC DIC-0085,0.7402857945769888,Supella longipalpa form A,,lateral
+example_images/Supella longipalpa form A (3lateral) .jpg,Supella longipalpa form A (3lateral) .jpg,SEM-UBC DIC-0085,0.9184502189267586,Supella longipalpa form A,,lateral
 example_images/Ptenothrix unicolor (6fullslide) COLL-0004.jpeg,Ptenothrix unicolor (6fullslide) COLL-0004.jpeg,SEM-UBC COLL-0004,FROM FILENAME,Ptenothrix unicolor,SEM-UBC COLL-0004,fullslide
 example_images/Amphizoa lecontei (2ventral).jpg,Amphizoa lecontei (2ventral).jpg,SEM-UBC COL-0057,0.9848359424232329,Amphizoa lecontei,,ventral
 example_images/Periplaneta australasiae (2ventral) .jpg,Periplaneta australasiae (2ventral) .jpg,SEM-UBC DIC-0044,0.8347354583803007,Periplaneta australasiae,,ventral
@@ -166,7 +166,7 @@ example_images/Blattella germanica nymph (1dorsal) .jpg,Blattella germanica nymp
 example_images/Reticulitermes hesperus (3lateral) .jpg,Reticulitermes hesperus (3lateral) .jpg,SEM-UBC ISO-0130,0.9155410050820288,Reticulitermes hesperus,,lateral
 example_images/Entomobrya multifasciata (2right) COLL-0007.jpeg,Entomobrya multifasciata (2right) COLL-0007.jpeg,SEM-UBC COLL-0007,FROM FILENAME,Entomobrya multifasciata,SEM-UBC COLL-0007,right
 example_images/Sisyra fuscatus (3lateral).jpeg,Sisyra fuscatus (3lateral).jpeg,SEM-UBC NEU-1083,0.8985626109353988,Sisyra fuscatus,,lateral
-example_images/Blattella germanica nymph (2ventral) .jpg,Blattella germanica nymph (2ventral) .jpg,SEM-UBC DIC-0108,0.7294428435670941,Blattella germanica nymph,,ventral
+example_images/Blattella germanica nymph (2ventral) .jpg,Blattella germanica nymph (2ventral) .jpg,SEM-UBC DIC-0108,0.9723302935568406,Blattella germanica nymph,,ventral
 example_images/Parcoblatta americana (1dorsal) SEM-UBC DIC-0180.jpg,Parcoblatta americana (1dorsal) SEM-UBC DIC-0180.jpg,SEM-UBC DIC-0180,FROM FILENAME,Parcoblatta americana,SEM-UBC DIC-0180,dorsal
 example_images/Tragosoma depsarium (2ventral).jpg,Tragosoma depsarium (2ventral).jpg,SEM-UBC COL-9815,0.969180854871524,Tragosoma depsarium,,ventral
 example_images/Mantispa interrupta (1dorsal) SEM-UBC NEU-0919.jpg,Mantispa interrupta (1dorsal) SEM-UBC NEU-0919.jpg,SEM-UBC NEU-0919,FROM FILENAME,Mantispa interrupta,SEM-UBC NEU-0919,dorsal
@@ -182,7 +182,7 @@ example_images/Periplaneta americana nymph (4front).jpg,Periplaneta americana ny
 example_images/Isotoma viridis (2right) COLL-0005.jpeg,Isotoma viridis (2right) COLL-0005.jpeg,SEM-UBC COLL-0005,FROM FILENAME,Isotoma viridis,SEM-UBC COLL-0005,right
 example_images/Isotomurus palustris (1left) COLL-0002.jpeg,Isotomurus palustris (1left) COLL-0002.jpeg,SEM-UBC COLL-0002,FROM FILENAME,Isotomurus palustris,SEM-UBC COLL-0002,left
 example_images/Panchlora sp Form B (2ventral) .jpg,Panchlora sp Form B (2ventral) .jpg,SEM-UBC DIC-0069,0.3578295441278666,Panchlora sp Form B,,ventral
-example_images/Blatta orientalis nymph (3lateral) .jpg,Blatta orientalis nymph (3lateral) .jpg,SEM-UBC DIC-0016,0.6836260485434876,Blatta orientalis nymph,,lateral
+example_images/Blatta orientalis nymph (3lateral) .jpg,Blatta orientalis nymph (3lateral) .jpg,SEM-UBC DIC-0016,0.7192830292913186,Blatta orientalis nymph,,lateral
 example_images/Blattella germanica (3lateral) .jpg,Blattella germanica (3lateral) .jpg,SEM-UBC DIC-0112,0.8601124285094767,Blattella germanica,,lateral
 example_images/Blatta orientalis (3lateral) .jpg,Blatta orientalis (3lateral) .jpg,SEM-UBC DIC-0001,0.8988984742771026,Blatta orientalis,,lateral
 example_images/Blattella germanica (1dorsal) .jpg,Blattella germanica (1dorsal) .jpg,SEM-UBC DIC-0112,0.9829657058585684,Blattella germanica,,dorsal
@@ -197,7 +197,7 @@ example_images/Cryptotermes brevis (2ventral) wings only.jpg,Cryptotermes brevis
 example_images/Dicyrtoma sp. (1left) COLL-0010.jpg,Dicyrtoma sp. (1left) COLL-0010.jpg,SEM-UBC COLL-0010,FROM FILENAME,Dicyrtoma sp.,SEM-UBC COLL-0010,left
 example_images/Zootermopsis angusticollis form C (3lateral) .jpg,Zootermopsis angusticollis form C (3lateral) .jpg,SEM-UBC ISO-0010,0.8358587389976239,Zootermopsis angusticollis form C,,lateral
 example_images/Lepidocyrtus cyaneus (2right) COLL-0006.jpeg,Lepidocyrtus cyaneus (2right) COLL-0006.jpeg,SEM-UBC COLL-0006,FROM FILENAME,Lepidocyrtus cyaneus,SEM-UBC COLL-0006,right
-example_images/Amphizoa insolens (3lateral).jpg,Amphizoa insolens (3lateral).jpg,SEM-UBC COL-0044,0.7219687094782221,Amphizoa insolens,,lateral
+example_images/Amphizoa insolens (3lateral).jpg,Amphizoa insolens (3lateral).jpg,SEM-UBC COL-0044,0.7975108820935285,Amphizoa insolens,,lateral
 example_images/normal_image/Isotoma viridis (1left) COLL-0005.jpeg,Isotoma viridis (1left) COLL-0005.jpeg,SEM-UBC COLL-0005,FROM FILENAME,Isotoma viridis,SEM-UBC COLL-0005,left
 example_images/normal_image/Folsomia fimetaria (1left) COLL-0008.jpeg,Folsomia fimetaria (1left) COLL-0008.jpeg,SEM-UBC COLL-0008,FROM FILENAME,Folsomia fimetaria,SEM-UBC COLL-0008,left
 example_images/normal_image/Isotoma viridis (6fullslide) COLL-0005.jpeg,Isotoma viridis (6fullslide) COLL-0005.jpeg,SEM-UBC COLL-0005,FROM FILENAME,Isotoma viridis,SEM-UBC COLL-0005,fullslide
@@ -206,7 +206,7 @@ example_images/normal_image/Tomocerus brevimucronatus (5full) COLL-0012.jpeg,Tom
 example_images/normal_image/Paruroctonus boreus (5claw) SCO-0001.jpeg,Paruroctonus boreus (5claw) SCO-0001.jpeg,SEM-UBC SCO-0001,FROM FILENAME,Paruroctonus boreus,SEM-UBC SCO-0001,claw
 example_images/normal_image/Sinella baca (4right) COLL-0011.jpeg,Sinella baca (4right) COLL-0011.jpeg,SEM-UBC COLL-0011,FROM FILENAME,Sinella baca,SEM-UBC COLL-0011,right
 example_images/normal_image/Lepidocyrtus cyaneus (1left) COLL-0006.jpeg,Lepidocyrtus cyaneus (1left) COLL-0006.jpeg,SEM-UBC COLL-0006,FROM FILENAME,Lepidocyrtus cyaneus,SEM-UBC COLL-0006,left
-example_images/normal_image/Lamprochernes minor (6fullslide).jpeg,Lamprochernes minor (6fullslide).jpeg,SEM-UBC PSEU-0002,0.6849845592131957,Lamprochernes minor,,fullslide
+example_images/normal_image/Lamprochernes minor (6fullslide).jpeg,Lamprochernes minor (6fullslide).jpeg,SEM-UBC PSEU-0002,0.9445220329721766,Lamprochernes minor,,fullslide
 example_images/normal_image/Sinella baca (3left) COLL-0011.jpeg,Sinella baca (3left) COLL-0011.jpeg,SEM-UBC COLL-0011,FROM FILENAME,Sinella baca,SEM-UBC COLL-0011,left
 example_images/normal_image/Dicyrtoma sp. (6label) COLL-0010.jpeg,Dicyrtoma sp. (6label) COLL-0010.jpeg,SEM-UBC COLL-0010,FROM FILENAME,Dicyrtoma sp.,SEM-UBC COLL-0010,label
 example_images/normal_image/Dicyrtoma sp. (2right) COLL-0010.jpeg,Dicyrtoma sp. (2right) COLL-0010.jpeg,SEM-UBC COLL-0010,FROM FILENAME,Dicyrtoma sp.,SEM-UBC COLL-0010,right
@@ -223,7 +223,7 @@ example_images/normal_image/Lepidocyrtus cyaneus (6fullslide) COLL-0006.jpeg,Lep
 example_images/normal_image/Tomocerus brevimucronatus (1left) COLL-0012.jpeg,Tomocerus brevimucronatus (1left) COLL-0012.jpeg,SEM-UBC COLL-0012,FROM FILENAME,Tomocerus brevimucronatus,SEM-UBC COLL-0012,left
 example_images/normal_image/Morulina sp. (6label) COLL-0009.jpeg,Morulina sp. (6label) COLL-0009.jpeg,SEM-UBC COLL-0009,FROM FILENAME,Morulina sp.,SEM-UBC COLL-0009,label
 example_images/normal_image/Morulina sp. (2ventral) COLL-0009.jpeg,Morulina sp. (2ventral) COLL-0009.jpeg,SEM-UBC COLL-0009,FROM FILENAME,Morulina sp.,SEM-UBC COLL-0009,ventral
-example_images/normal_image/Lamprochernes minor (1dorsal).jpeg,Lamprochernes minor (1dorsal).jpeg,SEM-UBC PSEU-0002,0.7402586240557298,Lamprochernes minor,,dorsal
+example_images/normal_image/Lamprochernes minor (1dorsal).jpeg,Lamprochernes minor (1dorsal).jpeg,SEM-UBC PSEU-0002,0.9874596734373641,Lamprochernes minor,,dorsal
 example_images/normal_image/Tomocerus brevimucronatus (2right) COLL-0012.jpeg,Tomocerus brevimucronatus (2right) COLL-0012.jpeg,SEM-UBC COLL-0012,FROM FILENAME,Tomocerus brevimucronatus,SEM-UBC COLL-0012,right
 example_images/normal_image/Paruroctonus boreus (2ventral) SCO-0001.jpeg,Paruroctonus boreus (2ventral) SCO-0001.jpeg,SEM-UBC SCO-0001,FROM FILENAME,Paruroctonus boreus,SEM-UBC SCO-0001,ventral
 example_images/normal_image/Tomocerus brevimucronatus (6label) COLL-0012.jpeg,Tomocerus brevimucronatus (6label) COLL-0012.jpeg,SEM-UBC COLL-0012,FROM FILENAME,Tomocerus brevimucronatus,SEM-UBC COLL-0012,label
@@ -249,6 +249,6 @@ example_images/obstructed_image/Aphodius pedellus (4front).jpeg,Aphodius pedellu
 example_images/obstructed_image/Agulla bicolor female (2ventral).jpeg,Agulla bicolor female (2ventral).jpeg,SEM-UBC RAP-0165,0.933171347876396,Agulla bicolor female,,ventral
 example_images/obstructed_image/Agulla bicolor female (3lateral).jpeg,Agulla bicolor female (3lateral).jpeg,SEM-UBC RAP-0165,0.8255599661752879,Agulla bicolor female,,lateral
 example_images/obstructed_image/Hemerobius discretus (3lateral) .jpeg,Hemerobius discretus (3lateral) .jpeg,SEM-UBC NEU-0579,0.9511353479224123,Hemerobius discretus,,lateral
-example_images/obstructed_image/Agulla bicolor male (3lateral).jpeg,Agulla bicolor male (3lateral).jpeg,SEM-UBC RAP-0166,0.7297259862315967,Agulla bicolor male,,lateral
+example_images/obstructed_image/Agulla bicolor male (3lateral).jpeg,Agulla bicolor male (3lateral).jpeg,SEM-UBC RAP-0166,0.9996456395806956,Agulla bicolor male,,lateral
 example_images/obstructed_image/Lomamyia occidentalis (3lateral) SEM-UBC NEU-0472.jpeg,Lomamyia occidentalis (3lateral) SEM-UBC NEU-0472.jpeg,SEM-UBC NEU-0472,FROM FILENAME,Lomamyia occidentalis,SEM-UBC NEU-0472,lateral
 example_images/obstructed_image/Sisyra fuscatus (3lateral).jpeg,Sisyra fuscatus (3lateral).jpeg,SEM-UBC NEU-1083,0.8985626109353988,Sisyra fuscatus,,lateral
