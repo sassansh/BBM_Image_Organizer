@@ -174,8 +174,9 @@ def parse_result(result):
 # Main Body
 # Global Static Variables
 MIN_CONFIDENCE = 0.75
-IMAGES_ROOT_DIRECTORY = "example_images/"
+IMAGES_ROOT_DIRECTORY = "images/"
 CSV_HEADER = [
+    "id",
     "file_path",
     "image_file_name",
     "SEM_number_image",
@@ -186,6 +187,7 @@ CSV_HEADER = [
 ]
 
 # Initialize time & OCR Reader
+id = 0
 now = datetime.now()
 date_time = now.strftime("%m-%d-%Y %H.%M.%S")
 reader = easyocr.Reader(["en"])
@@ -208,6 +210,10 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + "**/*", recursive=True):
     # Extract filename
     imageFileName = os.path.basename(imagePath)
 
+    # Ignore file if starts with "_"
+    if imageFileName.startswith("_"):
+        continue
+
     now_image = datetime.now()
     date_time_image = now_image.strftime("%H:%M:%S")
 
@@ -225,6 +231,10 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + "**/*", recursive=True):
     scientific_name_filename, SEM_number_filename, angle_filename = parse_filename(
         imageFileName
     )
+
+    # If no angle, ignore file
+    if angle_filename == "PARSING FAILED":
+        continue
 
     # Perform OCR if filename doesn't contain the SEM number
     if SEM_number_filename == "" or SEM_number_filename == "PARSING FAILED":
@@ -302,6 +312,7 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + "**/*", recursive=True):
 
     # Writing CSV
     data = [
+        id,
         imagePath,
         imageFileName,
         SEM_number_image,
@@ -323,3 +334,5 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + "**/*", recursive=True):
         + date_time_image_finish
         + "\n"
     )
+
+    id += 1
