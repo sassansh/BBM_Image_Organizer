@@ -1,11 +1,12 @@
 import csv
 import cv2
-import io
 import easyocr
 import os
 import re
 from datetime import datetime
 import glob
+import shutil
+import logging
 
 
 def read_image(image, top, bottom, left, right, filter, reader):
@@ -72,9 +73,9 @@ def parse_filename(filename):
                 SEM_number = ""
 
     except Exception as e:
-        print("ERROR:")
-        print(e)
-        print("Filename parsing failed for " + imagePath)
+        logger.info("ERROR:")
+        logger.info(e)
+        logger.info("Filename parsing failed for " + imagePath)
         scientific_name = "PARSING FAILED"
         SEM_number = "PARSING FAILED"
         angle = "PARSING FAILED"
@@ -160,13 +161,16 @@ def parse_result(result):
     try:
         for row in result:
             if "SEM" in row[1].upper():
-                SEM_number = "SEM" + row[1].upper().split("SEM")[1]
+                SEM_number = "SEM" + row[1].upper().split("SEM")[1].split(" (")[0]
                 break
     except Exception as e:
-        print("ERROR:")
-        print(e)
-        print("OCR failed for " + imagePath + "'s SEM_number")
+        logger.info("ERROR:")
+        logger.info(e)
+        logger.info("OCR failed for " + imagePath + "'s SEM_number")
         SEM_number = "OCR FAILED"
+
+    if "SEM UBC" in SEM_number:
+        SEM_number = "SEM-UBC" + SEM_number.split("SEM UBC")[1]
 
     return SEM_number
 
@@ -174,7 +178,7 @@ def parse_result(result):
 # Main Body
 # Global Static Variables
 MIN_CONFIDENCE = 0.75
-IMAGES_ROOT_DIRECTORY = "images/"
+IMAGES_ROOT_DIRECTORY = "new/"
 CSV_HEADER = [
     "id",
     "file_path",
@@ -186,11 +190,25 @@ CSV_HEADER = [
     "angle_filename",
 ]
 
+
 # Initialize time & OCR Reader
 id = 0
 now = datetime.now()
 date_time = now.strftime("%m-%d-%Y %H.%M.%S")
 reader = easyocr.Reader(["en"])
+
+# Start logger
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
+
+ch = logging.StreamHandler()
+ch.setLevel(logging.INFO)
+logger.addHandler(ch)
+
+fh = logging.FileHandler("log_" + date_time + ".log")
+fh.setLevel(logging.DEBUG)
+logger.addHandler(fh)
+
 
 # Create results CSV file with header
 results_csv_filename = "results_" + date_time + ".csv"
@@ -225,7 +243,14 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + "**/*", recursive=True):
     ):
         continue
 
-    print("\n========== STARTING: " + imagePath + " ========== " + date_time_image)
+    logger.info(
+        "\n====ID: "
+        + str(id)
+        + "====== STARTING: "
+        + imagePath
+        + " ========== "
+        + date_time_image
+    )
 
     # Parse filename
     scientific_name_filename, SEM_number_filename, angle_filename = parse_filename(
@@ -234,6 +259,10 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + "**/*", recursive=True):
 
     # If no angle, ignore file
     if angle_filename == "PARSING FAILED":
+        continue
+
+    # If angle EtOH, ignore file
+    if angle_filename == "EtOH":
         continue
 
     # Perform OCR if filename doesn't contain the SEM number
@@ -251,32 +280,32 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + "**/*", recursive=True):
         )
 
         result = result_original
-        print("ORIGINAL OCR:")
-        print(result_original)
+        logger.info("ORIGINAL OCR:")
+        logger.info(result_original)
 
         # If low confidence, try red filter
         if sem_conf_cropped_orignal < MIN_CONFIDENCE:
-            print("Poor detection, trying red channel")
+            logger.info("Poor detection, trying red channel")
             # Perform cropped red OCR
             result_red, sem_conf_cropped_red = cropped_scan(image, "red", reader)
 
-            print("RED OCR:")
-            print(result_red)
+            logger.info("RED OCR:")
+            logger.info(result_red)
 
         # Compare original and red OCR results
         if sem_conf_cropped_red > sem_conf_cropped_orignal:
-            print("Picking Red OCR")
+            logger.info("Picking Red OCR")
             result = result_red
         else:
-            print("Picking Original OCR")
+            logger.info("Picking Original OCR")
 
         # See if SEM number is in the cropped OCR
         SEM_exists_in_result = SEM_exists(result)
 
         # If SEM number is not in the cropped OCR, perform full OCR
         if not SEM_exists_in_result:
-            print("SEM number not detected in cropped OCR")
-            print("Reading entire image dimentions...")
+            logger.info("SEM number not detected in cropped OCR")
+            logger.info("Reading entire image dimentions...")
             # Try non-cropped original image
             result_original, sem_conf_full_original = full_scan(
                 image, "original", reader
@@ -284,29 +313,29 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + "**/*", recursive=True):
 
             result = result_original
             original_better = True
-            print("WHOLE IMAGE (NO FILTER) OCR:")
-            print(result_original)
+            logger.info("WHOLE IMAGE (NO FILTER) OCR:")
+            logger.info(result_original)
 
             # If low confidence, try red filter
             if sem_conf_full_original < MIN_CONFIDENCE:
-                print("Poor detection, trying red channel")
+                logger.info("Poor detection, trying red channel")
                 result_red, sem_conf_full_red = full_scan(image, "red", reader)
 
-                print("WHOLE IMAGE (RED FILTER) OCR:")
-                print(result_red)
+                logger.info("WHOLE IMAGE (RED FILTER) OCR:")
+                logger.info(result_red)
 
             if sem_conf_full_red > sem_conf_full_original:
-                print("Picking Red OCR")
+                logger.info("Picking Red OCR")
                 result = result_red
             else:
-                print("Picking Original OCR")
+                logger.info("Picking Original OCR")
 
         # Parse SEM number
         SEM_number_image_conf = find_SEM_conf(result)
         SEM_number_image = parse_result(result)
 
     else:
-        print("Skipping OCR, SEM number detected in filename")
+        logger.info("Skipping OCR, SEM number detected in filename")
         SEM_number_image = SEM_number_filename
         SEM_number_image_conf = "FROM FILENAME"
 
@@ -326,13 +355,19 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + "**/*", recursive=True):
     finish_image = datetime.now()
     date_time_image_finish = finish_image.strftime("%H:%M:%S")
     elapsed = finish_image - now_image
-    print("Time to process file: " + str(elapsed))
-    print(
+    logger.info("Time to process file: " + str(elapsed))
+    logger.info(
         "========== FINISHED: "
         + imagePath
         + " ========== "
         + date_time_image_finish
         + "\n"
     )
+
+    # Copy the OCR failed images to a new folder
+    if SEM_number_image == "OCR FAILED":
+        original = imagePath
+        target = "failed_images/"
+        shutil.copy(original, target)
 
     id += 1
