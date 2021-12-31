@@ -178,7 +178,7 @@ def parse_result(result):
 # Main Body
 # Global Static Variables
 MIN_CONFIDENCE = 0.75
-IMAGES_ROOT_DIRECTORY = "new/"
+IMAGES_ROOT_DIRECTORY = "images/"
 CSV_HEADER = [
     "id",
     "file_path",
