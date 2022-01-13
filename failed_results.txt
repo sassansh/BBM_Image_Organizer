@@ -1,9 +1,0 @@
-ID: 25802 - Failed SEM number, very hard to see
-ID: 25718  - Should have parsed, very easy to see, only parsed SEM-UBC 
-ID: 24901 - Parsed the number but added (2 OF 2) at the end
-ID: 23779 - No SEM# parsed, photo is missing it as well
-ID: 22930 -  OCR Failed, hard to see #, object passing behind
-ID: 21170 - No text descriptors on image at all
-ID: 6144 - EtOH photo, seems like a category photo for website
-ID: 4029 - Detected two AAs
-ID: 4598 - easy to see, but detected weirdly
