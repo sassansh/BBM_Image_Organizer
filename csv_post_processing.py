@@ -67,8 +67,8 @@ processed_csv_filename = "processed_" + date_time + ".csv"
 write_csv(processed_csv_filename, PROCESSED_CSV_HEADER)
 
 # Create failed CSV file with header
-processed_csv_filename = "failed_" + date_time + ".csv"
-write_csv(processed_csv_filename, FAILED_CSV_HEADER)
+failed_csv_filename = "failed_" + date_time + ".csv"
+write_csv(failed_csv_filename, FAILED_CSV_HEADER)
 
 
 # open up results csv file
@@ -82,12 +82,12 @@ with open(RESULTS_CSV_FILENAME, "r", encoding="UTF8") as f:
         # get the sem number
         sem_number = row[3]
 
-        pattern = "SEM-UBC [A-Z]{3}-[0-9]{4,5}"
+        pattern = "SEM-UBC [A-Z]{3,4}-[0-9]{4,5}"
         match = re.search(pattern, sem_number)
 
         if match is None:
             logger.error("Sem number not valid: " + sem_number)
-            write_csv("failed_" + date_time + ".csv", row)
+            write_csv(failed_csv_filename, row)
             continue
 
         # If the sem number is not in the data_dict, add it

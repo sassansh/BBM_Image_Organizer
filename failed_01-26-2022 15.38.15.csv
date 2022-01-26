@@ -1,0 +1,550 @@
+id,file_path,image_file_name,SEM_number_image,SEM_number_image_conf,scientific_name_filename,SEM_number_filename,angle_filename
+566,images/Hemiptera/Lygaeidae/Spilostethus hospes (4front) _0001.jpg,Spilostethus hospes (4front) _0001.jpg,SEM-UBC,0.9999317380801394,Spilostethus hospes,,front
+635,images/Hemiptera/Cydnidae/Amnestus pallidus (1dorsal).jpg,Amnestus pallidus (1dorsal).jpg,SEM-UBC,0.999795299846051,Amnestus pallidus,,dorsal
+1487,images/Hemiptera/Delphacidae/Achorotile subarctica form B (3lateral) .jpg,Achorotile subarctica form B (3lateral) .jpg,SEM-UBC,0.9997371270272781,Achorotile subarctica form B,,lateral
+1685,images/Hemiptera/Corixidae/Corisella tarsalis (1dorsal).jpg,Corisella tarsalis (1dorsal).jpg,SEMUBC COR-2138,0.8216567155164924,Corisella tarsalis,,dorsal
+1711,images/Hemiptera/Psyllidae/Purshivora pubescens (4front) .jpg,Purshivora pubescens (4front) .jpg,SEM-UBC,0.8240118516297921,Purshivora pubescens,,front
+3110,images/Hemiptera/Aradidae/Aradus depressus female (2ventral).jpg,Aradus depressus female (2ventral).jpg,OCR FAILED,0,Aradus depressus female,,ventral
+3131,images/Hemiptera/Aradidae/Aradus vadosus (3lateral).jpg,Aradus vadosus (3lateral).jpg,SEM-UBC,0.9988316349917964,Aradus vadosus,,lateral
+3182,images/Hemiptera/Aradidae/Aradus laeviusculus male (2ventral).jpg,Aradus laeviusculus male (2ventral).jpg,OCR FAILED,0,Aradus laeviusculus male,,ventral
+3217,images/Hemiptera/Cicadidae/Okanagana rimosa (4front).jpg,Okanagana rimosa (4front).jpg,SEM,0.7942344325407563,Okanagana rimosa,,front
+3245,images/Hemiptera/Cicadidae/Tibicen pruinosa (1dorsal) merged.jpg,Tibicen pruinosa (1dorsal) merged.jpg,SEMUBC CIC-0280,0.5255018208759821,Tibicen pruinosa,,dorsal
+3440,images/Hemiptera/Miridae/Ceratocapsus downesi form A (1dorsal) .jpg,Ceratocapsus downesi form A (1dorsal) .jpg,SEM-UBC MIR-00O1,0.634514157233609,Ceratocapsus downesi form A,,dorsal
+3513,images/Hemiptera/Membracidae/Gargara genistae (1dorsal) .jpg,Gargara genistae (1dorsal) .jpg,OCR FAILED,0,Gargara genistae,,dorsal
+3581,images/Hemiptera/Membracidae/Platycotis maritima form A (2ventral) .jpg,Platycotis maritima form A (2ventral) .jpg,OCR FAILED,0,Platycotis maritima form A,,ventral
+3810,images/Hemiptera/Tingidae/Corythucha morrilli (3lateral).jpg,Corythucha morrilli (3lateral).jpg,SEM-UBC TIN-648,0.9398342039339314,Corythucha morrilli,,lateral
+3818,images/Hemiptera/Tingidae/Corythucha pallipes (1dorsal)  SEM-UBC TIN-824.jpg,Corythucha pallipes (1dorsal)  SEM-UBC TIN-824.jpg,SEM-UBC TIN-824,FROM FILENAME,Corythucha pallipes,SEM-UBC TIN-824,dorsal
+3823,images/Hemiptera/Tingidae/Corythucha padi (1dorsal).jpg,Corythucha padi (1dorsal).jpg,SEM-UBC TIN-715,0.8787762968889299,Corythucha padi,,dorsal
+3828,images/Hemiptera/Tingidae/Corythucha ulmi (1dorsal) SEM-UBC TIN-911.jpg,Corythucha ulmi (1dorsal) SEM-UBC TIN-911.jpg,SEM-UBC TIN-911,FROM FILENAME,Corythucha ulmi,SEM-UBC TIN-911,dorsal
+3829,images/Hemiptera/Tingidae/Dictyla monotropida (2ventral) SEM-UBC TIN-915.jpg,Dictyla monotropida (2ventral) SEM-UBC TIN-915.jpg,SEM-UBC TIN-915,FROM FILENAME,Dictyla monotropida,SEM-UBC TIN-915,ventral
+3831,images/Hemiptera/Tingidae/Leptodictya leinahoni (2ventral).jpg,Leptodictya leinahoni (2ventral).jpg,OCR FAILED,0,Leptodictya leinahoni,,ventral
+3837,images/Hemiptera/Tingidae/Corythucha salicata (1dorsal).jpg,Corythucha salicata (1dorsal).jpg,SEM-UBC TIN-909,0.9475779497490732,Corythucha salicata,,dorsal
+3847,images/Hemiptera/Tingidae/Corythucha pallipes (3lateral) SEM-UBC TIN-824.jpg,Corythucha pallipes (3lateral) SEM-UBC TIN-824.jpg,SEM-UBC TIN-824,FROM FILENAME,Corythucha pallipes,SEM-UBC TIN-824,lateral
+3849,images/Hemiptera/Tingidae/Dictyla ehrethiae (3lateral) SEM-UBC TIN-914.jpg,Dictyla ehrethiae (3lateral) SEM-UBC TIN-914.jpg,SEM-UBC TIN-914,FROM FILENAME,Dictyla ehrethiae,SEM-UBC TIN-914,lateral
+3856,images/Hemiptera/Tingidae/Corythucha pallida (1dorsal) SEM-UBC TIN-823.jpg,Corythucha pallida (1dorsal) SEM-UBC TIN-823.jpg,SEM-UBC TIN-823,FROM FILENAME,Corythucha pallida,SEM-UBC TIN-823,dorsal
+3857,images/Hemiptera/Tingidae/Corythucha morrilli (1dorsal).jpg,Corythucha morrilli (1dorsal).jpg,SEM-UBC TIN-648,0.9904203221520184,Corythucha morrilli,,dorsal
+3861,images/Hemiptera/Tingidae/Corythucha mollicula (2ventral).jpg,Corythucha mollicula (2ventral).jpg,SEM-UBC TIN-628,0.7577526719185516,Corythucha mollicula,,ventral
+3863,images/Hemiptera/Tingidae/Dictyla monotropida (3lateral) SEM-UBC TIN-915.jpg,Dictyla monotropida (3lateral) SEM-UBC TIN-915.jpg,SEM-UBC TIN-915,FROM FILENAME,Dictyla monotropida,SEM-UBC TIN-915,lateral
+3878,images/Hemiptera/Tingidae/Corythucha salicata (2ventral).jpg,Corythucha salicata (2ventral).jpg,SEM-UBC TIN-909,0.8821607811405409,Corythucha salicata,,ventral
+3880,images/Hemiptera/Tingidae/Corythucha pallipes (2ventral) SEM-UBC TIN-824.jpg,Corythucha pallipes (2ventral) SEM-UBC TIN-824.jpg,SEM-UBC TIN-824,FROM FILENAME,Corythucha pallipes,SEM-UBC TIN-824,ventral
+3883,images/Hemiptera/Tingidae/Dictyla ehrethiae (2ventral) SEM-UBC TIN-914.jpg,Dictyla ehrethiae (2ventral) SEM-UBC TIN-914.jpg,SEM-UBC TIN-914,FROM FILENAME,Dictyla ehrethiae,SEM-UBC TIN-914,ventral
+3891,images/Hemiptera/Tingidae/Corythucha padi (2ventral).jpg,Corythucha padi (2ventral).jpg,SEM-UBC TIN-715,0.9249608625593169,Corythucha padi,,ventral
+3899,images/Hemiptera/Tingidae/Corythucha pallida (2ventral) SEM-UBC TIN-823.jpg,Corythucha pallida (2ventral) SEM-UBC TIN-823.jpg,SEM-UBC TIN-823,FROM FILENAME,Corythucha pallida,SEM-UBC TIN-823,ventral
+3906,images/Hemiptera/Tingidae/Galeatus spinifrons (3lateral) SEM-UBC TIN-916.jpg,Galeatus spinifrons (3lateral) SEM-UBC TIN-916.jpg,SEM-UBC TIN-916,FROM FILENAME,Galeatus spinifrons,SEM-UBC TIN-916,lateral
+3921,images/Hemiptera/Tingidae/Dictyonota fuliginosa (2ventral).jpg,Dictyonota fuliginosa (2ventral).jpg,OCR FAILED,0,Dictyonota fuliginosa,,ventral
+3923,images/Hemiptera/Tingidae/Corythucha mollicula (1dorsal).jpg,Corythucha mollicula (1dorsal).jpg,SEM-UBC TIN-628,0.9996774570524662,Corythucha mollicula,,dorsal
+3925,images/Hemiptera/Tingidae/Corythucha morrilli (2ventral).jpg,Corythucha morrilli (2ventral).jpg,SEM-UBC TIN-648,0.9753643770797552,Corythucha morrilli,,ventral
+3932,images/Hemiptera/Tingidae/Gargaphia amorphiae (2ventral) SEM-UBC TIN-918.jpg,Gargaphia amorphiae (2ventral) SEM-UBC TIN-918.jpg,SEM-UBC TIN-918,FROM FILENAME,Gargaphia amorphiae,SEM-UBC TIN-918,ventral
+3941,images/Hemiptera/Tingidae/Corythucha ulmi (3lateral) SEM-UBC TIN-911.jpg,Corythucha ulmi (3lateral) SEM-UBC TIN-911.jpg,SEM-UBC TIN-911,FROM FILENAME,Corythucha ulmi,SEM-UBC TIN-911,lateral
+3946,images/Hemiptera/Tingidae/Corythucha salicata (3lateral).jpg,Corythucha salicata (3lateral).jpg,SEM-UBC TIN-909,0.9840927021992182,Corythucha salicata,,lateral
+3964,images/Hemiptera/Tingidae/Corythucha pallida (3lateral) SEM-UBC TIN-823.jpg,Corythucha pallida (3lateral) SEM-UBC TIN-823.jpg,SEM-UBC TIN-823,FROM FILENAME,Corythucha pallida,SEM-UBC TIN-823,lateral
+3966,images/Hemiptera/Tingidae/Galeatus spinifrons (2ventral) SEM-UBC TIN-916.jpg,Galeatus spinifrons (2ventral) SEM-UBC TIN-916.jpg,SEM-UBC TIN-916,FROM FILENAME,Galeatus spinifrons,SEM-UBC TIN-916,ventral
+3967,images/Hemiptera/Tingidae/Corythucha padi (3lateral).jpg,Corythucha padi (3lateral).jpg,SEM-UBC TIN-715,0.9204583383810633,Corythucha padi,,lateral
+3972,images/Hemiptera/Tingidae/Dictyla monotropida (1dorsal) SEM-UBC TIN-915.jpg,Dictyla monotropida (1dorsal) SEM-UBC TIN-915.jpg,SEM-UBC TIN-915,FROM FILENAME,Dictyla monotropida,SEM-UBC TIN-915,dorsal
+3975,images/Hemiptera/Tingidae/Corythucha mollicula (3lateral).jpg,Corythucha mollicula (3lateral).jpg,SEM-UBC TIN-628,0.9997225913077464,Corythucha mollicula,,lateral
+3978,images/Hemiptera/Tingidae/Corythucha ulmi (2ventral) SEM-UBC TIN-911.jpg,Corythucha ulmi (2ventral) SEM-UBC TIN-911.jpg,SEM-UBC TIN-911,FROM FILENAME,Corythucha ulmi,SEM-UBC TIN-911,ventral
+3979,images/Hemiptera/Tingidae/Gargaphia amorphiae (1dorsal) SEM-UBC TIN-918.jpg,Gargaphia amorphiae (1dorsal) SEM-UBC TIN-918.jpg,SEM-UBC TIN-918,FROM FILENAME,Gargaphia amorphiae,SEM-UBC TIN-918,dorsal
+3982,images/Hemiptera/Tingidae/Dictyla ehrethiae (1dorsal) SEM-UBC TIN-914.jpg,Dictyla ehrethiae (1dorsal) SEM-UBC TIN-914.jpg,SEM-UBC TIN-914,FROM FILENAME,Dictyla ehrethiae,SEM-UBC TIN-914,dorsal
+3990,images/Hemiptera/Tingidae/Galeatus spinifrons (1dorsal) SEM-UBC TIN-916.jpg,Galeatus spinifrons (1dorsal) SEM-UBC TIN-916.jpg,SEM-UBC TIN-916,FROM FILENAME,Galeatus spinifrons,SEM-UBC TIN-916,dorsal
+3993,images/Hemiptera/Tingidae/Gargaphia amorphiae (3lateral) SEM-UBC TIN-918.jpg,Gargaphia amorphiae (3lateral) SEM-UBC TIN-918.jpg,SEM-UBC TIN-918,FROM FILENAME,Gargaphia amorphiae,SEM-UBC TIN-918,lateral
+3995,images/Hemiptera/Anthocoridae/Anthocoris nemoralis (2ventral).jpg,Anthocoris nemoralis (2ventral).jpg,OCR FAILED,0,Anthocoris nemoralis,,ventral
+4014,images/Hemiptera/Anthocoridae/Tetraphleps pilosipes (3lateral) .jpg,Tetraphleps pilosipes (3lateral) .jpg,SEM-UBC ANTH4-0909,0.7536370432416235,Tetraphleps pilosipes,,lateral
+4029,images/Hemiptera/Anthocoridae/Anthocoris musculus (2ventral) .jpg,Anthocoris musculus (2ventral) .jpg,SEM-UBC AANTH-0166,0.7974645246397959,Anthocoris musculus,,ventral
+4209,images/Plecoptera/Chloroperlidae/Alloperla serrata female (2ventral).jpg,Alloperla serrata female (2ventral).jpg,OCR FAILED,0,Alloperla serrata female,,ventral
+4230,images/Plecoptera/Chloroperlidae/Sweltsa fidelis female (1dorsal).jpg,Sweltsa fidelis female (1dorsal).jpg,SEM-UUBC PLE-0473,0.9014007733507216,Sweltsa fidelis female,,dorsal
+4445,images/Siphonaptera/Ctenophthalmidae/Ctenophthalmus nobilis vulgaris male (label 2A).jpg,Ctenophthalmus nobilis vulgaris male (label 2A).jpg,OCR FAILED,0,Ctenophthalmus nobilis vulgaris male,,label A
+4480,images/Siphonaptera/Ctenophthalmidae/Palaeopsylla soricis soricis female (label 1B).jpg,Palaeopsylla soricis soricis female (label 1B).jpg,OCR FAILED,0,Palaeopsylla soricis soricis female,,label B
+4598,images/Siphonaptera/Ceratophyllidae/Ceratophyllus vision female (label 1B).jpg,Ceratophyllus vision female (label 1B).jpg,SEM-JBC SIP-0U5T,0.48315139437642657,Ceratophyllus vision female,,label B
+5082,images/Siphonaptera/Leptopsyllidae/Peromyscopsylla ravalliensis female (label 1B).jpg,Peromyscopsylla ravalliensis female (label 1B).jpg,SEM-UBC SIP-024U,0.7591040704870559,Peromyscopsylla ravalliensis female,,label B
+5266,images/Siphonaptera/Hystrichopsyllidae/Hystrichopsylla occidentalis female (label 2).jpg,Hystrichopsylla occidentalis female (label 2).jpg,OCR FAILED,0,Hystrichopsylla occidentalis female,,label 
+5538,images/Orthoptera/Rhaphidophoridae/Tropidischia xanthostoma (1dorsal) merged.jpg,Tropidischia xanthostoma (1dorsal) merged.jpg,SEM-UBC GRY-013,0.8475952829682466,Tropidischia xanthostoma,,dorsal
+5808,images/Blattodea/Blaberidae/Archimandrita tessellata (2ventral).jpg,Archimandrita tessellata (2ventral).jpg,OCR FAILED,0,Archimandrita tessellata,,ventral
+5810,images/Blattodea/Blaberidae/Archimandrita tessellata (1dorsal).jpg,Archimandrita tessellata (1dorsal).jpg,OCR FAILED,0,Archimandrita tessellata,,dorsal
+5815,images/Blattodea/Blaberidae/Archimandrita tessellata (3lateral).jpg,Archimandrita tessellata (3lateral).jpg,OCR FAILED,0,Archimandrita tessellata,,lateral
+5822,images/Blattodea/Kalotermitidae/Cryptotermes brevis (1dorsal) wings only.jpg,Cryptotermes brevis (1dorsal) wings only.jpg,SEM-UBC IS0-0050,0.9372274248802143,Cryptotermes brevis,,dorsal
+6533,images/Hymenoptera/Halictidae/Lasioglossum tenax female (4front) .jpg,Lasioglossum tenax female (4front) .jpg,SEMUBC HYM-4987,0.7694460051903654,Lasioglossum tenax female,,front
+6696,images/Hymenoptera/Apidae/Apinae/Bombus [Psithyrus] suckleyi male (4front).jpg,Bombus [Psithyrus] suckleyi male (4front).jpg,SEM-U€ HYM-3205,0.9639017239985487,Bombus [Psithyrus] suckleyi male,,front
+6711,images/Hymenoptera/Apidae/Apinae/Melissodes communis female (4front) .jpg,Melissodes communis female (4front) .jpg,SEM- UBC HYM-6350,0.3925239259916881,Melissodes communis female,,front
+6755,images/Hymenoptera/Apidae/Apinae/Bombus kirbiellus female A (1dorsal).jpg,Bombus kirbiellus female A (1dorsal).jpg,SEM-UBC HY-2953,0.7192598381564755,Bombus kirbiellus female A,,dorsal
+6821,images/Hymenoptera/Apidae/Apinae/Bombus vosnesenskii Queen (1dorsal).jpg,Bombus vosnesenskii Queen (1dorsal).jpg,SEMUBC HYM-2649,0.7627586408128607,Bombus vosnesenskii Queen,,dorsal
+6888,images/Hymenoptera/Apidae/Apinae/Bombus impatiens Queen (4front) .jpg,Bombus impatiens Queen (4front) .jpg,SEM-UBC HY-5940,0.5686833091033885,Bombus impatiens Queen,,front
+6892,images/Hymenoptera/Apidae/Apinae/Bombus sylvicola female (3lateral).jpg,Bombus sylvicola female (3lateral).jpg,SEMUBC HYM-3176,0.7809581904373163,Bombus sylvicola female,,lateral
+6954,images/Hymenoptera/Apidae/Apinae/Melissodes sp. Form A (4front).jpg,Melissodes sp. Form A (4front).jpg,SEM-UBC HM-3219,0.5268835886623819,Melissodes sp. Form A,,front
+7146,images/Hymenoptera/Braconidae/Braconinae/Bracon sp form B female (2ventral) .jpg,Bracon sp form B female (2ventral) .jpg,SEM-UBC,0.9879026388764756,Bracon sp form B female,,ventral
+7420,images/Hymenoptera/Megachilidae/Anthidium sp (3lateral).jpg,Anthidium sp (3lateral).jpg,SEM-UBC HY-3337,0.9433171043639997,Anthidium sp,,lateral
+7622,images/Hymenoptera/Megachilidae/Megachile circumcincta male (2ventral).jpg,Megachile circumcincta male (2ventral).jpg,SEM-UBC HY-3357,0.8794073336488313,Megachile circumcincta male,,ventral
+7757,images/Hymenoptera/Formicidae/Tapinoma sessile (3lateral).jpg,Tapinoma sessile (3lateral).jpg,SEM-UBC HY-2209,0.7447667239280577,Tapinoma sessile,,lateral
+7800,images/Hymenoptera/Formicidae/Lasius neoniger non-winged form (3lateral).jpg,Lasius neoniger non-winged form (3lateral).jpg,SEM-UBC HYM2295,0.9013220863238197,Lasius neoniger non-winged form,,lateral
+8300,images/Hymenoptera/Ichneumonidae/Ichneumoninae/Cratichneumon unifasciatorius female (3lateral)  .jpg,Cratichneumon unifasciatorius female (3lateral)  .jpg,SEM-UBC HYM-514O,0.8694432867788447,Cratichneumon unifasciatorius female,,lateral
+8378,images/Hymenoptera/Ichneumonidae/Ichneumoninae/Ichneumonini sp form A (3lateral) .jpg,Ichneumonini sp form A (3lateral) .jpg,OCR FAILED,0,Ichneumonini sp form A,,lateral
+8493,images/Hymenoptera/Ichneumonidae/Cremastinae/Cremastus incompletus female (4front) .jpg,Cremastus incompletus female (4front) .jpg,SEMAJBC HYM-5054,0.5579278943323002,Cremastus incompletus female,,front
+8573,images/Hymenoptera/Ichneumonidae/Ctenopelmatinae/Mesoleius submarginatus (2ventral) .jpg,Mesoleius submarginatus (2ventral) .jpg,SEM-UBC HYM-511O,0.9082767502806465,Mesoleius submarginatus,,ventral
+8582,images/Hymenoptera/Ichneumonidae/Ctenopelmatinae/Lamachus eques (1dorsal) .jpg,Lamachus eques (1dorsal) .jpg,SEM-UBC HYM-510G,0.7782485009521887,Lamachus eques,,dorsal
+8598,images/Hymenoptera/Ichneumonidae/Ctenopelmatinae/Lamachus eques (3lateral) .jpg,Lamachus eques (3lateral) .jpg,SEM-UBC HYM-510G,0.5476111489240829,Lamachus eques,,lateral
+8753,images/Hymenoptera/Ichneumonidae/Rhyssinae/Megarhyssa atrata female (3lateral) merged.jpg,Megarhyssa atrata female (3lateral) merged.jpg,SEMA HIE,0.0016730320101446601,Megarhyssa atrata female,,lateral
+8755,images/Hymenoptera/Ichneumonidae/Rhyssinae/Megarhyssa atrata female (1dorsal) merged.jpg,Megarhyssa atrata female (1dorsal) merged.jpg,OCR FAILED,0,Megarhyssa atrata female,,dorsal
+8864,images/Hymenoptera/Ichneumonidae/Cryptinae/Sphecophaga vesparum burra male (3lateral) .jpg,Sphecophaga vesparum burra male (3lateral) .jpg,SEM-UBC HYM-50GG,0.7737690717591549,Sphecophaga vesparum burra male,,lateral
+9333,images/Hymenoptera/Crabronidae/Pemphredoninae/Mimumesa mixta female (2ventral).jpg,Mimumesa mixta female (2ventral).jpg,SEM-UBC HYM 8952,0.9545552242948299,Mimumesa mixta female,,ventral
+9589,images/Hymenoptera/Crabronidae/Crabroninae/Tachytes distinctus male (4front) .jpg,Tachytes distinctus male (4front) .jpg,SEMAUBCTAAM-6106,0.1986561291718127,Tachytes distinctus male,,front
+9899,images/Hymenoptera/Crabronidae/Crabroninae/Pisonopsis clypeata male (4front) .jpg,Pisonopsis clypeata male (4front) .jpg,SEMAUBC HYM-6097,0.5795078518697204,Pisonopsis clypeata male,,front
+10008,images/Hymenoptera/Crabronidae/Crabroninae/Liris argentatus female (4front) .jpg,Liris argentatus female (4front) .jpg,SEMAUBC HYM-6088,0.9783818140212049,Liris argentatus female,,front
+10049,images/Hymenoptera/Crabronidae/Philanthinae/Eucerceris flavocincta male (4front).jpg,Eucerceris flavocincta male (4front).jpg,SEMAUBC HYM-3423,0.9274831062054142,Eucerceris flavocincta male,,front
+10644,images/Hymenoptera/Torymidae/Torymus sp form B (1dorsal) .jpg,Torymus sp form B (1dorsal) .jpg,SEM-UBC,0.9853828860371887,Torymus sp form B,,dorsal
+10791,images/Hymenoptera/Aphelinidae/Encarsia formosa (1dorsal) .jpg,Encarsia formosa (1dorsal) .jpg,OCR FAILED,0,Encarsia formosa,,dorsal
+11001,images/Hymenoptera/Vespidae/Eumeninae/Ancistrocerus antilope antilope form A (4front).jpg,Ancistrocerus antilope antilope form A (4front).jpg,SEM HYM-3514,0.8020889177536276,Ancistrocerus antilope antilope form A,,front
+11466,images/Hymenoptera/Pompilidae/Ceropales maculata female (2ventral) .jpg,Ceropales maculata female (2ventral) .jpg,SEM-UBC,0.9997651546565642,Ceropales maculata female,,ventral
+12071,images/Hymenoptera/Sphecidae/Prionyx atratus female (4front) .jpg,Prionyx atratus female (4front) .jpg,SEM-UBC,0.8580224743605303,Prionyx atratus female,,front
+12132,images/Hymenoptera/Sphecidae/Ammophila mediata female (4front) .jpg,Ammophila mediata female (4front) .jpg,SEM-IUIBC HYM-4813,0.9273599686926084,Ammophila mediata female,,front
+12395,images/Hymenoptera/Andrenidae/Andrena nevadensis (3lateral).jpg,Andrena nevadensis (3lateral).jpg,SEM-UBC HY-3208,0.7636715237745956,Andrena nevadensis,,lateral
+12484,images/Neuroptera/Chrysopidae/Nothochrysa californica female (2ventral).jpg,Nothochrysa californica female (2ventral).jpg,SEM-UBC NEU- 0535,0.6933627027248244,Nothochrysa californica female,,ventral
+12500,images/Neuroptera/Chrysopidae/Chrysopa chi female (4front).jpg,Chrysopa chi female (4front).jpg,SEM-UBC NEU- 0027,0.40761294579095975,Chrysopa chi female,,front
+12511,images/Neuroptera/Chrysopidae/Nothochrysa californica female (3lateral).jpg,Nothochrysa californica female (3lateral).jpg,SEM-UBC NEU- 0535,0.5662373574243823,Nothochrysa californica female,,lateral
+12512,images/Neuroptera/Chrysopidae/Meleoma signoretti male (2ventral).jpg,Meleoma signoretti male (2ventral).jpg,SEM-UBC NEU- 0525,0.8701514132852783,Meleoma signoretti male,,ventral
+12513,images/Neuroptera/Chrysopidae/Nineta gravida male (1dorsal).jpg,Nineta gravida male (1dorsal).jpg,SEM-UBC NEU 0529,0.8625620372491053,Nineta gravida male,,dorsal
+12521,images/Neuroptera/Chrysopidae/Chrysoperla carnea female (1dorsal).jpg,Chrysoperla carnea female (1dorsal).jpg,SEM-UBC NEU- 0386,0.715358621587977,Chrysoperla carnea female,,dorsal
+12528,images/Neuroptera/Chrysopidae/Nineta gravida male (2ventral) .jpg,Nineta gravida male (2ventral) .jpg,SEMUBC NEU-0529,0.9928914935705546,Nineta gravida male,,ventral
+12538,images/Neuroptera/Hemerobiidae/Hemerobius dorsatus (2ventral).jpg,Hemerobius dorsatus (2ventral).jpg,SEM-UBC NEU-060G,0.8124603138712966,Hemerobius dorsatus,,ventral
+12540,images/Neuroptera/Hemerobiidae/Micromus variolosus (3lateral).jpg,Micromus variolosus (3lateral).jpg,SEM-UBC,0.574070391145989,Micromus variolosus,,lateral
+12565,images/Neuroptera/Hemerobiidae/Micromus montanus (1dorsal).jpg,Micromus montanus (1dorsal).jpg,SEMUBC NEU-0844,0.7400071013880858,Micromus montanus,,dorsal
+12588,images/Neuroptera/Hemerobiidae/Hemerobius stigma (2ventral).jpg,Hemerobius stigma (2ventral).jpg,SEM-UBC NEU- 0818,0.46189525729557696,Hemerobius stigma,,ventral
+12595,images/Neuroptera/Hemerobiidae/Micromus borealis (2ventral).jpg,Micromus borealis (2ventral).jpg,SEM-UBC NEU- 0831,0.3830295320145579,Micromus borealis,,ventral
+12637,images/Neuroptera/Coniopterygidae/Helicoconis sp. (2ventral).jpg,Helicoconis sp. (2ventral).jpg,SEM-UBC NEU-111O,0.57444104003011,Helicoconis sp.,,ventral
+12638,images/Neuroptera/Coniopterygidae/Helicoconis californica female (1dorsal).jpg,Helicoconis californica female (1dorsal).jpg,SEM-UBC NEU- 0552,0.9032906425556277,Helicoconis californica female,,dorsal
+12646,images/Neuroptera/Coniopterygidae/Conwentzia pineticola male (3lateral).jpg,Conwentzia pineticola male (3lateral).jpg,SEM-UBC NEU- 0548,0.7918439412071412,Conwentzia pineticola male,,lateral
+12648,images/Neuroptera/Coniopterygidae/Helicoconis californica female (2ventral).jpg,Helicoconis californica female (2ventral).jpg,SEM-UBC NEU- 0552,0.6178311640544258,Helicoconis californica female,,ventral
+12703,images/Dermaptera/Anisolabididae/Euborellia annulipes (1dorsal) .jpg,Euborellia annulipes (1dorsal) .jpg,OCR FAILED,0,Euborellia annulipes,,dorsal
+12710,images/Lepidoptera/Lasiocampidae/Malacosoma disstria (1dorsal).jpg,Malacosoma disstria (1dorsal).jpg,SEMUBC LAS-0069,0.855147249064326,Malacosoma disstria,,dorsal
+12724,images/Lepidoptera/Lasiocampidae/Phyllodesma americana (3lateral).jpg,Phyllodesma americana (3lateral).jpg,OCR FAILED,0,Phyllodesma americana,,lateral
+13772,images/Lepidoptera/Noctuidae/Plusiinae/Plusia putnami (1dorsal).jpg,Plusia putnami (1dorsal).jpg,SEM-UBC NOC-100O,0.6946528804162234,Plusia putnami,,dorsal
+13776,images/Lepidoptera/Noctuidae/Plusiinae/Chrysodeixis chalcites (1dorsal).jpg,Chrysodeixis chalcites (1dorsal).jpg,SEM-UBC,0.995876959189191,Chrysodeixis chalcites,,dorsal
+13795,images/Lepidoptera/Noctuidae/Plusiinae/Plusia putnami (2ventral).jpg,Plusia putnami (2ventral).jpg,SEM-UBC NOC-1OOO,0.7783464545426294,Plusia putnami,,ventral
+13876,images/Lepidoptera/Pterophoridae/Paraplatyptilia albiciliatus (2ventral) .jpg,Paraplatyptilia albiciliatus (2ventral) .jpg,SEM-UBC PTE 0019,0.6304706868027145,Paraplatyptilia albiciliatus,,ventral
+14013,images/Lepidoptera/Crambidae/Stichroa chortalis (2ventral).jpg,Stichroa chortalis (2ventral).jpg,SEM-UBC,0.6815129935952199,Stichroa chortalis,,ventral
+14035,images/Lepidoptera/Crambidae/Udea sp. cf. saxifrage (2ventral).jpg,Udea sp. cf. saxifrage (2ventral).jpg,SEM-UBC PYR-001O,0.5672478061868651,Udea sp. cf. saxifrage,,ventral
+14160,images/Lepidoptera/Erebidae/Hypeninae/Hypena californica form B (1dorsal).jpg,Hypena californica form B (1dorsal).jpg,SEMUBC NOC-1237,0.7589410195426801,Hypena californica form B,,dorsal
+14165,images/Lepidoptera/Erebidae/Hypeninae/Hypena humuli form A (1dorsal).jpg,Hypena humuli form A (1dorsal).jpg,SEMUBC NOC-1211,0.7793978671074341,Hypena humuli form A,,dorsal
+14172,images/Lepidoptera/Erebidae/Hypeninae/Hypena bijugalis form A (2ventral).jpg,Hypena bijugalis form A (2ventral).jpg,SEMUBC NOC-1187,0.7262212284057434,Hypena bijugalis form A,,ventral
+14183,images/Lepidoptera/Erebidae/Lymantriinae/Leucoma salicis male (2ventral).jpg,Leucoma salicis male (2ventral).jpg,SEM-UBC LYM40046,0.4959970754101237,Leucoma salicis male,,ventral
+14217,images/Lepidoptera/Erebidae/Erebinae/Catocala ilia (2ventral).jpg,Catocala ilia (2ventral).jpg,SEM-UBC NOC-097,0.6153247871718603,Catocala ilia,,ventral
+14252,images/Lepidoptera/Erebidae/Erebinae/Catocala briseis (2ventral).jpg,Catocala briseis (2ventral).jpg,SEMUBC NOC-0964,0.5629046362272068,Catocala briseis,,ventral
+14277,images/Lepidoptera/Erebidae/Erebinae/Catocala briseis (1dorsal).jpg,Catocala briseis (1dorsal).jpg,SEMUBC NOC-0964,0.6866468976904554,Catocala briseis,,dorsal
+14398,images/Lepidoptera/Erebidae/Arctiinae/Lophocampa maculata male (3lateral).jpg,Lophocampa maculata male (3lateral).jpg,SEM-UBC ARC-013,0.7757925534073147,Lophocampa maculata male,,lateral
+14410,images/Lepidoptera/Erebidae/Arctiinae/Arctia caja female (2ventral).jpg,Arctia caja female (2ventral).jpg,SEM-UBC ARCH02412,0.33160346332118157,Arctia caja female,,ventral
+14458,images/Lepidoptera/Erebidae/Arctiinae/Spilosoma virginica male (1dorsal).jpg,Spilosoma virginica male (1dorsal).jpg,SEMUBC ARC-0600,0.7725513458737088,Spilosoma virginica male,,dorsal
+14489,images/Lepidoptera/Erebidae/Herminiinae/Idia aemula (2ventral).jpg,Idia aemula (2ventral).jpg,SEMUBC NOC-1066,0.8835377849499938,Idia aemula,,ventral
+14647,images/Lepidoptera/Notodontidae/Odontosia elegans (3lateral).jpg,Odontosia elegans (3lateral).jpg,SEM-UBC NOT0-0043,0.6496605934623626,Odontosia elegans,,lateral
+14678,images/Lepidoptera/Notodontidae/Gluphisia septentrionis (1dorsal).jpg,Gluphisia septentrionis (1dorsal).jpg,SEM-UBC NOT0-0034,0.7274091790201971,Gluphisia septentrionis,,dorsal
+14907,images/Lepidoptera/Papilionidae/Parnassius phoebus sayii male (2ventral).jpg,Parnassius phoebus sayii male (2ventral).jpg,SEM-UBC PAP-03,0.7921242687170031,Parnassius phoebus sayii male,,ventral
+14959,images/Lepidoptera/Sphingidae/Manduca quinquemaculata female (1dorsal).jpg,Manduca quinquemaculata female (1dorsal).jpg,OCR FAILED,0,Manduca quinquemaculata female,,dorsal
+14967,images/Lepidoptera/Sphingidae/Sphinx drupiferarum female (1dorsal).jpg,Sphinx drupiferarum female (1dorsal).jpg,SEM-UBC SPH-0.86,0.22074110548342515,Sphinx drupiferarum female,,dorsal
+15351,images/Lepidoptera/Lycaenidae/Celastrina lucia female form A (1dorsal).jpg,Celastrina lucia female form A (1dorsal).jpg,SEM-UBC,0.9855217573766341,Celastrina lucia female form A,,dorsal
+15406,images/Lepidoptera/Lycaenidae/Lycaena dorcas arcticus female (2ventral).jpg,Lycaena dorcas arcticus female (2ventral).jpg,SEM-UBC LYC-006O,0.5773632948285102,Lycaena dorcas arcticus female,,ventral
+15707,images/Lepidoptera/Pieridae/Anthocharis sara browningi male (3lateral).jpg,Anthocharis sara browningi male (3lateral).jpg,SEMUBC PIE-0026,0.6778962388921799,Anthocharis sara browningi male,,lateral
+15729,images/Lepidoptera/Pieridae/Old Photos/Colias gigantea gigantea form A (1dorsal).jpg,Colias gigantea gigantea form A (1dorsal).jpg,SEMAUBC PIE-0002,0.8331368631982157,Colias gigantea gigantea form A,,dorsal
+15740,images/Lepidoptera/Pieridae/Old Photos/Colias gigantea gigantea form B (3lateral).jpg,Colias gigantea gigantea form B (3lateral).jpg,SEM-UBC PIE-000D,0.8050113723223444,Colias gigantea gigantea form B,,lateral
+15977,images/Diptera/Hippoboscidae/Olfersia fumipennis (4front).jpg,Olfersia fumipennis (4front).jpg,SEMAUE € HIP-0012,0.35929821108107163,Olfersia fumipennis,,front
+15986,images/Diptera/Hippoboscidae/Crataerina pallida (2ventral).jpg,Crataerina pallida (2ventral).jpg,OCR FAILED,0,Crataerina pallida,,ventral
+15993,images/Diptera/Hippoboscidae/Pseudolynchia canariensis (2ventral).jpg,Pseudolynchia canariensis (2ventral).jpg,OCR FAILED,0,Pseudolynchia canariensis,,ventral
+16099,images/Diptera/Chloropidae/Tricimba brunnicollis (4front).jpg,Tricimba brunnicollis (4front).jpg,SEMI-UBC DIP 0018,0.22176408152906685,Tricimba brunnicollis,,front
+16135,images/Diptera/Coelopidae/Coelopa sp form A (1dorsal) .jpg,Coelopa sp form A (1dorsal) .jpg,OCR FAILED,0,Coelopa sp form A,,dorsal
+16215,images/Diptera/Hybotidae/Leptopeza disparilis (3lateral) .jpg,Leptopeza disparilis (3lateral) .jpg,SEM-UBC EP-0465,0.8167823521680139,Leptopeza disparilis,,lateral
+16277,images/Diptera/Bombyliidae/Bombylius validus female (3lateral).jpg,Bombylius validus female (3lateral).jpg,SEM-UBC,0.904897619746725,Bombylius validus female,,lateral
+16431,images/Diptera/Bombyliidae/Bombylius pygmaeus (3lateral).jpg,Bombylius pygmaeus (3lateral).jpg,SEM-UBC,0.9498769590859975,Bombylius pygmaeus,,lateral
+16516,images/Diptera/Sarcophagidae/Wohlfahrtia vigil (4front).jpg,Wohlfahrtia vigil (4front).jpg,SEMAUBC SAR-0073,0.46639996088115176,Wohlfahrtia vigil,,front
+16565,images/Diptera/Sarcophagidae/Boettcheria litorosa (4front).jpg,Boettcheria litorosa (4front).jpg,SEMAUBC SAR-0026,0.713355288768394,Boettcheria litorosa,,front
+16638,images/Diptera/Sarcophagidae/Eumacronychia elongata (4front).jpg,Eumacronychia elongata (4front).jpg,SEMAUBC SAR-0029,0.2739732534578635,Eumacronychia elongata,,front
+16694,images/Diptera/Sarcophagidae/Blaesoxipha aculeata female (4front).jpg,Blaesoxipha aculeata female (4front).jpg,SEMR  SAR-0005,0.07938226449701427,Blaesoxipha aculeata female,,front
+16712,images/Diptera/Sarcophagidae/Fletcherimyia fletcheryi (4front).jpg,Fletcherimyia fletcheryi (4front).jpg,SEM-UBC SAR0031,0.6827840957678311,Fletcherimyia fletcheryi,,front
+16835,images/Diptera/Anthomyiidae/Leucophora fusca (4front).jpg,Leucophora fusca (4front).jpg,SEM-UBC /-0102,0.37384172213548944,Leucophora fusca,,front
+17026,images/Diptera/Anthomyiidae/Pegohylemyia betarum (4front).jpg,Pegohylemyia betarum (4front).jpg,SEM-UBG ANT-0445,0.22571148069919697,Pegohylemyia betarum,,front
+17118,images/Diptera/Anthomyiidae/Paradelia intersecta (4front).jpg,Paradelia intersecta (4front).jpg,SEM-UBGMNT0109,0.21792666195329544,Paradelia intersecta,,front
+17247,images/Diptera/Anthomyiidae/Anthomyia pluvialis (4front).jpg,Anthomyia pluvialis (4front).jpg,SEM-UBC ANT 0887,0.02918944434030195,Anthomyia pluvialis,,front
+17264,images/Diptera/Anthomyiidae/Zaphne altilega (4front).jpg,Zaphne altilega (4front).jpg,SEM-UB€,0.3773330068038695,Zaphne altilega,,front
+17322,images/Diptera/Anthomyiidae/Hylemya alcathoe (4front).jpg,Hylemya alcathoe (4front).jpg,SEM-UE * ANT-0090,0.16842281079252888,Hylemya alcathoe,,front
+17382,images/Diptera/Anthomyiidae/Lasiomma picipes (1dorsal) .jpg,Lasiomma picipes (1dorsal) .jpg,SEM-UBC ANT40098,0.6218963811064613,Lasiomma picipes,,dorsal
+17469,images/Diptera/Sciomyzidae/Sciomyza simplex (4front) .jpg,Sciomyza simplex (4front) .jpg,SEM-UBC SCL 0018,0.6007314988576014,Sciomyza simplex,,front
+18130,images/Diptera/Empididae/Wiedemannia simplex (2ventral) .jpg,Wiedemannia simplex (2ventral) .jpg,SEM-UBC ELLLJ 0429,0.2592991883992137,Wiedemannia simplex,,ventral
+18587,images/Diptera/Tephritidae/Trypeta tortile (2ventral) .jpg,Trypeta tortile (2ventral) .jpg,SEM-UBC,0.9996229411049774,Trypeta tortile,,ventral
+18714,images/Diptera/Pachyneuridae/Cramptonomyia spenceri (1dorsal) .jpg,Cramptonomyia spenceri (1dorsal) .jpg,OCR FAILED,0,Cramptonomyia spenceri,,dorsal
+18856,images/Diptera/Dolichopodidae/Neurigona sp form A (4front).jpg,Neurigona sp form A (4front).jpg,SEMAJBC DOL-0079,0.33847022396892074,Neurigona sp form A,,front
+18858,images/Diptera/Dolichopodidae/Sympycnidelphus sp form C (2ventral) .jpg,Sympycnidelphus sp form C (2ventral) .jpg,SEM-UBC,0.9996089717409206,Sympycnidelphus sp form C,,ventral
+18876,images/Diptera/Dolichopodidae/Medetera aldrichii (1dorsal) .jpg,Medetera aldrichii (1dorsal) .jpg,SEM-UBC DOL-0D;,0.2639726966826438,Medetera aldrichii,,dorsal
+18900,images/Diptera/Dolichopodidae/Sympycnus sp form B (4front).jpg,Sympycnus sp form B (4front).jpg,SEMAUBC DOL-0086,0.9246564381736634,Sympycnus sp form B,,front
+18922,images/Diptera/Dolichopodidae/Condylostylus occidentalis form A (3lateral) .jpg,Condylostylus occidentalis form A (3lateral) .jpg,SEMUBC DOL-0008,0.9211915323122446,Condylostylus occidentalis form A,,lateral
+18927,images/Diptera/Dolichopodidae/Liancalus hydrophilus (4front).jpg,Liancalus hydrophilus (4front).jpg,SEMAUBC DOL-0046,0.6795901733009102,Liancalus hydrophilus,,front
+18932,images/Diptera/Dolichopodidae/Hydrophorus breviseta (4front).jpg,Hydrophorus breviseta (4front).jpg,SEM-UBC DCL Q035,0.24274686055537348,Hydrophorus breviseta,,front
+18990,images/Diptera/Dolichopodidae/Tachytrechus sp form B (4front).jpg,Tachytrechus sp form B (4front).jpg,SEM,0.2749544084072113,Tachytrechus sp form B,,front
+19029,images/Diptera/Dolichopodidae/Hydatostega viridiflos gratiosa (4front).jpg,Hydatostega viridiflos gratiosa (4front).jpg,SEMAUBC DOL-0029,0.4812073754261469,Hydatostega viridiflos gratiosa,,front
+19045,images/Diptera/Dolichopodidae/Medetera aldrichii (2ventral) .jpg,Medetera aldrichii (2ventral) .jpg,SEM-TBC DOL-0048,0.42558343762558826,Medetera aldrichii,,ventral
+19051,images/Diptera/Dolichopodidae/Rhaphium nigrovittatum (4front).jpg,Rhaphium nigrovittatum (4front).jpg,SEM-UBC DOL-00B9,0.5119681650134408,Rhaphium nigrovittatum,,front
+19180,images/Diptera/Lauxaniidae/Homoneura occidentalis (2ventral) .jpg,Homoneura occidentalis (2ventral) .jpg,SEM-UBC LA-0005,0.8404140099521189,Homoneura occidentalis,,ventral
+19590,images/Diptera/Asilidae/Pogonosoma ridingsi (3lateral) .jpg,Pogonosoma ridingsi (3lateral) .jpg,SEM-UBC AS-0100,0.7839422546801463,Pogonosoma ridingsi,,lateral
+19613,images/Diptera/Asilidae/Eudioctria sackeni (3lateral) .jpg,Eudioctria sackeni (3lateral) .jpg,SEM-UBC ASI-001O,0.8727468108627676,Eudioctria sackeni,,lateral
+19656,images/Diptera/Asilidae/Nevadasilus auriannulatus male (4front) .jpg,Nevadasilus auriannulatus male (4front) .jpg,SEMAUBC ASI-0097,0.7026889754660112,Nevadasilus auriannulatus male,,front
+19747,images/Diptera/Asilidae/Laphria astur (4front) .jpg,Laphria astur (4front) .jpg,SEM-UBC ASL0052,0.4360290529376127,Laphria astur,,front
+19759,images/Diptera/Asilidae/Dicolonus nigricentrum female (2ventral).jpg,Dicolonus nigricentrum female (2ventral).jpg,SEMUBC ASI-0006,0.8678893608367694,Dicolonus nigricentrum female,,ventral
+19768,images/Diptera/Asilidae/Coleomyia hinei (4front) .jpg,Coleomyia hinei (4front) .jpg,SEM-UBC ASI-000D,0.6539746717623228,Coleomyia hinei,,front
+19828,images/Diptera/Syrphidae/Sericomyia harveyi (1dorsal) .jpg,Sericomyia harveyi (1dorsal) .jpg,SEM-UBC SYR0290,0.7933709764031471,Sericomyia harveyi,,dorsal
+19878,images/Diptera/Syrphidae/Eristalis tenax male (3lateral) .jpg,Eristalis tenax male (3lateral) .jpg,SEM-UBC SYR-006O,0.7553927641336269,Eristalis tenax male,,lateral
+19947,images/Diptera/Syrphidae/Chrysotoxum radiosum (2ventral) .jpg,Chrysotoxum radiosum (2ventral) .jpg,SEMUBC SYR-0801,0.8044761202980466,Chrysotoxum radiosum,,ventral
+20067,images/Diptera/Syrphidae/Hadromyia grandis female (4front).jpg,Hadromyia grandis female (4front).jpg,SEMAUBC SYR-0078,0.8287157567527819,Hadromyia grandis female,,front
+20155,images/Diptera/Syrphidae/Eupeodes americanus (2ventral) .jpg,Eupeodes americanus (2ventral) .jpg,SEM-UBC SYR-212O,0.9655749167694168,Eupeodes americanus,,ventral
+20272,images/Diptera/Syrphidae/Volucella evecta (4front).jpg,Volucella evecta (4front).jpg,OCR FAILED,0,Volucella evecta,,front
+20364,images/Diptera/Syrphidae/Eupeodes americanus (1dorsal) .jpg,Eupeodes americanus (1dorsal) .jpg,SEM-UBC SYR-212O,0.9600754138029277,Eupeodes americanus,,dorsal
+20472,images/Diptera/Syrphidae/Temnostoma obscurum (2ventral) .jpg,Temnostoma obscurum (2ventral) .jpg,SEM-UBC,0.910220365498829,Temnostoma obscurum,,ventral
+20545,images/Diptera/Syrphidae/Eupeodes americanus (3lateral) .jpg,Eupeodes americanus (3lateral) .jpg,SEM-UBC SYR-212O,0.9191464510773585,Eupeodes americanus,,lateral
+20604,images/Diptera/Syrphidae/Lejops bilinearis female (4front).jpg,Lejops bilinearis female (4front).jpg,OCR FAILED,0,Lejops bilinearis female,,front
+20613,images/Diptera/Syrphidae/Brachypalpus amiathon (4front).jpg,Brachypalpus amiathon (4front).jpg,SEMRUBC SYR-0010,0.43279794849629766,Brachypalpus amiathon,,front
+20829,images/Diptera/Syrphidae/Melangyna coei male (1dorsal) .jpg,Melangyna coei male (1dorsal) .jpg,SEM-UBC,0.9996309621952075,Melangyna coei male,,dorsal
+20906,images/Diptera/Tethinidae/Pelomyiella sp. (4front).jpg,Pelomyiella sp. (4front).jpg,SEM-UBC DIP-(1622,0.6983693629535188,Pelomyiella sp.,,front
+21126,images/Diptera/Dixidae/Dixidae sp form A (3lateral) .jpg,Dixidae sp form A (3lateral) .jpg,OCR FAILED,0,Dixidae sp form A,,lateral
+21186,images/Diptera/Muscidae/Macrorchis ausoba (4front).jpg,Macrorchis ausoba (4front).jpg,SEMLVER ,0.016259458535589726,Macrorchis ausoba,,front
+21217,images/Diptera/Muscidae/Potamia sp (4front).jpg,Potamia sp (4front).jpg,SEMUBC MUS-0070,0.8662933979865018,Potamia sp,,front
+21327,images/Diptera/Muscidae/Schoenomyza dorsalis (4front).jpg,Schoenomyza dorsalis (4front).jpg,SEMAUBC MUS-0071,0.5932427908227702,Schoenomyza dorsalis,,front
+21353,images/Diptera/Muscidae/Neomyia cornicina (4front).jpg,Neomyia cornicina (4front).jpg,SEMUBC MUS-0063,0.965352351360486,Neomyia cornicina,,front
+21462,images/Diptera/Oestridae/Cuterebra fontinella (4front).jpg,Cuterebra fontinella (4front).jpg,SEM-UBC 0ES-0024,0.26388616284934274,Cuterebra fontinella,,front
+21497,images/Diptera/Chironomidae/Metriocnemus sp form C (3lateral) .jpg,Metriocnemus sp form C (3lateral) .jpg,SEM-UBC CHI-011O,0.7823118278871438,Metriocnemus sp form C,,lateral
+21506,images/Diptera/Chironomidae/Diamesa sp (4front) .jpg,Diamesa sp (4front) .jpg,SEM-AEC CHE-0105,0.1214303425428319,Diamesa sp,,front
+21524,images/Diptera/Chironomidae/Metriocnemus sp form C (1dorsal) .jpg,Metriocnemus sp form C (1dorsal) .jpg,SEM-UBC CHI-011O,0.7561715042846671,Metriocnemus sp form C,,dorsal
+21536,images/Diptera/Chironomidae/Metriocnemus sp form C (2ventral) .jpg,Metriocnemus sp form C (2ventral) .jpg,SEM-UBC CHI-011O,0.759195978091171,Metriocnemus sp form C,,ventral
+21622,images/Diptera/Bibionidae/Dilophus tibialis male (4front).jpg,Dilophus tibialis male (4front).jpg,SEM-UBC,0.9999059648715947,Dilophus tibialis male,,front
+21770,images/Diptera/Sphaeroceridae/Copromyza equinus (4front) .jpg,Copromyza equinus (4front) .jpg,SEMHUBC DIP-0210,0.15000383111317314,Copromyza equinus,,front
+21914,images/Diptera/Culicidae/Culiseta incidens female (3lateral) body.jpg,Culiseta incidens female (3lateral) body.jpg,SEM-UBC CU,0.6084615480201299,Culiseta incidens female,,lateral
+21920,images/Diptera/Culicidae/Anopheles punctipennis female (2ventral) .jpg,Anopheles punctipennis female (2ventral) .jpg,SEM-UBC,0.9996174434918058,Anopheles punctipennis female,,ventral
+22072,images/Diptera/Culicidae/Anopheles quadrimaculatus female (3lateral)  .jpg,Anopheles quadrimaculatus female (3lateral)  .jpg,SEMAUBC CUL-0083,0.6083535560687694,Anopheles quadrimaculatus female,,lateral
+22073,images/Diptera/Culicidae/Anopheles punctipennis female (1dorsal) .jpg,Anopheles punctipennis female (1dorsal) .jpg,SEM-UBC,0.9996354684165571,Anopheles punctipennis female,,dorsal
+22093,images/Diptera/Culicidae/Aedes togoi (3lateral).jpg,Aedes togoi (3lateral).jpg,SEMUBC CUL 0345,0.03322601581139888,Aedes togoi,,lateral
+22244,images/Diptera/Calliphoridae/Phaenicia sericata (4front).jpg,Phaenicia sericata (4front).jpg,SEMAUBC CAL-1242,0.38396649039012165,Phaenicia sericata,,front
+22537,images/Diptera/Mycetophilidae/Leptomorphus nebulosus (4front) .jpg,Leptomorphus nebulosus (4front) .jpg,SEMAUBC MYC-0028,0.8754243979695253,Leptomorphus nebulosus,,front
+22568,images/Diptera/Keroplatidae/Macrocera sp (2ventral) .jpg,Macrocera sp (2ventral) .jpg,SEM-UBC,0.9996803500232284,Macrocera sp,,ventral
+22591,images/Diptera/Scathophagidae/Cordilura sp (4front).jpg,Cordilura sp (4front).jpg,SEM-UBC SCA-004F,0.2379145553164905,Cordilura sp,,front
+22615,images/Diptera/Scathophagidae/Bucephalina sp (4front).jpg,Bucephalina sp (4front).jpg,OCR FAILED,0,Bucephalina sp,,front
+22703,images/Diptera/Scathophagidae/Megaphthalma pallida (4front).jpg,Megaphthalma pallida (4front).jpg,SEM-UBC SE4-0024,0.142686200629,Megaphthalma pallida,,front
+22704,images/Diptera/Scathophagidae/Pogonota sp (4front).jpg,Pogonota sp (4front).jpg,SEMAUBC SCA-0033,0.34685703275777396,Pogonota sp,,front
+22725,images/Diptera/Scathophagidae/Pleurochaetella simplicipes (4front).jpg,Pleurochaetella simplicipes (4front).jpg,SEM-U6 < SCA-(032,0.21236967703592635,Pleurochaetella simplicipes,,front
+22727,images/Diptera/Scathophagidae/Cordilura fuscipes form B (2ventral) .jpg,Cordilura fuscipes form B (2ventral) .jpg,SEMUBC SCA-0008,0.69197330959356,Cordilura fuscipes form B,,ventral
+22728,images/Diptera/Scathophagidae/Okeniella dasyprocta (4front).jpg,Okeniella dasyprocta (4front).jpg,OCR FAILED,0,Okeniella dasyprocta,,front
+22745,images/Diptera/Scathophagidae/Cordilura fuscipes form A (4front).jpg,Cordilura fuscipes form A (4front).jpg,SEMAUBC SCA-0007,0.18165898437277242,Cordilura fuscipes form A,,front
+22802,images/Diptera/Tachinidae/Bombyliomyia soror (4front).jpg,Bombyliomyia soror (4front).jpg,OCR FAILED,0,Bombyliomyia soror,,front
+22824,images/Diptera/Tachinidae/Adejeania vexatrix (1dorsal) .jpg,Adejeania vexatrix (1dorsal) .jpg,SEM-UBC TAC-000?,0.7108469662006015,Adejeania vexatrix,,dorsal
+22869,images/Diptera/Tachinidae/Prooppia strigifrons (4front).jpg,Prooppia strigifrons (4front).jpg,SEM WEC TAC-OISD,0.16698885376912348,Prooppia strigifrons,,front
+22886,images/Diptera/Tachinidae/Siphona cristata (4front).jpg,Siphona cristata (4front).jpg,OCR FAILED,0,Siphona cristata,,front
+22905,images/Diptera/Tachinidae/Aphria ocypterata (4front).jpg,Aphria ocypterata (4front).jpg,SEM-UBC TACA 008,0.14603120154409227,Aphria ocypterata,,front
+22982,images/Diptera/Tachinidae/Peleteria cornuticaudata (4front).jpg,Peleteria cornuticaudata (4front).jpg,SEM-UBC TAC 0157,0.8022293954853593,Peleteria cornuticaudata,,front
+23004,images/Diptera/Tachinidae/Myxexoristops sp. (4front).jpg,Myxexoristops sp. (4front).jpg,SEM-UE6 7AC 0130,0.030572817399725147,Myxexoristops sp.,,front
+23072,images/Diptera/Tachinidae/Zelia sp (4front).jpg,Zelia sp (4front).jpg,SEM-UBCWESR?,0.008179900964922208,Zelia sp,,front
+23109,images/Diptera/Tachinidae/Blondelia polita (4front).jpg,Blondelia polita (4front).jpg,SEMAUBC TAC-0026,0.4555683740108176,Blondelia polita,,front
+23114,images/Diptera/Tachinidae/Trichopoda pennipes female (4front).jpg,Trichopoda pennipes female (4front).jpg,SEMAUBC TAC-0206,0.48710874534096854,Trichopoda pennipes female,,front
+23192,images/Diptera/Tachinidae/Phasia fenestrata (4front).jpg,Phasia fenestrata (4front).jpg,OCR FAILED,0,Phasia fenestrata,,front
+23262,images/Diptera/Tachinidae/Cylindromyia interrupta (4front).jpg,Cylindromyia interrupta (4front).jpg,SEM-UBC TAC-0U49,0.41136136723224653,Cylindromyia interrupta,,front
+23272,images/Diptera/Tachinidae/Melanophrys flavipennis (4front).jpg,Melanophrys flavipennis (4front).jpg,SEMUBC TAC-0120,0.74284800389191,Melanophrys flavipennis,,front
+23277,images/Diptera/Tachinidae/Gymnosoma occidentale (1dorsal) .jpg,Gymnosoma occidentale (1dorsal) .jpg,OCR FAILED,0,Gymnosoma occidentale,,dorsal
+23288,images/Diptera/Tachinidae/Linnaemya comta (4front).jpg,Linnaemya comta (4front).jpg,SEM-4B ` TAC-0108,0.1885721869047932,Linnaemya comta,,front
+23337,images/Diptera/Tachinidae/Tachina latigena (4front).jpg,Tachina latigena (4front).jpg,SEM-UBC,0.5941245421290027,Tachina latigena,,front
+23348,images/Diptera/Tachinidae/Phryxe vulgaris male (4front).jpg,Phryxe vulgaris male (4front).jpg,SEM-UBC TAC 0475,0.4780200246239756,Phryxe vulgaris male,,front
+23364,images/Diptera/Tachinidae/Celatoria diabroticae (4front).jpg,Celatoria diabroticae (4front).jpg,SEM-UBC,0.9996716981978641,Celatoria diabroticae,,front
+23414,images/Diptera/Tachinidae/Archytas amethystinus (4front).jpg,Archytas amethystinus (4front).jpg,SEM-UBC TAC 0OAD,0.16801040902400008,Archytas amethystinus,,front
+23422,images/Diptera/Tachinidae/Archytas lateralis (4front).jpg,Archytas lateralis (4front).jpg,SEMAUBC TAC-0014,0.5260889558854855,Archytas lateralis,,front
+23423,images/Diptera/Tachinidae/Bombyliomyia soror (3lateral) .jpg,Bombyliomyia soror (3lateral) .jpg,SEM-UBC TAC 0027,0.8483623379911236,Bombyliomyia soror,,lateral
+23439,images/Diptera/Tachinidae/Phytomyptera sp (4front).jpg,Phytomyptera sp (4front).jpg,SEMUBC TAC-0178,0.8537144019489818,Phytomyptera sp,,front
+23450,images/Diptera/Tachinidae/Winthemia datanae (4front).jpg,Winthemia datanae (4front).jpg,SEMAUBC TAC-0214,0.5214382513062558,Winthemia datanae,,front
+23551,images/Diptera/Tachinidae/Euexorista rebaptizata (4front).jpg,Euexorista rebaptizata (4front).jpg,SEM-UBC AC-00Q6,0.178806816258799,Euexorista rebaptizata,,front
+23557,images/Diptera/Tachinidae/Ametadoria sp. (4front).jpg,Ametadoria sp. (4front).jpg,SEM-UBCI TAC-0007,0.6106914831404819,Ametadoria sp.,,front
+23574,images/Diptera/Phoridae/Borophaga clavata (4front) .jpg,Borophaga clavata (4front) .jpg,SEM-UBC DL?-0231,0.838440773117612,Borophaga clavata,,front
+23734,images/Diptera/Tipulidae/Tipula [Trichotipula] sp female (1dorsal) .jpg,Tipula [Trichotipula] sp female (1dorsal) .jpg,SEM-UBC,0.9944486193350621,Tipula [Trichotipula] sp female,,dorsal
+23779,images/Diptera/Tipulidae/Tipula [Beringotipula] sp male (3lateral) .jpg,Tipula [Beringotipula] sp male (3lateral) .jpg,SEM-UBC,0.8876037250932485,Tipula [Beringotipula] sp male,,lateral
+23833,images/Coleoptera/Dryopidae/Helichus basalis (3lateral).jpg,Helichus basalis (3lateral).jpg,OCR FAILED,0,Helichus basalis,,lateral
+23880,images/Coleoptera/Tenebrionidae/Tenebrioninae/Eleodes extricatus (4front).jpg,Eleodes extricatus (4front).jpg,SEMAUBC COL-21022,0.9487013481346224,Eleodes extricatus,,front
+24150,images/Coleoptera/Tenebrionidae/Diaperinae/Cynaeus angustus (4front).jpg,Cynaeus angustus (4front).jpg,SEMAUBC COL-27855,0.7384065541342294,Cynaeus angustus,,front
+24255,images/Coleoptera/Tenebrionidae/Lagriinae/Paratenetus fuscus (4front).jpg,Paratenetus fuscus (4front).jpg,SEMAUBC COL-27940,0.5735289657094388,Paratenetus fuscus,,front
+24331,images/Coleoptera/Eucnemidae/Dromaeolus californicus (4front).jpg,Dromaeolus californicus (4front).jpg,SEM-UBC COL-0RC0,0.11485602418657659,Dromaeolus californicus,,front
+24378,images/Coleoptera/Nitidulidae/Epuraea rufa (labels)  [No value].jpg,Epuraea rufa (labels)  [No value].jpg,SEM-UBC,0.8313369107985709,Epuraea rufa,,labels
+24602,images/Coleoptera/Ptinidae/Epauloecus unicolor (3lateral) .jpg,Epauloecus unicolor (3lateral) .jpg,"SEM-UBC COL""29034",0.7698074933723303,Epauloecus unicolor,,lateral
+24778,images/Coleoptera/Ciidae/Sulcacis curtula female (4front).jpg,Sulcacis curtula female (4front).jpg,SEM-UBC COL:29138,0.7751680434616824,Sulcacis curtula female,,front
+24814,images/Coleoptera/Ciidae/Ennearthron spenceri male (4front).jpg,Ennearthron spenceri male (4front).jpg,SEMAUBC COL-29127,0.6606659063899981,Ennearthron spenceri male,,front
+24942,images/Coleoptera/Leiodidae/Liocyrtusa luggeri female (3lateral) .jpg,Liocyrtusa luggeri female (3lateral) .jpg,SEMUBC COL 31666,0.08485609171556913,Liocyrtusa luggeri female,,lateral
+24984,images/Coleoptera/Leiodidae/Anistoma globososa (2ventral) .jpg,Anistoma globososa (2ventral) .jpg,SEM-UBC,0.9997249155531774,Anistoma globososa,,ventral
+25006,images/Coleoptera/Leiodidae/Nemadus brachyderus (4front).jpg,Nemadus brachyderus (4front).jpg,SEMAUBC COL-27672,0.8199050490052757,Nemadus brachyderus,,front
+25021,images/Coleoptera/Leiodidae/Anistoma blanchardi female (3lateral) .jpg,Anistoma blanchardi female (3lateral) .jpg,SEMUBC COL-27606,0.8527832978117466,Anistoma blanchardi female,,lateral
+25026,images/Coleoptera/Leiodidae/Catoptrichus frankenhaeuseri (4front).jpg,Catoptrichus frankenhaeuseri (4front).jpg,SEM URCCOL-27627,0.17722877519874478,Catoptrichus frankenhaeuseri,,front
+25072,images/Coleoptera/Leiodidae/Cyrtusa subtestacea female (3lateral) .jpg,Cyrtusa subtestacea female (3lateral) .jpg,SEMUBC COL-27037,0.41753790403427976,Cyrtusa subtestacea female,,lateral
+25131,images/Coleoptera/Leiodidae/Kalohydnobius strigilatus male (4front).jpg,Kalohydnobius strigilatus male (4front).jpg,SEM-UBC GOL.27644,0.12875425087007314,Kalohydnobius strigilatus male,,front
+25674,images/Coleoptera/Anthicidae/Ischyropalpus turgidicollis (2ventral).jpg,Ischyropalpus turgidicollis (2ventral).jpg,SEM-UBC,0.9996840450662768,Ischyropalpus turgidicollis,,ventral
+25679,images/Coleoptera/Anthicidae/Anthicus nigritus (3lateral).jpg,Anthicus nigritus (3lateral).jpg,"SEM-UBC COL""25312",0.6817657538620121,Anthicus nigritus,,lateral
+25758,images/Coleoptera/Dermestidae/Megatoma perversa (4front).jpg,Megatoma perversa (4front).jpg,SEM-UBC COL2*,0.16088347014955798,Megatoma perversa,,front
+25773,images/Coleoptera/Dermestidae/Megatoma variegata (4front).jpg,Megatoma variegata (4front).jpg,SEMUBC COL-25451,0.9688027470205839,Megatoma variegata,,front
+25861,images/Coleoptera/Dermestidae/Dermestes maculatus (1dorsal).jpg,Dermestes maculatus (1dorsal).jpg,SEMUBC COL-25440,0.8994161469716971,Dermestes maculatus,,dorsal
+26716,images/Coleoptera/Carabidae/Cicindelinae/Tetracha carolina (1dorsal).jpg,Tetracha carolina (1dorsal).jpg,OCR FAILED,0,Tetracha carolina,,dorsal
+26731,images/Coleoptera/Carabidae/Cicindelinae/Cicindela limbalis form B (label).jpg,Cicindela limbalis form B (label).jpg,SEM-UBC,0.8060954555512925,Cicindela limbalis form B,,label
+26766,images/Coleoptera/Carabidae/Cicindelinae/Cicindela limbalis form A (label).jpg,Cicindela limbalis form A (label).jpg,SEM-UBC,0.8128748871911567,Cicindela limbalis form A,,label
+26813,images/Coleoptera/Carabidae/Omophroninae/Omophron robustum (label).jpg,Omophron robustum (label).jpg,SEM-UBC,0.846112663947075,Omophron robustum,,label
+26927,images/Coleoptera/Carabidae/Carabinae/Scaphinotus cavicollis (label).jpg,Scaphinotus cavicollis (label).jpg,SEM-UBC,0.5877276747954215,Scaphinotus cavicollis,,label
+27007,images/Coleoptera/Carabidae/Harpalinae/Ega/Ega laetula (label).jpg,Ega laetula (label).jpg,SEM-UBC,0.9937792351415918,Ega laetula,,label
+27018,images/Coleoptera/Carabidae/Harpalinae/Chlaenius/Chlaenius tomentosus (label).jpg,Chlaenius tomentosus (label).jpg,SEM-UBC,0.9998740634702552,Chlaenius tomentosus,,label
+27032,images/Coleoptera/Carabidae/Harpalinae/Chlaenius/Chlaenius impunctifrons (label).jpg,Chlaenius impunctifrons (label).jpg,SEM-UBC,0.9996339813642369,Chlaenius impunctifrons,,label
+27037,images/Coleoptera/Carabidae/Harpalinae/Chlaenius/Chlaenius nemoralis (label).jpg,Chlaenius nemoralis (label).jpg,SEM-UBC,0.9157653854836012,Chlaenius nemoralis,,label
+27042,images/Coleoptera/Carabidae/Harpalinae/Chlaenius/Chlaenius interruptus (label).jpg,Chlaenius interruptus (label).jpg,SEM-UBC,0.899817794593663,Chlaenius interruptus,,label
+27045,images/Coleoptera/Carabidae/Harpalinae/Chlaenius/Chlaenius niger (label).jpg,Chlaenius niger (label).jpg,SEM-UBC,0.9999519239398483,Chlaenius niger,,label
+27049,images/Coleoptera/Carabidae/Harpalinae/Chlaenius/Chlaenius aestivus (label).jpg,Chlaenius aestivus (label).jpg,SEM-UBC,0.9914125803888865,Chlaenius aestivus,,label
+27073,images/Coleoptera/Carabidae/Harpalinae/Chlaenius/Chlaenius cordicollis (label).jpg,Chlaenius cordicollis (label).jpg,SEM-UBC,0.9874409139977952,Chlaenius cordicollis,,label
+27117,images/Coleoptera/Carabidae/Harpalinae/Pterostichus/Pterostichus bucolicus (label).jpg,Pterostichus bucolicus (label).jpg,SEM-UBC,0.9519405665915339,Pterostichus bucolicus,,label
+27141,images/Coleoptera/Carabidae/Harpalinae/Pterostichus/Pterostichus humilis (label).jpg,Pterostichus humilis (label).jpg,SEM-UBC,0.5041145102927624,Pterostichus humilis,,label
+27144,images/Coleoptera/Carabidae/Harpalinae/Pterostichus/Pterostichus adoxus (label).jpg,Pterostichus adoxus (label).jpg,SEM-UBC,0.9340726207758961,Pterostichus adoxus,,label
+27178,images/Coleoptera/Carabidae/Harpalinae/Pterostichus/Pterostichus stygicus (label).jpg,Pterostichus stygicus (label).jpg,SEM-UBC,0.985802689735091,Pterostichus stygicus,,label
+27202,images/Coleoptera/Carabidae/Harpalinae/Pterostichus/Pterostichus relictus (label).jpg,Pterostichus relictus (label).jpg,SEM-UBC,0.4093928805139687,Pterostichus relictus,,label
+27217,images/Coleoptera/Carabidae/Harpalinae/Pterostichus/Pterostichus surgens (label).jpg,Pterostichus surgens (label).jpg,SEM-UBC,0.9212682426649796,Pterostichus surgens,,label
+27298,images/Coleoptera/Carabidae/Harpalinae/Acupalpus/Acupalpus testaceus (label).jpg,Acupalpus testaceus (label).jpg,SEM-UBC,0.9998317530538853,Acupalpus testaceus,,label
+27299,images/Coleoptera/Carabidae/Harpalinae/Acupalpus/Acupalpus pauperculus (label).jpg,Acupalpus pauperculus (label).jpg,SEM-UBC,0.9999068209781197,Acupalpus pauperculus,,label
+27309,images/Coleoptera/Carabidae/Harpalinae/Acupalpus/Acupalpus nanellus (label).jpg,Acupalpus nanellus (label).jpg,SEM-UBC,0.9999153369722462,Acupalpus nanellus,,label
+27313,images/Coleoptera/Carabidae/Harpalinae/Atranus/Atranus pubescens (label).jpg,Atranus pubescens (label).jpg,SEM-UBC,0.8792112962104709,Atranus pubescens,,label
+27317,images/Coleoptera/Carabidae/Harpalinae/Oodes/Oodes americanus (label).jpg,Oodes americanus (label).jpg,SEM-UBC,0.7800447466495247,Oodes americanus,,label
+27319,images/Coleoptera/Carabidae/Harpalinae/Oodes/Oodes amaroides (label).jpg,Oodes amaroides (label).jpg,SEM-UBC,0.9739778374279044,Oodes amaroides,,label
+27330,images/Coleoptera/Carabidae/Harpalinae/Badister/Badister transversus (label).jpg,Badister transversus (label).jpg,SEM-UBC,0.9999097047036208,Badister transversus,,label
+27340,images/Coleoptera/Carabidae/Harpalinae/Badister/Badister micans (label).jpg,Badister micans (label).jpg,SEM-UBC,0.7967104058710025,Badister micans,,label
+27341,images/Coleoptera/Carabidae/Harpalinae/Badister/Badister reflexus (label).jpg,Badister reflexus (label).jpg,SEM-UBC,0.9999559791190087,Badister reflexus,,label
+27351,images/Coleoptera/Carabidae/Harpalinae/Badister/Badister pulchellus form B (label).jpg,Badister pulchellus form B (label).jpg,SEM-UBC,0.7596224645522437,Badister pulchellus form B,,label
+27352,images/Coleoptera/Carabidae/Harpalinae/Badister/Badister notatus (label).jpg,Badister notatus (label).jpg,SEM-UBC,0.8351444811291565,Badister notatus,,label
+27355,images/Coleoptera/Carabidae/Harpalinae/Badister/Badister pulchellus form A (label).jpg,Badister pulchellus form A (label).jpg,SEM-UBC,0.7864888966731028,Badister pulchellus form A,,label
+27362,images/Coleoptera/Carabidae/Harpalinae/Loxandrus/Loxandrus minor (label).jpg,Loxandrus minor (label).jpg,SEM-UBC,0.9749392699450508,Loxandrus minor,,label
+27377,images/Coleoptera/Carabidae/Harpalinae/Diplocheila/Diplocheila impressicollis (label).jpg,Diplocheila impressicollis (label).jpg,SEM-UBC,0.9997914246961275,Diplocheila impressicollis,,label
+27379,images/Coleoptera/Carabidae/Harpalinae/Diplocheila/Diplocheila assimilis (label).jpg,Diplocheila assimilis (label).jpg,SEM-UBC,0.8139237516061028,Diplocheila assimilis,,label
+27381,images/Coleoptera/Carabidae/Harpalinae/Diplocheila/Diplocheila major major (label).jpg,Diplocheila major major (label).jpg,SEM-UBC,0.8734173579917183,Diplocheila major major,,label
+27387,images/Coleoptera/Carabidae/Harpalinae/Cyclotrachelus/Cyclotrachelus incisus (label).jpg,Cyclotrachelus incisus (label).jpg,SEM-UBC,0.8865070772804635,Cyclotrachelus incisus,,label
+27425,images/Coleoptera/Carabidae/Harpalinae/Agonum/Agonum tenue (label).jpg,Agonum tenue (label).jpg,SEM-UBC,0.9998551387548381,Agonum tenue,,label
+27454,images/Coleoptera/Carabidae/Harpalinae/Agonum/Agonum octopunctatum (label).jpg,Agonum octopunctatum (label).jpg,SEM-UBC,0.9317288712124077,Agonum octopunctatum,,label
+27488,images/Coleoptera/Carabidae/Harpalinae/Agonum/Agonum pallipes (4label) .jpg,Agonum pallipes (4label) .jpg,SEM-UBC,0.8983072596600694,Agonum pallipes,,label
+27504,images/Coleoptera/Carabidae/Harpalinae/Agonum/Agonum trigeminum (label).jpg,Agonum trigeminum (label).jpg,SEM-UBC,0.9999266915946543,Agonum trigeminum,,label
+27520,images/Coleoptera/Carabidae/Harpalinae/Agonum/Agonum punctiforme (label).jpg,Agonum punctiforme (label).jpg,SEM-UBC,0.9023384515210193,Agonum punctiforme,,label
+27532,images/Coleoptera/Carabidae/Harpalinae/Philodes/Philodes rectangulus (label).jpg,Philodes rectangulus (label).jpg,SEM-UBC,0.9477703389720575,Philodes rectangulus,,label
+27549,images/Coleoptera/Carabidae/Harpalinae/Poecilus/Poecilus chalcites (label).jpg,Poecilus chalcites (label).jpg,SEM-UOC,0.41162297624934163,Poecilus chalcites,,label
+27584,images/Coleoptera/Carabidae/Harpalinae/Lebia/Lebia lobulata (label).jpg,Lebia lobulata (label).jpg,SEMUBC,0.9690599472371472,Lebia lobulata,,label
+27617,images/Coleoptera/Carabidae/Harpalinae/Lebia/Lebia viridipennis (label).jpg,Lebia viridipennis (label).jpg,SEM-UBC,0.8815448005890111,Lebia viridipennis,,label
+27759,images/Coleoptera/Carabidae/Harpalinae/Amara/Amara rubrica (label).jpg,Amara rubrica (label).jpg,SEM-UBC,0.7949062211121825,Amara rubrica,,label
+27804,images/Coleoptera/Carabidae/Harpalinae/Olisthopus/Olisthopus parmatus (label).jpg,Olisthopus parmatus (label).jpg,SEM-UBC,0.9975273724294612,Olisthopus parmatus,,label
+27809,images/Coleoptera/Carabidae/Harpalinae/Olisthopus/Olisthopus micans (label).jpg,Olisthopus micans (label).jpg,SEMUBC,0.586864004845057,Olisthopus micans,,label
+27812,images/Coleoptera/Carabidae/Harpalinae/Tetragonoderus/Tetragonoderus pallidus (label).jpg,Tetragonoderus pallidus (label).jpg,SEM-UBC,0.5288657733082097,Tetragonoderus pallidus,,label
+27815,images/Coleoptera/Carabidae/Harpalinae/Tetragonoderus/Tetragonoderus latipennis (label).jpg,Tetragonoderus latipennis (label).jpg,SEM-UBC,0.6781365476519241,Tetragonoderus latipennis,,label
+27825,images/Coleoptera/Carabidae/Harpalinae/Stenolophus/Stenolophus lineola (label).jpg,Stenolophus lineola (label).jpg,SEM-UBC,0.7459100529003826,Stenolophus lineola,,label
+27840,images/Coleoptera/Carabidae/Harpalinae/Stenolophus/Stenolophus megacephalus (label).jpg,Stenolophus megacephalus (label).jpg,SEM-UCC,0.6077162482234206,Stenolophus megacephalus,,label
+27845,images/Coleoptera/Carabidae/Harpalinae/Stenolophus/Stenolophus lecontei (label).jpg,Stenolophus lecontei (label).jpg,SEM-UBC,0.8227687825113834,Stenolophus lecontei,,label
+27849,images/Coleoptera/Carabidae/Harpalinae/Stenolophus/Stenolophus ochropezus (label).jpg,Stenolophus ochropezus (label).jpg,SEM-UBC,0.9564801039205946,Stenolophus ochropezus,,label
+27865,images/Coleoptera/Carabidae/Harpalinae/Anchomenus/Anchomenus funebre (label).jpg,Anchomenus funebre (label).jpg,SEM-UBC,0.9998478391908411,Anchomenus funebre,,label
+27891,images/Coleoptera/Carabidae/Harpalinae/Platynus/Platynus hypolithos (label).jpg,Platynus hypolithos (label).jpg,SEM-UBC,0.5491410278330618,Platynus hypolithos,,label
+27894,images/Coleoptera/Carabidae/Harpalinae/Platynus/Platynus tenuicollis (label).jpg,Platynus tenuicollis (label).jpg,SEM-UBC,0.7472801511558026,Platynus tenuicollis,,label
+27898,images/Coleoptera/Carabidae/Harpalinae/Platynus/Platynus cincticollis (label).jpg,Platynus cincticollis (label).jpg,SEM-UBC,0.5214386075237045,Platynus cincticollis,,label
+27899,images/Coleoptera/Carabidae/Harpalinae/Platynus/Platynus brunneomarginatus (1dorsal).jpg,Platynus brunneomarginatus (1dorsal).jpg,SEM-UBC,0.987319677871885,Platynus brunneomarginatus,,dorsal
+27941,images/Coleoptera/Carabidae/Harpalinae/Anisodactylus/Anisodactylus ovularis (label).jpg,Anisodactylus ovularis (label).jpg,SEM-UBC,0.8509898982495533,Anisodactylus ovularis,,label
+27951,images/Coleoptera/Carabidae/Harpalinae/Anisodactylus/Anisodactylus nigerrimus (label).jpg,Anisodactylus nigerrimus (label).jpg,SEM-UBC,0.9999328194688163,Anisodactylus nigerrimus,,label
+27955,images/Coleoptera/Carabidae/Harpalinae/Bradycellus/Bradycellus neglectus (label).jpg,Bradycellus neglectus (label).jpg,SEM-UBC,0.9998841776819313,Bradycellus neglectus,,label
+27967,images/Coleoptera/Carabidae/Harpalinae/Bradycellus/Bradycellus nitidus (label).jpg,Bradycellus nitidus (label).jpg,SEM-UBC,0.9998470731862141,Bradycellus nitidus,,label
+27978,images/Coleoptera/Carabidae/Harpalinae/Bradycellus/Bradycellus kirbyi (label).jpg,Bradycellus kirbyi (label).jpg,SEM-UBC,0.9769406679591178,Bradycellus kirbyi,,label
+27980,images/Coleoptera/Carabidae/Harpalinae/Bradycellus/Bradycellus insulsus (label).jpg,Bradycellus insulsus (label).jpg,SEM-UBC,0.9999630080836417,Bradycellus insulsus,,label
+27982,images/Coleoptera/Carabidae/Harpalinae/Bradycellus/Bradycellus rupestris (label).jpg,Bradycellus rupestris (label).jpg,SEM-UBC,0.9995635720796662,Bradycellus rupestris,,label
+27998,images/Coleoptera/Carabidae/Harpalinae/Bradycellus/Bradycellus nigriceps (label).jpg,Bradycellus nigriceps (label).jpg,SEM-UBC,0.9929864228673797,Bradycellus nigriceps,,label
+28006,images/Coleoptera/Carabidae/Harpalinae/Dicaelus/Dicaelus elongatus (label).jpg,Dicaelus elongatus (label).jpg,SEM-UBC,0.9050322551579865,Dicaelus elongatus,,label
+28009,images/Coleoptera/Carabidae/Harpalinae/Dicaelus/Dicaelus teter (label).jpg,Dicaelus teter (label).jpg,SEM-UBC,0.9998794705105609,Dicaelus teter,,label
+28013,images/Coleoptera/Carabidae/Harpalinae/Dicaelus/Dicaelus politus (label).jpg,Dicaelus politus (label).jpg,SEM-UBC,0.9999354328232267,Dicaelus politus,,label
+28022,images/Coleoptera/Carabidae/Harpalinae/Lachnocrepis/Lachnocrepis parallela (label).jpg,Lachnocrepis parallela (label).jpg,SEM-UBC,0.4628627706465125,Lachnocrepis parallela,,label
+28024,images/Coleoptera/Carabidae/Harpalinae/Amphasia/Amphasia interstitialis (label).jpg,Amphasia interstitialis (label).jpg,SEM-UBC,0.915582708044988,Amphasia interstitialis,,label
+28026,images/Coleoptera/Carabidae/Harpalinae/Amphasia/Amphasia sericea (label).jpg,Amphasia sericea (label).jpg,SEM-UBC,0.985808591139325,Amphasia sericea,,label
+28151,images/Coleoptera/Carabidae/Harpalinae/Axinopalpus/Axinopalpus biplagiatus (label).jpg,Axinopalpus biplagiatus (label).jpg,SEM-UBC,0.9235597030247942,Axinopalpus biplagiatus,,label
+28161,images/Coleoptera/Carabidae/Harpalinae/Calathus/Calathus gregarius (label).jpg,Calathus gregarius (label).jpg,SEM-UBC,0.9998341411971466,Calathus gregarius,,label
+28183,images/Coleoptera/Carabidae/Harpalinae/Agonoleptus/Agonoleptus rotundicollis (label).jpg,Agonoleptus rotundicollis (label).jpg,SEM-UBC,0.8415809978258533,Agonoleptus rotundicollis,,label
+28189,images/Coleoptera/Carabidae/Harpalinae/Selenophorus/Selenophorus opalinus (label).jpg,Selenophorus opalinus (label).jpg,SEM-UBC,0.49501088909760255,Selenophorus opalinus,,label
+28223,images/Coleoptera/Carabidae/Elaphrinae/Elaphrus fuliginosus (label).jpg,Elaphrus fuliginosus (label).jpg,SEMUBC,0.8288482986486657,Elaphrus fuliginosus,,label
+28251,images/Coleoptera/Carabidae/Loricerinae/Loricera foveata (label).jpg,Loricera foveata (label).jpg,SEM-UBC,0.9828182660243547,Loricera foveata,,label
+28279,images/Coleoptera/Carabidae/Scaritinae/Dyschirius brevispinus (label).jpg,Dyschirius brevispinus (label).jpg,SEM-UBC,0.9999115971470216,Dyschirius brevispinus,,label
+28297,images/Coleoptera/Carabidae/Scaritinae/Dyschirius affinis (label).jpg,Dyschirius affinis (label).jpg,SEM-UBC,0.9739886176512927,Dyschirius affinis,,label
+28299,images/Coleoptera/Carabidae/Scaritinae/Dyschirius pilosus (label).jpg,Dyschirius pilosus (label).jpg,SEM-UBC,0.6005570488501667,Dyschirius pilosus,,label
+28300,images/Coleoptera/Carabidae/Scaritinae/Schizogenius lineolatus (label).jpg,Schizogenius lineolatus (label).jpg,SEM-UBC,0.9681266316881489,Schizogenius lineolatus,,label
+28316,images/Coleoptera/Carabidae/Scaritinae/Schizogenius ferrugineus (label).jpg,Schizogenius ferrugineus (label).jpg,SEM-UBC,0.44646483570228684,Schizogenius ferrugineus,,label
+28320,images/Coleoptera/Carabidae/Scaritinae/Dyschirius larochellei (label).jpg,Dyschirius larochellei (label).jpg,SEM-UBC,0.9916996982392485,Dyschirius larochellei,,label
+28325,images/Coleoptera/Carabidae/Scaritinae/Clivina americana (label).jpg,Clivina americana (label).jpg,SEM-UBC,0.9763918005976282,Clivina americana,,label
+28327,images/Coleoptera/Carabidae/Scaritinae/Dyschirius truncatus (label).jpg,Dyschirius truncatus (label).jpg,SEM-UBC,0.7035135727134733,Dyschirius truncatus,,label
+28334,images/Coleoptera/Carabidae/Scaritinae/Clivina impressefrons (label).jpg,Clivina impressefrons (label).jpg,SEM-UBC,0.9998385119451382,Clivina impressefrons,,label
+28342,images/Coleoptera/Carabidae/Scaritinae/Dyschirius pallipennis (label).jpg,Dyschirius pallipennis (label).jpg,SEM-UBC,0.9858102490436246,Dyschirius pallipennis,,label
+28355,images/Coleoptera/Carabidae/Scaritinae/Promecognathus laevissimus (label).jpg,Promecognathus laevissimus (label).jpg,SEM-UBC,0.8681166265525112,Promecognathus laevissimus,,label
+28359,images/Coleoptera/Carabidae/Scaritinae/Dyschirius sextoni (label).jpg,Dyschirius sextoni (label).jpg,SEM-UBC,0.597530232141475,Dyschirius sextoni,,label
+28365,images/Coleoptera/Carabidae/Scaritinae/Schizogenius sulcifrons (label).jpg,Schizogenius sulcifrons (label).jpg,SEM-UBC,0.954808196216022,Schizogenius sulcifrons,,label
+28370,images/Coleoptera/Carabidae/Scaritinae/Dyschirius montanus (label).jpg,Dyschirius montanus (label).jpg,SEMUBC,0.6950169215223971,Dyschirius montanus,,label
+28377,images/Coleoptera/Carabidae/Scaritinae/Dyschirius haemorrhoidalis (label).jpg,Dyschirius haemorrhoidalis (label).jpg,SEM-UBC,0.7688021390439485,Dyschirius haemorrhoidalis,,label
+28390,images/Coleoptera/Carabidae/Scaritinae/Dyschirius cf. criddlei (label).jpg,Dyschirius cf. criddlei (label).jpg,SEM-UBC,0.9998695125373476,Dyschirius cf. criddlei,,label
+28399,images/Coleoptera/Carabidae/Scaritinae/Dyschirius pumilus (label).jpg,Dyschirius pumilus (label).jpg,SEM-UBC,0.7172889880118533,Dyschirius pumilus,,label
+28418,images/Coleoptera/Carabidae/Scaritinae/Dyschirius terminatus (label).jpg,Dyschirius terminatus (label).jpg,SEM-UBC,0.45898133673456365,Dyschirius terminatus,,label
+28434,images/Coleoptera/Carabidae/Trechinae/Elaphropus saturatus (label).jpg,Elaphropus saturatus (label).jpg,SEM-UBC,0.9870014890135275,Elaphropus saturatus,,label
+28491,images/Coleoptera/Carabidae/Trechinae/Bembidion chalceum form B (label).jpg,Bembidion chalceum form B (label).jpg,SEM-UBC,0.9998907351475428,Bembidion chalceum form B,,label
+28504,images/Coleoptera/Carabidae/Trechinae/Bembidion obliquulum (label).jpg,Bembidion obliquulum (label).jpg,SEM-UBC,0.9996597666628104,Bembidion obliquulum,,label
+28521,images/Coleoptera/Carabidae/Trechinae/Bembidion coxendix (label).jpg,Bembidion coxendix (label).jpg,SEM-UBC,0.9998278779495801,Bembidion coxendix,,label
+28534,images/Coleoptera/Carabidae/Trechinae/Bembidion carolinense (label).jpg,Bembidion carolinense (label).jpg,SEM-UBC,0.9312772529680502,Bembidion carolinense,,label
+28540,images/Coleoptera/Carabidae/Trechinae/Bembidion nigrum (label).jpg,Bembidion nigrum (label).jpg,SEM-UBC,0.9999080375501429,Bembidion nigrum,,label
+28580,images/Coleoptera/Carabidae/Trechinae/Bembidion postremum (label).jpg,Bembidion postremum (label).jpg,SEM-UBC,0.8065843413617484,Bembidion postremum,,label
+28581,images/Coleoptera/Carabidae/Trechinae/Bembidion honestum (label).jpg,Bembidion honestum (label).jpg,SEM-UBC,0.863795858886105,Bembidion honestum,,label
+28582,images/Coleoptera/Carabidae/Trechinae/Tachys oblitus (label).jpg,Tachys oblitus (label).jpg,SEM-UBC,0.7754242461593225,Tachys oblitus,,label
+28583,images/Coleoptera/Carabidae/Trechinae/Bembidion chalceum form A (label).jpg,Bembidion chalceum form A (label).jpg,SEM-UBC,0.8790406703465699,Bembidion chalceum form A,,label
+28675,images/Coleoptera/Carabidae/Trechinae/Bembidion bowditchii (label).jpg,Bembidion bowditchii (label).jpg,SEM-UBC,0.9996748975736023,Bembidion bowditchii,,label
+28692,images/Coleoptera/Carabidae/Trechinae/Amerizus spectabilis (1dorsal).jpg,Amerizus spectabilis (1dorsal).jpg,SEM-UBC COL?20747,0.6996095404554361,Amerizus spectabilis,,dorsal
+28693,images/Coleoptera/Carabidae/Trechinae/Bembidion confusum (label).jpg,Bembidion confusum (label).jpg,SEM-UBC,0.9998283736027268,Bembidion confusum,,label
+28695,images/Coleoptera/Carabidae/Trechinae/Bembidion simplex (label).jpg,Bembidion simplex (label).jpg,SEM-UBC,0.9999048834735405,Bembidion simplex,,label
+28712,images/Coleoptera/Carabidae/Trechinae/Bembidion obtusum (label).jpg,Bembidion obtusum (label).jpg,SEM-UBC,0.9867247436641947,Bembidion obtusum,,label
+28791,images/Coleoptera/Carabidae/Trechinae/Bembidion levigatum (label).jpg,Bembidion levigatum (label).jpg,SEM-UBC,0.9999082177829947,Bembidion levigatum,,label
+28796,images/Coleoptera/Carabidae/Trechinae/Bembidion americanum (label).jpg,Bembidion americanum (label).jpg,SEM-UBC,0.9998894284517538,Bembidion americanum,,label
+28841,images/Coleoptera/Carabidae/Trechinae/Bembidion lacunarium (label).jpg,Bembidion lacunarium (label).jpg,SEM-UBC,0.9998687465380818,Bembidion lacunarium,,label
+28873,images/Coleoptera/Carabidae/Trechinae/Bembidion planum (label).jpg,Bembidion planum (label).jpg,SEM-UBC,0.9997414528515699,Bembidion planum,,label
+28890,images/Coleoptera/Carabidae/Trechinae/Elaphropus vernicatus (label).jpg,Elaphropus vernicatus (label).jpg,SEM-UBC,0.7548428548754686,Elaphropus vernicatus,,label
+28893,images/Coleoptera/Carabidae/Trechinae/Bembidion rolandi (label).jpg,Bembidion rolandi (label).jpg,SEM-UBC,0.8070859129185799,Bembidion rolandi,,label
+28907,images/Coleoptera/Carabidae/Broscinae/Broscodera insignis (label).jpg,Broscodera insignis (label).jpg,SEM-UBC,0.9112953505710818,Broscodera insignis,,label
+28929,images/Coleoptera/Carabidae/Nebriinae/Nebria lacustris (label).jpg,Nebria lacustris (label).jpg,SEM-UBC,0.7354089116937019,Nebria lacustris,,label
+28955,images/Coleoptera/Carabidae/Nebriinae/Nebria eschscholtzi form A (label).jpg,Nebria eschscholtzi form A (label).jpg,SEM-UBC,0.9062271871335612,Nebria eschscholtzi form A,,label
+28970,images/Coleoptera/Carabidae/Nebriinae/Nebria eschscholtzii (1dorsal).jpg,Nebria eschscholtzii (1dorsal).jpg,OCR FAILED,0,Nebria eschscholtzii,,dorsal
+28976,images/Coleoptera/Carabidae/Nebriinae/Nebria eschscholtzi form B (label).jpg,Nebria eschscholtzi form B (label).jpg,SEM-UBC,0.42918928628638064,Nebria eschscholtzi form B,,label
+28999,images/Coleoptera/Carabidae/Nebriinae/Notiophilus aeneus (label).jpg,Notiophilus aeneus (label).jpg,SEM-UBC,0.740340735342521,Notiophilus aeneus,,label
+29026,images/Coleoptera/Carabidae/Nebriinae/Nebria intermedia (label).jpg,Nebria intermedia (label).jpg,SEM-UBC,0.9792849771429649,Nebria intermedia,,label
+29057,images/Coleoptera/Carabidae/Nebriinae/Nebria vandykei (label).jpg,Nebria vandykei (label).jpg,SEM-UBC,0.89933483723827,Nebria vandykei,,label
+29082,images/Coleoptera/Carabidae/Brachininae/Brachinus ovipennis (label).jpg,Brachinus ovipennis (label).jpg,SEM-UBC,0.8793100733365633,Brachinus ovipennis,,label
+29084,images/Coleoptera/Carabidae/Brachininae/Brachinus cyanipennis (label).jpg,Brachinus cyanipennis (label).jpg,SEM-UBC,0.8312054207768611,Brachinus cyanipennis,,label
+29087,images/Coleoptera/Carabidae/Brachininae/Brachinus janthinipennis (label).jpg,Brachinus janthinipennis (label).jpg,SEM-UBC,0.9998595545321133,Brachinus janthinipennis,,label
+29098,images/Coleoptera/Carabidae/Brachininae/Brachinus cyanochroaticus form A (label).jpg,Brachinus cyanochroaticus form A (label).jpg,SEM-UBC,0.9779271428735531,Brachinus cyanochroaticus form A,,label
+29106,images/Coleoptera/Carabidae/Brachininae/Brachinus patruelis (label).jpg,Brachinus patruelis (label).jpg,SEM-UBC,0.8832032601669418,Brachinus patruelis,,label
+29108,images/Coleoptera/Carabidae/Brachininae/Brachinus cyanochroaticus form B (label).jpg,Brachinus cyanochroaticus form B (label).jpg,SEM-UBC,0.9998513988569151,Brachinus cyanochroaticus form B,,label
+29111,images/Coleoptera/Carabidae/Brachininae/Brachinus cordicollis (label).jpg,Brachinus cordicollis (label).jpg,SEM-UBC,0.9999062352210492,Brachinus cordicollis,,label
+29142,images/Coleoptera/Lycidae/Punicealis hamata (2ventral).jpg,Punicealis hamata (2ventral).jpg,SEM-UBC,0.7381951165106635,Punicealis hamata,,ventral
+29225,images/Coleoptera/Elateridae/Athous nigropilis (4front) .jpg,Athous nigropilis (4front) .jpg,SEMAUBC COL-29186,0.7040294998579998,Athous nigropilis,,front
+29366,images/Coleoptera/Elateridae/Ctenicera kendalli (4front) .jpg,Ctenicera kendalli (4front) .jpg,SEMAUBC COL-29212,0.7644160866939896,Ctenicera kendalli,,front
+29449,images/Coleoptera/Elateridae/Neopristilophus maurus (2ventral) .jpg,Neopristilophus maurus (2ventral) .jpg,OCR FAILED,0,Neopristilophus maurus,,ventral
+29976,images/Coleoptera/Cerambycidae/Cerambycinae/Callimoxys sanguinicollis fuscipennis form A (3lateral).jpg,Callimoxys sanguinicollis fuscipennis form A (3lateral).jpg,SEM-UBC COL-XX251,0.7774259728110345,Callimoxys sanguinicollis fuscipennis form A,,lateral
+29986,images/Coleoptera/Cerambycidae/Cerambycinae/Callimoxys sanguinicollis fuscipennis form A (1dorsal).jpg,Callimoxys sanguinicollis fuscipennis form A (1dorsal).jpg,SEM-UBC COL-XX251,0.8594067203216591,Callimoxys sanguinicollis fuscipennis form A,,dorsal
+29993,images/Coleoptera/Cerambycidae/Cerambycinae/Callimoxys sanguinicollis fuscipennis form B (1dorsal).jpg,Callimoxys sanguinicollis fuscipennis form B (1dorsal).jpg,SEM-UBC COL-XX253,0.9632080582179889,Callimoxys sanguinicollis fuscipennis form B,,dorsal
+30013,images/Coleoptera/Cerambycidae/Cerambycinae/Callimoxys sanguinicollis fuscipennis form B (3lateral).jpg,Callimoxys sanguinicollis fuscipennis form B (3lateral).jpg,SEM-UBC COL-XX253,0.9260110709310098,Callimoxys sanguinicollis fuscipennis form B,,lateral
+30064,images/Coleoptera/Cerambycidae/Cerambycinae/Callimoxys sanguinicollis fuscipennis form A (2ventral).jpg,Callimoxys sanguinicollis fuscipennis form A (2ventral).jpg,SEM-UBC COL-XX251,0.8632930676242465,Callimoxys sanguinicollis fuscipennis form A,,ventral
+30095,images/Coleoptera/Cerambycidae/Cerambycinae/Callimoxys sanguinicollis fuscipennis form B (2ventral).jpg,Callimoxys sanguinicollis fuscipennis form B (2ventral).jpg,SEM-UBC COL-XX253,0.8685866427179025,Callimoxys sanguinicollis fuscipennis form B,,ventral
+30110,images/Coleoptera/Cerambycidae/Prioninae/Prionus californicus (3lateral).jpg,Prionus californicus (3lateral).jpg,SEM-UBC,0.9996289343934603,Prionus californicus,,lateral
+30116,images/Coleoptera/Cerambycidae/Lepturinae/Trachysida mutabilis form B (3lateral).jpg,Trachysida mutabilis form B (3lateral).jpg,SEM-UBC COL- 18800,0.9442320299567831,Trachysida mutabilis form B,,lateral
+30131,images/Coleoptera/Cerambycidae/Lepturinae/Neanthophylax mirificus female (2ventral).jpg,Neanthophylax mirificus female (2ventral).jpg,SEM-UBC COL- 18709,0.7779575096016783,Neanthophylax mirificus female,,ventral
+30245,images/Coleoptera/Cerambycidae/Lepturinae/Trachysida mutabilis form B (2ventral).jpg,Trachysida mutabilis form B (2ventral).jpg,SEM-UBC COL- 18800,0.9237253707424581,Trachysida mutabilis form B,,ventral
+30262,images/Coleoptera/Cerambycidae/Lepturinae/Neanthophylax mirificus female (3lateral).jpg,Neanthophylax mirificus female (3lateral).jpg,SEM-UBC COL- 18709,0.6792450708626732,Neanthophylax mirificus female,,lateral
+30295,images/Coleoptera/Cerambycidae/Lepturinae/Trachysida mutabilis form B (1dorsal).jpg,Trachysida mutabilis form B (1dorsal).jpg,SEM-UBC COL; 18800,0.49779225592175513,Trachysida mutabilis form B,,dorsal
+30334,images/Coleoptera/Cerambycidae/Spondylidinae/Tetropium velutinum (3lateral).jpg,Tetropium velutinum (3lateral).jpg,"SEM-UBC COL"" 18781",0.6705609400580289,Tetropium velutinum,,lateral
+30341,images/Coleoptera/Cerambycidae/Spondylidinae/Tetropium velutinum (1dorsal).jpg,Tetropium velutinum (1dorsal).jpg,SEM-UBC COL- 18781,0.5423831837248324,Tetropium velutinum,,dorsal
+30352,images/Coleoptera/Cerambycidae/Spondylidinae/Tetropium velutinum (2ventral).jpg,Tetropium velutinum (2ventral).jpg,SEM-UBC COL- 18781,0.541853077472859,Tetropium velutinum,,ventral
+30427,images/Coleoptera/Buprestidae/Chrysobothris dentipes male (2ventral) .jpg,Chrysobothris dentipes male (2ventral) .jpg,SEM-UBC COL;26570,0.7586576560602555,Chrysobothris dentipes male,,ventral
+30454,images/Coleoptera/Buprestidae/Chrysophana placida form B (1dorsal) .jpg,Chrysophana placida form B (1dorsal) .jpg,SEM-UBC,0.9997928215530542,Chrysophana placida form B,,dorsal
+30680,images/Coleoptera/Buprestidae/Dicerca pectorosa (3lateral) .jpg,Dicerca pectorosa (3lateral) .jpg,SEM-UBC COLF26593,0.792454173439203,Dicerca pectorosa,,lateral
+30858,images/Coleoptera/Sphindidae/Sphindus americanus (3lateral).jpg,Sphindus americanus (3lateral).jpg,OCR FAILED,0,Sphindus americanus,,lateral
+30859,images/Coleoptera/Sphindidae/Sphindus americanus (1dorsal).jpg,Sphindus americanus (1dorsal).jpg,OCR FAILED,0,Sphindus americanus,,dorsal
+30866,images/Coleoptera/Sphindidae/Sphindus americanus (2ventral).jpg,Sphindus americanus (2ventral).jpg,OCR FAILED,0,Sphindus americanus,,ventral
+30889,images/Coleoptera/Scarabaeidae/Canthon simplex (4front).jpg,Canthon simplex (4front).jpg,SEM-UBC COL 27539,0.2699044125595224,Canthon simplex,,front
+30924,images/Coleoptera/Scarabaeidae/Phobetus comatus (4front).jpg,Phobetus comatus (4front).jpg,SEMAUBC COL-27572,0.660540208496468,Phobetus comatus,,front
+31045,images/Coleoptera/Scarabaeidae/Dichelonyx backii backii form B (1dorsal) .jpg,Dichelonyx backii backii form B (1dorsal) .jpg,SEM-UBC CO1-27735,0.437206790107029,Dichelonyx backii backii form B,,dorsal
+31076,images/Coleoptera/Scarabaeidae/Phyllophaga anxia (4front).jpg,Phyllophaga anxia (4front).jpg,SEM-UBC COL-21,0.39621157571328786,Phyllophaga anxia,,front
+31083,images/Coleoptera/Scarabaeidae/Trichiotinus assimilis (1dorsal) .jpg,Trichiotinus assimilis (1dorsal) .jpg,"SEM-UBC COL""27591",0.7697427699221306,Trichiotinus assimilis,,dorsal
+31109,images/Coleoptera/Scarabaeidae/Aegialia opaca female Paratype (1dorsal) .jpg,Aegialia opaca female Paratype (1dorsal) .jpg,"SEM-UBC COL""27502",0.7450925037929789,Aegialia opaca female Paratype,,dorsal
+31133,images/Coleoptera/Scarabaeidae/Copris remotus (3lateral) Copris remotus (3lateral).jpg,Copris remotus (3lateral) Copris remotus (3lateral).jpg,OCR FAILED,0,Copris remotus,,lateral
+31169,images/Coleoptera/Scarabaeidae/Euphoria inda form C (4front).jpg,Euphoria inda form C (4front).jpg,OCR FAILED,0,Euphoria inda form C,,front
+31172,images/Coleoptera/Scarabaeidae/Serica sericea (3lateral) .jpg,Serica sericea (3lateral) .jpg,"SEM-UBC COL""27588",0.7897798349988252,Serica sericea,,lateral
+31207,images/Coleoptera/Scarabaeidae/Dichelonyx vaga male (5genitalia) .jpg,Dichelonyx vaga male (5genitalia) .jpg,OCR FAILED,0,Dichelonyx vaga male,,genitalia
+31218,images/Coleoptera/Scarabaeidae/Macrodactylus subspinosus (4front).jpg,Macrodactylus subspinosus (4front).jpg,SEM,0.9774708803793841,Macrodactylus subspinosus,,front
+31303,images/Coleoptera/Scarabaeidae/Diplotaxis brevicollis (4front).jpg,Diplotaxis brevicollis (4front).jpg,OCR FAILED,0,Diplotaxis brevicollis,,front
+31395,images/Coleoptera/Scarabaeidae/Oxyomus silvestris (4front).jpg,Oxyomus silvestris (4front).jpg,SEM-UBC COL 27569,0.512886009259547,Oxyomus silvestris,,front
+31529,images/Coleoptera/Cryptophagidae/Cryptophagus difficilis (3lateral) .jpg,Cryptophagus difficilis (3lateral) .jpg,OCR FAILED,0,Cryptophagus difficilis,,lateral
+32046,images/Coleoptera/Gyrinidae/Gyrinus bifarius male (1dorsal).jpg,Gyrinus bifarius male (1dorsal).jpg,SEMUBC COL-0503,0.86738553234654,Gyrinus bifarius male,,dorsal
+32233,images/Coleoptera/Haliplidae/Haliplus distinctus male (2ventral).jpg,Haliplus distinctus male (2ventral).jpg,SEM-UBC COL;3104,0.6884830433617175,Haliplus distinctus male,,ventral
+32335,images/Coleoptera/Histeridae/Plegaderus molestus (3lateral) .jpg,Plegaderus molestus (3lateral) .jpg,SEMAUBC CO-27716,0.5431396794229927,Plegaderus molestus,,lateral
+32447,images/Coleoptera/Histeridae/Hister sp 4 (3lateral) .jpg,Hister sp 4 (3lateral) .jpg,SEM-UBC COL.27730,0.6708335903875026,Hister sp 4,,lateral
+32450,images/Coleoptera/Histeridae/Plegaderus sayi (4front).jpg,Plegaderus sayi (4front).jpg,SEM-UBC COL 27718,0.5770376772242581,Plegaderus sayi,,front
+32465,images/Coleoptera/Histeridae/Gnathoncus communis (4front).jpg,Gnathoncus communis (4front).jpg,SEMUE€ COL-27693,0.13391258951700766,Gnathoncus communis,,front
+32592,images/Coleoptera/Meloidae/Lytta cyanipennis form A (4front).jpg,Lytta cyanipennis form A (4front).jpg,SEM-UBG COL-25284,0.30239362701621414,Lytta cyanipennis form A,,front
+32629,images/Coleoptera/Kateretidae/Heterhelus sericans (2ventral).jpg,Heterhelus sericans (2ventral).jpg,SEM-UBC,0.9449958300801342,Heterhelus sericans,,ventral
+32738,images/Coleoptera/Lucanidae/Lucanus elaphus male (Dorsal).jpg,Lucanus elaphus male (Dorsal).jpg,OCR FAILED,0,Lucanus elaphus male,,Dorsal
+32819,images/Coleoptera/Staphylinidae/Oxyporinae/Oxyporus stygicus (3lateral) .jpg,Oxyporus stygicus (3lateral) .jpg,SEM-UBC C0L-27205,0.44022917406512696,Oxyporus stygicus,,lateral
+33023,images/Coleoptera/Staphylinidae/Aleocharinae/Aleochara bimaculata (4front).jpg,Aleochara bimaculata (4front).jpg,SEM-UBC COL0954,0.2471653878535028,Aleochara bimaculata,,front
+33072,images/Coleoptera/Staphylinidae/Aleocharinae/Diaulota densissima (4front).jpg,Diaulota densissima (4front).jpg,SEMAUBC COL27024,0.24617068006661144,Diaulota densissima,,front
+33128,images/Coleoptera/Staphylinidae/Aleocharinae/Gnypeta helenae (4front).jpg,Gnypeta helenae (4front).jpg,SEM-UB C COL-27057,0.4400840427219564,Gnypeta helenae,,front
+33205,images/Coleoptera/Staphylinidae/Paederinae/Paederus littorarius (2ventral) .jpg,Paederus littorarius (2ventral) .jpg,SEM-UBC COL-577C0,0.5827874486877549,Paederus littorarius,,ventral
+33444,images/Coleoptera/Staphylinidae/Piestinae/Siagonium americanum (3lateral) .jpg,Siagonium americanum (3lateral) .jpg,SEMUBC COL27347,0.881805020473622,Siagonium americanum,,lateral
+33479,images/Coleoptera/Staphylinidae/Oxytelinae/Carpelimus harneyi (1dorsal) .jpg,Carpelimus harneyi (1dorsal) .jpg,SEM PARATYPE,0.9992640843985594,Carpelimus harneyi,,dorsal
+33481,images/Coleoptera/Staphylinidae/Oxytelinae/Carpelimus delicatus (2ventral).jpg,Carpelimus delicatus (2ventral).jpg,OCR FAILED,0,Carpelimus delicatus,,ventral
+33496,images/Coleoptera/Staphylinidae/Oxytelinae/Carpelimus harneyi (2ventral) .jpg,Carpelimus harneyi (2ventral) .jpg,SEM PARATYPE,0.9999404195750456,Carpelimus harneyi,,ventral
+33530,images/Coleoptera/Staphylinidae/Oxytelinae/Carpelimus vancouverensis (1dorsal) _0001.jpg,Carpelimus vancouverensis (1dorsal) _0001.jpg,SEM PARATYPE,0.982949599132601,Carpelimus vancouverensis,,dorsal
+33561,images/Coleoptera/Staphylinidae/Oxytelinae/Carpelimus rivularis (2ventral).jpg,Carpelimus rivularis (2ventral).jpg,OCR FAILED,0,Carpelimus rivularis,,ventral
+33568,images/Coleoptera/Staphylinidae/Oxytelinae/Carpelimus vancouverensis (3lateral) .jpg,Carpelimus vancouverensis (3lateral) .jpg,SEM PARATYPE,0.9985610732900088,Carpelimus vancouverensis,,lateral
+33598,images/Coleoptera/Staphylinidae/Oxytelinae/Carpelimus harneyi (3lateral).jpg,Carpelimus harneyi (3lateral).jpg,SEM PARATYPE,0.9875411754310754,Carpelimus harneyi,,lateral
+33630,images/Coleoptera/Staphylinidae/Oxytelinae/Carpelimus vancouverensis (2ventral) _0001.jpg,Carpelimus vancouverensis (2ventral) _0001.jpg,SEM PARATYPE,0.9643275766164893,Carpelimus vancouverensis,,ventral
+33681,images/Coleoptera/Staphylinidae/Steninae/Stenus egenus male (1dorsal) .jpg,Stenus egenus male (1dorsal) .jpg,SEM-UBC,0.9997450577005299,Stenus egenus male,,dorsal
+33865,images/Coleoptera/Staphylinidae/Staphylininae/Quedius nevadensis male (2ventral) .jpg,Quedius nevadensis male (2ventral) .jpg,SEM-UBC,0.999612126118959,Quedius nevadensis male,,ventral
+34317,images/Coleoptera/Staphylinidae/Staphylininae/Gabrius forcipatus (4front).jpg,Gabrius forcipatus (4front).jpg,SEMADAC COL-24699,0.1445226436206798,Gabrius forcipatus,,front
+35088,images/Coleoptera/Staphylinidae/Pseudopsinae/Zalobius spinicollis (3lateral) .jpg,Zalobius spinicollis (3lateral) .jpg,SEM-UBC,0.9996289794557358,Zalobius spinicollis,,lateral
+35265,images/Coleoptera/Salpingidae/Rhinosimus lecontei female (1dorsal).jpg,Rhinosimus lecontei female (1dorsal).jpg,"SEM-UBC COL""251951",0.6669079668775313,Rhinosimus lecontei female,,dorsal
+35505,images/Coleoptera/Coccinellidae/Hippodamia arctica form B (2ventral).jpg,Hippodamia arctica form B (2ventral).jpg,OCR FAILED,0,Hippodamia arctica form B,,ventral
+35567,images/Coleoptera/Coccinellidae/Hippodamia arctica form A (2ventral).jpg,Hippodamia arctica form A (2ventral).jpg,OCR FAILED,0,Hippodamia arctica form A,,ventral
+35935,images/Coleoptera/Curculionidae/Entiminae/Sitona lineatus (2ventral) .jpg,Sitona lineatus (2ventral) .jpg,SEMUBC COL-25651,0.6762235424462337,Sitona lineatus,,ventral
+36285,images/Coleoptera/Curculionidae/Scolytinae/Polygraphus rufipennis form A (3lateral) .jpg,Polygraphus rufipennis form A (3lateral) .jpg,SEM,0.9951178099006688,Polygraphus rufipennis form A,,lateral
+36370,images/Coleoptera/Curculionidae/Scolytinae/Scierus pubescens (4front).jpg,Scierus pubescens (4front).jpg,SEMEUBC COL-26704,0.48857877884022377,Scierus pubescens,,front
+36577,images/Coleoptera/Curculionidae/Curculioninae/Macrorhoptus sidalceae Paratype (2ventral) .jpg,Macrorhoptus sidalceae Paratype (2ventral) .jpg,SEM-UBC COL 25198,0.5675239780442808,Macrorhoptus sidalceae Paratype,,ventral
+36582,images/Coleoptera/Curculionidae/Curculioninae/Curculio uniformis (1dorsal) .jpg,Curculio uniformis (1dorsal) .jpg,"SEM-UBC COL""25197",0.6925511917113504,Curculio uniformis,,dorsal
+36591,images/Coleoptera/Curculionidae/Curculioninae/Orchestes pallicornis (2ventral) .jpg,Orchestes pallicornis (2ventral) .jpg,SEM-UBC,0.9996993659294299,Orchestes pallicornis,,ventral
+36606,images/Coleoptera/Curculionidae/Curculioninae/Rhinusa sp. (4front).jpg,Rhinusa sp. (4front).jpg,SEM,0.2645599738522783,Rhinusa sp.,,front
+36698,images/Coleoptera/Curculionidae/Cossoninae/Rhyncolus macrops (3lateral) .jpg,Rhyncolus macrops (3lateral) .jpg,SEMUBC COL-25639,0.8859899752750567,Rhyncolus macrops,,lateral
+36993,images/Coleoptera/Limnichidae/Limnichites punctatus (1dorsal).jpg,Limnichites punctatus (1dorsal).jpg,SEMUBC COL-18340,0.7013410856268828,Limnichites punctatus,,dorsal
+37263,images/Coleoptera/Chrysomelidae/Galerucinae/Monoxia angularis (4front).jpg,Monoxia angularis (4front).jpg,SEM-UBC COL 30897,0.8359596957137289,Monoxia angularis,,front
+38060,images/Coleoptera/Ochodaeidae/Xenochodaeus luscinus (3lateral).jpg,Xenochodaeus luscinus (3lateral).jpg,SEM-UBC,0.9154134808000282,Xenochodaeus luscinus,,lateral
+38069,images/Coleoptera/Dryophthoridae/Sphenophorus mormon female (1dorsal) .jpg,Sphenophorus mormon female (1dorsal) .jpg,OCR FAILED,0,Sphenophorus mormon female,,dorsal
+38104,images/Coleoptera/Cantharidae/Dichelotarsus tetragonoderus (1dorsal).jpg,Dichelotarsus tetragonoderus (1dorsal).jpg,SEM-UBC,0.9996686340039166,Dichelotarsus tetragonoderus,,dorsal
+38232,images/Coleoptera/Ptiliidae/Ptenidium pusillum (3lateral) .jpg,Ptenidium pusillum (3lateral) .jpg,SEM-UBC,0.9996445259016297,Ptenidium pusillum,,lateral
+38234,images/Coleoptera/Ptiliidae/Acrotrichis cognata (3lateral) .jpg,Acrotrichis cognata (3lateral) .jpg,SEM-UBC,0.9996061327979381,Acrotrichis cognata,,lateral
+38316,images/Opiliones/Phalangiidae/Phalangium opilio male (4front).jpg,Phalangium opilio male (4front).jpg,SEM UIBC OPI-00R,0.11467709670486353,Phalangium opilio male,,front
+38318,images/Opiliones/Phalangiidae/Oligolophus tridens (1dorsal).jpg,Oligolophus tridens (1dorsal).jpg,SEM-UBC OPL0012,0.5598991719227694,Oligolophus tridens,,dorsal
+38322,images/Opiliones/Phalangiidae/Phalangium opilio female (4front).jpg,Phalangium opilio female (4front).jpg,SEM-UBC OPI-00B=,0.2055512091797095,Phalangium opilio female,,front
+41181,images/Psocodea/Phthiraptera/Bird Lice/JPEGS/Cimicidae not Louse/JPEG/Oeciacus vicarius (1dorsal) [Host - Hirundo pyrrhonota] [No value].jpg,Oeciacus vicarius (1dorsal) [Host - Hirundo pyrrhonota] [No value].jpg,OCR FAILED,0,Oeciacus vicarius,,dorsal
+41182,images/Psocodea/Phthiraptera/Bird Lice/JPEGS/Cimicidae not Louse/JPEG/Oeciacus vicarius (5label 1B) [Host - Hirundo pyrrhonota] [No value].jpg,Oeciacus vicarius (5label 1B) [Host - Hirundo pyrrhonota] [No value].jpg,OCR FAILED,0,Oeciacus vicarius,,label B
+41183,images/Psocodea/Phthiraptera/Bird Lice/JPEGS/Cimicidae not Louse/JPEG/Oeciacus vicarius (5label 2) [Host - Hirundo pyrrhonota] [No value].jpg,Oeciacus vicarius (5label 2) [Host - Hirundo pyrrhonota] [No value].jpg,OCR FAILED,0,Oeciacus vicarius,,label 
+41184,images/Psocodea/Phthiraptera/Bird Lice/JPEGS/Cimicidae not Louse/JPEG/Oeciacus vicarius (5label 1A) [Host - Hirundo pyrrhonota] [No value].jpg,Oeciacus vicarius (5label 1A) [Host - Hirundo pyrrhonota] [No value].jpg,OCR FAILED,0,Oeciacus vicarius,,label A
+41344,images/Psocodea/Phthiraptera/Mammal Lice/Philopteridae/Physconelloides spenceri Holotype & Allotype ((2ventral) Allotype-0084 female.jpg,Physconelloides spenceri Holotype & Allotype ((2ventral) Allotype-0084 female.jpg,SEM-UBC PHT-003,0.8428836885850892,Physconelloides spenceri Holotype & Allotype,,(ventral
+41345,images/Psocodea/Phthiraptera/Mammal Lice/Philopteridae/Physconelloides spenceri Holotype & Allotype (4both) type-0084.jpg,Physconelloides spenceri Holotype & Allotype (4both) type-0084.jpg,OCR FAILED,0,Physconelloides spenceri Holotype & Allotype,,both
+41346,images/Psocodea/Phthiraptera/Mammal Lice/Philopteridae/Physconelloides spenceri Holotype & Allotype ((1dorsal) Allotype-0084 female.jpg,Physconelloides spenceri Holotype & Allotype ((1dorsal) Allotype-0084 female.jpg,SEM-UBC PHT-003,0.9260610771955988,Physconelloides spenceri Holotype & Allotype,,(dorsal
+41347,images/Psocodea/Phthiraptera/Mammal Lice/Philopteridae/Physconelloides spenceri Holotype & Allotype ((2ventral) Holotype-0084 male.jpg,Physconelloides spenceri Holotype & Allotype ((2ventral) Holotype-0084 male.jpg,SEM-UBC PHT-003,0.951087762394952,Physconelloides spenceri Holotype & Allotype,,(ventral
+41348,images/Psocodea/Phthiraptera/Mammal Lice/Philopteridae/Physconelloides spenceri Holotype & Allotype (3both) type-0084 label 2.jpg,Physconelloides spenceri Holotype & Allotype (3both) type-0084 label 2.jpg,OCR FAILED,0,Physconelloides spenceri Holotype & Allotype,,both
+41349,images/Psocodea/Phthiraptera/Mammal Lice/Philopteridae/Physconelloides spenceri Holotype & Allotype ((1dorsal) Holotype-0084 male.jpg,Physconelloides spenceri Holotype & Allotype ((1dorsal) Holotype-0084 male.jpg,SEM-UBC PHT-003,0.9878510863543851,Physconelloides spenceri Holotype & Allotype,,(dorsal
+41350,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Austromenopon spenceri Holotype & Allotype (1dorsal)  Allotype-0083 female.jpg,Austromenopon spenceri Holotype & Allotype (1dorsal)  Allotype-0083 female.jpg,SEM-UBC PHT-002,0.955752518842383,Austromenopon spenceri Holotype & Allotype,,dorsal
+41351,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Eureum spenceri Holotype (8label) Holotype-0085 male label 2.jpg,Eureum spenceri Holotype (8label) Holotype-0085 male label 2.jpg,OCR FAILED,0,Eureum spenceri Holotype,,label
+41352,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Austromenopon spenceri Holotype & Allotype (2ventral) Allotype-0083 female.jpg,Austromenopon spenceri Holotype & Allotype (2ventral) Allotype-0083 female.jpg,SEM-UBC PHT-002,0.9993093907313081,Austromenopon spenceri Holotype & Allotype,,ventral
+41353,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Austromenopon spenceri Holotype & Allotype (1dorsal)  Holotype-0083 male.jpg,Austromenopon spenceri Holotype & Allotype (1dorsal)  Holotype-0083 male.jpg,SEM-UBC PHT-002,0.9946284268377588,Austromenopon spenceri Holotype & Allotype,,dorsal
+41354,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Eureum spenceri Allotype (1dorsal) Allotype-0086 female.jpg,Eureum spenceri Allotype (1dorsal) Allotype-0086 female.jpg,SEM-UBC PHT-005,0.8550127041156071,Eureum spenceri Allotype,,dorsal
+41355,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Eureum spenceri Holotype (1dorsal) Holotype-0085 male.jpg,Eureum spenceri Holotype (1dorsal) Holotype-0085 male.jpg,SEM-UBC PHT-004,0.9914872709795141,Eureum spenceri Holotype,,dorsal
+41356,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Eureum spenceri Allotype (7label) Allotype-0086 female.jpg,Eureum spenceri Allotype (7label) Allotype-0086 female.jpg,OCR FAILED,0,Eureum spenceri Allotype,,label
+41357,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Eureum spenceri Holotype (2ventral) Holotype-0085 male.jpg,Eureum spenceri Holotype (2ventral) Holotype-0085 male.jpg,SEM-UBC PHT-004,0.9854313163125394,Eureum spenceri Holotype,,ventral
+41358,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Austromenopon spenceri Holotype & Allotype (7label) type-0083.jpg,Austromenopon spenceri Holotype & Allotype (7label) type-0083.jpg,OCR FAILED,0,Austromenopon spenceri Holotype & Allotype,,label
+41359,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Eureum spenceri Allotype (2ventral) Allotype-0086 female.jpg,Eureum spenceri Allotype (2ventral) Allotype-0086 female.jpg,SEM-UBC PHT-005,0.844962425724897,Eureum spenceri Allotype,,ventral
+41360,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Austromenopon spenceri Holotype & Allotype (2ventral) Holotype-0083 male.jpg,Austromenopon spenceri Holotype & Allotype (2ventral) Holotype-0083 male.jpg,SEM-UBC PHT-002,0.945548416084898,Austromenopon spenceri Holotype & Allotype,,ventral
+41361,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Austromenopon spenceri Holotype & Allotype (8label) type-0083 label 2.jpg,Austromenopon spenceri Holotype & Allotype (8label) type-0083 label 2.jpg,OCR FAILED,0,Austromenopon spenceri Holotype & Allotype,,label
+41362,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Amyrsidea minuta Holotype & Allotype (1dorsal) SEM-UBC HOL.jpg,Amyrsidea minuta Holotype & Allotype (1dorsal) SEM-UBC HOL.jpg,SEM-UBC HOL,FROM FILENAME,Amyrsidea minuta Holotype & Allotype,SEM-UBC HOL,dorsal
+41363,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Amyrsidea minuta Holotype & Allotype (2ventral) SEM-UBC HOL.jpg,Amyrsidea minuta Holotype & Allotype (2ventral) SEM-UBC HOL.jpg,SEM-UBC HOL,FROM FILENAME,Amyrsidea minuta Holotype & Allotype,SEM-UBC HOL,ventral
+41364,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Eureum spenceri Allotype (8label) Allotype-0086 female label 2.jpg,Eureum spenceri Allotype (8label) Allotype-0086 female label 2.jpg,OCR FAILED,0,Eureum spenceri Allotype,,label
+41365,images/Psocodea/Phthiraptera/Mammal Lice/Menoponidae/Eureum spenceri Holotype (7label) Holotype-0085 male.jpg,Eureum spenceri Holotype (7label) Holotype-0085 male.jpg,OCR FAILED,0,Eureum spenceri Holotype,,label
+41418,images/Psocodea/Phthiraptera/Mammal Lice/Echinophthiriidae/Lepidophthirus macrorhini male (label 2B).jpg,Lepidophthirus macrorhini male (label 2B).jpg,SEM-UBC PHI-UU8Y,0.4117237578658962,Lepidophthirus macrorhini male,,label B
+41670,images/Psocodea/Phthiraptera/Mammal Lice/Polyplacidae/Haemodipsus ventricosus (1dorsal) group.jpg,Haemodipsus ventricosus (1dorsal) group.jpg,OCR FAILED,0,Haemodipsus ventricosus,,dorsal
+41713,images/Psocodea/Phthiraptera/Mammal Lice/Trichodectidae/Geomydoecus sp female nymph (label 1A).jpg,Geomydoecus sp female nymph (label 1A).jpg,SEM-UBC PAT-W042,0.18801398630316368,Geomydoecus sp female nymph,,label A
+41734,images/Psocodea/Phthiraptera/Mammal Lice/Trichodectidae/Neotrichodectes osborni female (label 1A).jpg,Neotrichodectes osborni female (label 1A).jpg,SEM-UBC PHT 0075,0.9065477198778747,Neotrichodectes osborni female,,label A
+41750,images/Psocodea/Phthiraptera/Mammal Lice/Trichodectidae/Trichodectes pinguis euarctidos Paratype (1dorsal) male.jpg,Trichodectes pinguis euarctidos Paratype (1dorsal) male.jpg,SEM-UBC,0.9984014649810993,Trichodectes pinguis euarctidos Paratype,,dorsal
+41757,images/Psocodea/Phthiraptera/Mammal Lice/Trichodectidae/Neotrichodectes mephitides (label 1B).jpg,Neotrichodectes mephitides (label 1B).jpg,SEM-UBC PHT-001,0.8844794536639143,Neotrichodectes mephitides,,label B
+41958,images/Odonata/Macromiidae/Macromia magnifica exuvium (3lateral).jpg,Macromia magnifica exuvium (3lateral).jpg,SEM-UBC 0D0-7268,0.7709608015504994,Macromia magnifica exuvium,,lateral
+41969,images/Odonata/Corduliidae/Dorocordulia lepida (3lateral).jpg,Dorocordulia lepida (3lateral).jpg,OCR FAILED,0,Dorocordulia lepida,,lateral
+41983,images/Odonata/Corduliidae/Somatochlora kennedyi exuvium (2ventral).jpg,Somatochlora kennedyi exuvium (2ventral).jpg,SEM-UBC 0DO-7363,0.8343299090247219,Somatochlora kennedyi exuvium,,ventral
+41987,images/Odonata/Corduliidae/Somatochlora williamsoni (1dorsal).jpg,Somatochlora williamsoni (1dorsal).jpg,OCR FAILED,0,Somatochlora williamsoni,,dorsal
+42004,images/Odonata/Corduliidae/Somatochlora williamsoni (3lateral).jpg,Somatochlora williamsoni (3lateral).jpg,OCR FAILED,0,Somatochlora williamsoni,,lateral
+42021,images/Odonata/Corduliidae/Dorocordulia lepida (1dorsal).jpg,Dorocordulia lepida (1dorsal).jpg,OCR FAILED,0,Dorocordulia lepida,,dorsal
+42036,images/Odonata/Corduliidae/Dorocordulia lepida (2ventral).jpg,Dorocordulia lepida (2ventral).jpg,OCR FAILED,0,Dorocordulia lepida,,ventral
+42047,images/Odonata/Corduliidae/Somatochlora williamsoni (2ventral).jpg,Somatochlora williamsoni (2ventral).jpg,OCR FAILED,0,Somatochlora williamsoni,,ventral
+42076,images/Odonata/Gomphidae/Ophiogomphus occidentis exuvium (1dorsal).jpg,Ophiogomphus occidentis exuvium (1dorsal).jpg,SEM,0.9997100904885295,Ophiogomphus occidentis exuvium,,dorsal
+42081,images/Odonata/Gomphidae/Ophiogomphus severus exuvium (2ventral).jpg,Ophiogomphus severus exuvium (2ventral).jpg,SEM,0.9130249337354361,Ophiogomphus severus exuvium,,ventral
+42084,images/Odonata/Gomphidae/Ophiogomphus severus exuvium (1dorsal).jpg,Ophiogomphus severus exuvium (1dorsal).jpg,SEM,0.9815049282644487,Ophiogomphus severus exuvium,,dorsal
+42085,images/Odonata/Gomphidae/Ophiogomphus occidentis exuvium (3lateral).jpg,Ophiogomphus occidentis exuvium (3lateral).jpg,SEM,0.9999448112925841,Ophiogomphus occidentis exuvium,,lateral
+42102,images/Odonata/Gomphidae/Octogomphus specularis female exuvium (1dorsal).jpg,Octogomphus specularis female exuvium (1dorsal).jpg,SEM-UBC OD0-7229,0.8126420858599471,Octogomphus specularis female exuvium,,dorsal
+42110,images/Odonata/Gomphidae/Ophiogomphus severus exuvium (3lateral).jpg,Ophiogomphus severus exuvium (3lateral).jpg,SEM,0.9982061136812445,Ophiogomphus severus exuvium,,lateral
+42114,images/Odonata/Gomphidae/Ophiogomphus occidentis exuvium (2ventral).jpg,Ophiogomphus occidentis exuvium (2ventral).jpg,SEM,0.999379234253248,Ophiogomphus occidentis exuvium,,ventral
+42170,images/Odonata/Coenagrionidae/Enallagma hageni male (1dorsal).jpg,Enallagma hageni male (1dorsal).jpg,SEM-UBC 0DO-6650,0.5793493283834825,Enallagma hageni male,,dorsal
+42191,images/Odonata/Coenagrionidae/Enallagma clausum (3lateral).jpg,Enallagma clausum (3lateral).jpg,SEM-UBC OD0-6503,0.7235288008298668,Enallagma clausum,,lateral
+42203,images/Odonata/Lestidae/Lestes disjunctus exuvium (1dorsal).jpg,Lestes disjunctus exuvium (1dorsal).jpg,OCR FAILED,0,Lestes disjunctus exuvium,,dorsal
+42208,images/Odonata/Lestidae/Lestes disjunctus exuvium (3lateral).jpg,Lestes disjunctus exuvium (3lateral).jpg,OCR FAILED,0,Lestes disjunctus exuvium,,lateral
+42217,images/Odonata/Lestidae/Lestes disjunctus exuvium (2ventral).jpg,Lestes disjunctus exuvium (2ventral).jpg,OCR FAILED,0,Lestes disjunctus exuvium,,ventral
+42253,images/Odonata/Libellulidae/Leucorrhinia hudsonica female exuvium (2ventral).jpg,Leucorrhinia hudsonica female exuvium (2ventral).jpg,SEM-UBC 0DO-7555,0.6679742190422912,Leucorrhinia hudsonica female exuvium,,ventral
+42259,images/Odonata/Libellulidae/Sympetrum costiferum female exuvium (2ventral).jpg,Sympetrum costiferum female exuvium (2ventral).jpg,SEM-UBC 0D0-7863,0.5237284824004091,Sympetrum costiferum female exuvium,,ventral
