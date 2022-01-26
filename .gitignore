@@ -293,3 +293,4 @@ cython_debug/
 
 # Images dir
 images/
+*.fmp12
