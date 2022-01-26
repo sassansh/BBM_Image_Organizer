@@ -82,9 +82,11 @@ with open(RESULTS_CSV_FILENAME, "r", encoding="UTF8") as f:
         # get the sem number
         sem_number = row[3]
 
+        # test if sem number is valid using Regex
         pattern = "SEM-UBC [A-Z]{3,4}-[0-9]{4,5}"
         match = re.search(pattern, sem_number)
 
+        # if not valid, skip but store in failed csv
         if match is None:
             logger.error("Sem number not valid: " + sem_number)
             write_csv(failed_csv_filename, row)
