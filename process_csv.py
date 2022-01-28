@@ -1,13 +1,7 @@
 import csv
-import cv2
-import easyocr
-import os
 import re
 from datetime import datetime
-import glob
-import shutil
 import logging
-import collections
 
 
 def write_csv(filename, data):
@@ -21,7 +15,7 @@ def write_csv(filename, data):
         writer.writerow(data)
 
 
-RESULTS_CSV_FILENAME = "results_01-13-2022 00.19.19.csv"
+RESULTS_CSV_FILENAME = "csv/results_01-13-2022 00.19.19.csv"
 PROCESSED_CSV_HEADER = [
     "SEM #",
     "Dorsal Photo Filename",
@@ -58,16 +52,16 @@ ch = logging.StreamHandler()
 ch.setLevel(logging.INFO)
 logger.addHandler(ch)
 
-fh = logging.FileHandler("log_processing_" + date_time + ".log")
+fh = logging.FileHandler("log/log_processing_" + date_time + ".log")
 fh.setLevel(logging.DEBUG)
 logger.addHandler(fh)
 
 # Create results CSV file with header
-processed_csv_filename = "processed_" + date_time + ".csv"
+processed_csv_filename = "csv/processed_" + date_time + ".csv"
 write_csv(processed_csv_filename, PROCESSED_CSV_HEADER)
 
 # Create failed CSV file with header
-failed_csv_filename = "failed_" + date_time + ".csv"
+failed_csv_filename = "csv/failed_" + date_time + ".csv"
 write_csv(failed_csv_filename, FAILED_CSV_HEADER)
 
 
