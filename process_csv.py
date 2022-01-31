@@ -131,12 +131,12 @@ with open(RESULTS_CSV_FILENAME, "r", encoding="UTF8") as f:
         if sem_number not in data_dict:
             data_dict[sem_number] = {
                 "SEM #": sem_number,
-                "Dorsal Photo Filename": "none",
-                "Ventral Photo Filename": "none",
-                "Lateral Photo Filename": "none",
-                "Front Photo Filename": "none",
+                "Dorsal Photo Filename": "",
+                "Ventral Photo Filename": "",
+                "Lateral Photo Filename": "",
+                "Front Photo Filename": "",
                 "Other Photo Filenames": "",
-                "Path To Images": "none"
+                "Path To Images": ""
             }
 
         # get photo path
