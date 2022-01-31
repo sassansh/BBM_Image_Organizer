@@ -77,8 +77,49 @@ with open(RESULTS_CSV_FILENAME, "r", encoding="UTF8") as f:
         sem_number = row[3]
 
         # test if sem number is valid using Regex
-        pattern = "SEM-UBC [A-Z]{3,4}-[0-9]{4,5}"
+        pattern = "SEM-UBC [A-Z]{3,4}-[0-9]{3,5}"
         match = re.search(pattern, sem_number)
+
+        # Fix the sem number
+        try:
+            # if sem number is valid without "SEM-UBC", extract rest and add "SEM-UBC"
+            if match is None:
+                pattern_without_sem_ubc = "[A-Z]{3,4}-[0-9]{3,5}"
+                match = re.search(pattern_without_sem_ubc, sem_number)
+                sem_extra = ""
+                if match is not None:
+                    sem_extra = match.group(0)
+
+                # if space is in sem number last section, replace it with "-"
+                if match is None:
+                    pattern_without_sem_ubc = "[A-Z]{3,4} [0-9]{3,5}"
+                    match = re.search(pattern_without_sem_ubc, sem_number)
+                    if match is not None:
+                        sem_extra = match.group(0).replace(" ", "-")
+
+                    # if "- " is in sem number last section, replace it with "-"
+                    if match is None:
+                        pattern_without_sem_ubc = "[A-Z]{3,4}- [0-9]{3,5}"
+                        match = re.search(pattern_without_sem_ubc, sem_number)
+                        if match is not None:
+                            sem_extra = match.group(0).replace("- ", "-")
+
+                if match is not None:
+                    logger.info(
+                        "SEM number is valid without 'SEM-UBC': " + sem_extra)
+                    sem_number = "SEM-UBC " + sem_extra
+
+                # replace 0 with O
+                sem_3_letters = sem_number.split("SEM-UBC ")[1].split("-")[0]
+                if "0" in sem_3_letters:
+                    logger.info(
+                        "SEM number has 0 in 3 letters: " + sem_3_letters)
+                    sem_3_letters = sem_3_letters.replace("0", "O")
+                    sem_number = "SEM-UBC " + sem_3_letters + "-" + \
+                        sem_number.split("SEM-UBC ")[1].split("-")[1]
+                    match = re.search(pattern, sem_number)
+        except:
+            match = None
 
         # if not valid, skip but store in failed csv
         if match is None:
@@ -122,7 +163,7 @@ with open(RESULTS_CSV_FILENAME, "r", encoding="UTF8") as f:
         if row[7] == "front":
             data_dict[sem_number]["Front Photo Filename"] = row[2]
 
-        logger.info("added: " + str(sem_number))
+        # logger.info("added: " + str(sem_number))
 
 # write the data_dict to the processed csv file
 for key in data_dict:
