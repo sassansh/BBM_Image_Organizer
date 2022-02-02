@@ -103,7 +103,7 @@
       $lastmap = 'nomaphere';
       $prevmap = '';
 
-      # read csv
+      # Read csv - Sassan & Yuxin - Main/Blattodea/Archotermopsidae
       $filenames = array();
 
       if (($handle = fopen("../../../db_small.csv", "r")) !== FALSE) {
