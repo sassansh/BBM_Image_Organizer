@@ -19,3 +19,11 @@ Python script to analyze and sort Beaty Biodiversity Museum's pictures of animal
    conda activate beaty
    ```
    After a successful activation, something like `(beaty)` should show up in the terminal.
+
+# PHP Instructions
+
+View MAMP PHP Logs:
+
+```
+tail -f /Applications/MAMP/logs/php_error.log
+```
