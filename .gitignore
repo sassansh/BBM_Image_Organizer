@@ -293,6 +293,7 @@ cython_debug/
 
 # Images dir
 images/
+images_only/
 *.fmp12
 website/
 db/
