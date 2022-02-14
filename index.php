@@ -108,20 +108,22 @@
       $filenames = array();
       $image_paths = array();
 
-      if (($handle = fopen("../../../db_small.csv", "r")) !== FALSE) {
+      if (($handle = fopen("../../../db.csv", "r")) !== FALSE) {
         fgetcsv($handle);
         while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
           $num_cols = count($data);
           if ($num_cols > 27) {
-            $file_sep = explode(", ", $data[28]);
-            $image_path = $data[53];
+            if ($data[52] == $order && $data[23] == $family) {
+              $file_sep = explode(", ", $data[28]);
+              $image_path = $data[53];
 
-            $num = count($file_sep);
+              $num = count($file_sep);
 
-            for ($c = 0; $c < $num; $c++) {
-              if (strpos($file_sep[$c], '.jpg') !== false) {
-                array_push($filenames, $file_sep[$c]);
-                array_push($image_paths, $organism_images_root . $image_path);
+              for ($c = 0; $c < $num; $c++) {
+                if (strpos($file_sep[$c], '.jpg') !== false) {
+                  array_push($filenames, $file_sep[$c]);
+                  array_push($image_paths, $organism_images_root . $image_path);
+                }
               }
             }
           }
