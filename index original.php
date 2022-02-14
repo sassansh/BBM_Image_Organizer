@@ -98,45 +98,14 @@
 
       /*	<!-- Species Start --> */
       session_start();
-      $organism_images_root  = '../../../organism_images/';
       $_SESSION['genusname'] = "";
       $prevname  = 'start';
       $lastmap = 'nomaphere';
       $prevmap = '';
 
-      # Read csv - Sassan & Yuxin - Main/Blattodea/Archotermopsidae
-      $filenames = array();
-      $image_paths = array();
-
-      if (($handle = fopen("../../../db.csv", "r")) !== FALSE) {
-        fgetcsv($handle);
-        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-          $num_cols = count($data);
-          if ($num_cols > 27) {
-            if ($data[52] == $order && $data[23] == $family) {
-              $file_sep = explode(", ", $data[28]);
-              $image_path = $data[53];
-
-              $num = count($file_sep);
-
-              for ($c = 0; $c < $num; $c++) {
-                if (strpos($file_sep[$c], '.jpg') !== false) {
-                  array_push($filenames, $file_sep[$c]);
-                  array_push($image_paths, $organism_images_root . $image_path);
-                }
-              }
-            }
-          }
-        }
-        fclose($handle);
-      }
-
-      sort($filenames, SORT_STRING);
-
       $dir = '.';
       $files = scandir($dir);
-      $i = 0;
-      foreach ($filenames as $entry) {
+      foreach ($files as $entry) {
 
         $entryext = pathinfo($entry, PATHINFO_EXTENSION);
 
@@ -171,7 +140,7 @@
 
           echo '<div class="span6">';
           echo '	<section class="gallery">';
-          echo '		<a href="' . $image_paths[$i] . $entry . '" class="image fit"><img src="' . $image_paths[$i] . $entry . '" alt="" /></a>';
+          echo '		<a href="' . $entry . '" class="image fit"><img src="' . $entry . '" alt="" /></a>';
           echo '	</section>';
           echo ' </div>';
 
@@ -179,7 +148,6 @@
           $prevmap = $mapfilename;
           $lastmap = $mapfilename;
         }
-        $i++;
       }
 
       echo '</div>';
