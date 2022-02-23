@@ -16,6 +16,14 @@
   } elseif ($suffex !== "nae" or "dae") {
     $path = '../../../../../';
   }
+
+  use airmoi\FileMaker\FileMaker;
+  use airmoi\FileMaker\FileMakerException;
+
+  require($path . 'autoloader.php');
+
+  $fm = new FileMaker('test.fmp12', 'collections.zoology.ubc.ca', 'Webuser', '12345');
+
   echo '<script src="' . $path . 'js/jquery.min.js"></script>';
   echo '<script src="' . $path . 'js/skel.min.js"></script>';
   echo '<script src="' . $path . 'js/skel-layers.min.js"></script>';
@@ -104,38 +112,38 @@
       $lastmap = 'nomaphere';
       $prevmap = '';
 
-      # Read csv - Sassan & Yuxin - Main/Blattodea/Archotermopsidae
+      # Read FM Server - Sassan & Yuxin
       $filenames = array();
       $image_paths = array();
 
-      if (($handle = fopen("../../../db.csv", "r")) !== FALSE) {
-        fgetcsv($handle);
-        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-          $num_cols = count($data);
-          if ($num_cols > 27) {
-            if ($data[52] == $order && $data[23] == $family) {
-              $file_sep = explode(", ", $data[28]);
-              $image_path = $data[53];
+      try {
+        $command = $fm->newFindCommand('Spencer Entomological Collection');
+        $command->addFindCriterion('Family', $family);
+        $command->addFindCriterion('Order', $order);
+        $records = $command->execute()->getRecords();
 
-              $num = count($file_sep);
+        foreach ($records as $record) {
+          $file_sep = explode(", ", $record->getField('Image Filenames'));
+          $image_path = $record->getField('Path To Images');
 
-              for ($c = 0; $c < $num; $c++) {
-                if (strpos($file_sep[$c], '.jpg') !== false) {
-                  array_push($filenames, $file_sep[$c]);
-                  array_push($image_paths, $organism_images_root . $image_path);
-                }
-              }
+          $num = count($file_sep);
+
+          for ($c = 0; $c < $num; $c++) {
+            if (strpos($file_sep[$c], '.jpg') !== false) {
+              array_push($filenames, $file_sep[$c]);
+              array_push($image_paths, $organism_images_root . $image_path);
             }
           }
         }
-        fclose($handle);
+      } catch (FileMakerException $e) {
+        echo 'An error occured ' . $e->getMessage() . ' - Code : ' . $e->getCode();
       }
 
       sort($filenames, SORT_STRING);
+      $i = 0;
 
       $dir = '.';
       $files = scandir($dir);
-      $i = 0;
       foreach ($filenames as $entry) {
 
         $entryext = pathinfo($entry, PATHINFO_EXTENSION);
