@@ -61,127 +61,37 @@ for phpPath in glob.iglob(PHP_ROOT_DIRECTORY + "**/*", recursive=True):
             logger.info("Skipping " + phpPath)
             continue
 
-    # Determine which version of PHP
-    phpVersion = 0
+    # Replace code in PHP files
     with open(phpPath, "r") as phpFile:
         phpFileContent = phpFile.read()
-        if "session_start();" in phpFileContent:
-            phpVersion = 1
-        else:
-            phpVersion = 2
+        # Replace the code
+        phpFileContent = phpFileContent.replace(
+            "$path = '../../../../../';\n  }\n",
+            # add tab of the current line
+            "$path = '../../../../../';\n  }\n\n  include $path . 'php/database-image-lookup.php';\n\n")
+        phpFileContent = phpFileContent.replace(
+            "$prevmap = '';\n",
+            "$prevmap = '';\n\n                        $organism_images = SearchDatabaseForImages($family, $order, $path);\n\n")
 
-    # Replace code in PHP files
-    if phpVersion == 1:
-        print("PHP Version 1")
-        with open(phpPath, "r") as phpFile:
-            phpFileContent = phpFile.read()
-            # Replace the code
-            phpFileContent = phpFileContent.replace(
-                "session_start();\n",
-                # add tab of the current line
-                "session_start();\n                        $organism_images_root  = '../../../organism_images/';\n")
+        phpFileContent = phpFileContent.replace(
+            "                				foreach($files as $entry)\n",
+            "                				foreach ($organism_images as $entry)\n")
 
-            phpFileContent = phpFileContent.replace(
-                "$prevmap = '';\n",
-                # add tab of the current line
-                "$prevmap = '';\n" +
-                "                        # Read csv - Sassan & Yuxin - Main/Blattodea/Archotermopsidae\n" +
-                "                        $filenames = array();\n" +
-                "                        $image_paths = array();\n\n" +
-                "                        if (($handle = fopen(\"../../../db.csv\", \"r\")) !== FALSE) {\n" +
-                "                          fgetcsv($handle);\n" +
-                "                          while (($data = fgetcsv($handle, 1000, \", \")) !== FALSE) {\n" +
-                "                            $num_cols = count($data);\n" +
-                "                            if ($num_cols > 27) {\n" +
-                "                              if ($data[52] == $order && $data[23] == $family) {\n" +
-                "                                $file_sep = explode(\", \", $data[28]);\n" +
-                "                                $image_path = $data[53];\n\n" +
-                "                                $num = count($file_sep);\n\n" +
-                "                                for ($c = 0; $c < $num; $c++) {\n" +
-                "                                  if (strpos($file_sep[$c], '.jpg') !== false) {\n" +
-                "                                    array_push($filenames, $file_sep[$c]);\n" +
-                "                                    array_push($image_paths, $organism_images_root . $image_path);\n" +
-                "                                  }\n" +
-                "                                }\n" +
-                "                              }\n" +
-                "                            }\n" +
-                "                          }\n" +
-                "                          fclose($handle);\n" +
-                "                        }\n\n" +
-                "                        sort($filenames, SORT_STRING);\n" +
-                "                        $i = 0;\n")
+        phpFileContent = phpFileContent.replace(
+            "$entryext = pathinfo($entry, PATHINFO_EXTENSION);",
+            "$entryext = pathinfo($entry->filename, PATHINFO_EXTENSION);")
+        phpFileContent = phpFileContent.replace(
+            "if ($entry != \".\" && $entry != \"..\"  && $entryext == \"jpg\") {",
+            "if ($entry->filename != \".\" && $entry->filename != \"..\"  && $entryext == \"jpg\") {")
+        phpFileContent = phpFileContent.replace(
+            "$chunks = explode(\" (\", $entry);",
+            "$chunks = explode(\" (\", $entry->filename);")
 
-            phpFileContent = phpFileContent.replace(
-                "                				foreach($files as $entry)\n",
-                "                				foreach ($filenames as $entry)\n")
+        phpFileContent = phpFileContent.replace(
+            "                                    echo '		<a href=\"'.$entry.'\" class=\"image fit\"><img src=\"'.$entry.'\" alt=\"\" /></a>';\n",
+            "                                    echo '		<a href=\"' . $entry->filepath . $entry->filename . '\" class=\"image fit\"><img src=\"' . $entry->filepath . $entry->filename . '\" alt=\"\" /></a>';\n")
 
-            phpFileContent = phpFileContent.replace(
-                "                                    echo '		<a href=\"'.$entry.'\" class=\"image fit\"><img src=\"'.$entry.'\" alt=\"\" /></a>';\n",
-                "                                    echo '		<a href=\"' . $image_paths[$i] . $entry . '\" class=\"image fit\"><img src=\"' . $image_paths[$i] . $entry . '\" alt=\"\" /></a>';\n")
-
-            phpFileContent = phpFileContent.replace(
-                "$lastmap = $mapfilename;\n\n\n                                }\n",
-                "$lastmap = $mapfilename;\n\n\n                                }\n                                $i++;\n")
-
-            # Write the file
-            with open(phpPath, "w") as phpFile:
-                phpFile.write(phpFileContent)
-
-     # Replace code in PHP files
-    if phpVersion == 2:
-        print("PHP Version 2")
-        with open(phpPath, "r") as phpFile:
-            phpFileContent = phpFile.read()
-            # Replace the code
-            phpFileContent = phpFileContent.replace(
-                "$prevname  = 'start';\n",
-                # add tab of the current line
-                "$prevname  = 'start';\n                        $organism_images_root  = '../../../organism_images/';\n")
-
-            phpFileContent = phpFileContent.replace(
-                "$prevmap = '';\n",
-                # add tab of the current line
-                "$prevmap = '';\n" +
-                "                        # Read csv - Sassan & Yuxin - Main/Blattodea/Archotermopsidae\n" +
-                "                        $filenames = array();\n" +
-                "                        $image_paths = array();\n\n" +
-                "                        if (($handle = fopen(\"../../../db.csv\", \"r\")) !== FALSE) {\n" +
-                "                          fgetcsv($handle);\n" +
-                "                          while (($data = fgetcsv($handle, 1000, \", \")) !== FALSE) {\n" +
-                "                            $num_cols = count($data);\n" +
-                "                            if ($num_cols > 27) {\n" +
-                "                              if ($data[52] == $order && $data[23] == $family) {\n" +
-                "                                $file_sep = explode(\", \", $data[28]);\n" +
-                "                                $image_path = $data[53];\n\n" +
-                "                                $num = count($file_sep);\n\n" +
-                "                                for ($c = 0; $c < $num; $c++) {\n" +
-                "                                  if (strpos($file_sep[$c], '.jpg') !== false) {\n" +
-                "                                    array_push($filenames, $file_sep[$c]);\n" +
-                "                                    array_push($image_paths, $organism_images_root . $image_path);\n" +
-                "                                  }\n" +
-                "                                }\n" +
-                "                              }\n" +
-                "                            }\n" +
-                "                          }\n" +
-                "                          fclose($handle);\n" +
-                "                        }\n\n" +
-                "                        sort($filenames, SORT_STRING);\n" +
-                "                        $i = 0;\n")
-
-            phpFileContent = phpFileContent.replace(
-                "                				foreach($files as $entry)\n",
-                "                				foreach ($filenames as $entry)\n")
-
-            phpFileContent = phpFileContent.replace(
-                "                                    echo '		<a href=\"'.$entry.'\" class=\"image fit\"><img src=\"'.$entry.'\" alt=\"\" /></a>';\n",
-                "                                    echo '		<a href=\"' . $image_paths[$i] . $entry . '\" class=\"image fit\"><img src=\"' . $image_paths[$i] . $entry . '\" alt=\"\" /></a>';\n")
-
-            phpFileContent = phpFileContent.replace(
-                "$lastmap = $mapfilename;\n\n\n                                }\n",
-                "$lastmap = $mapfilename;\n\n\n                                }\n                                $i++;\n")
-
-            # Write the file
-            with open(phpPath, "w") as phpFile:
-                phpFile.write(phpFileContent)
-
+        # Write the file
+        with open(phpPath, "w") as phpFile:
+            phpFile.write(phpFileContent)
     id += 1

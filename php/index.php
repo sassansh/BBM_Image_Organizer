@@ -17,12 +17,7 @@
     $path = '../../../../../';
   }
 
-  use airmoi\FileMaker\FileMaker;
-  use airmoi\FileMaker\FileMakerException;
-
-  require($path . 'autoloader.php');
-
-  $fm = new FileMaker('test.fmp12', 'collections.zoology.ubc.ca', 'Webuser', '12345');
+  include $path . 'php/database-image-lookup.php';
 
   echo '<script src="' . $path . 'js/jquery.min.js"></script>';
   echo '<script src="' . $path . 'js/skel.min.js"></script>';
@@ -106,51 +101,22 @@
 
       /*	<!-- Species Start --> */
       session_start();
-      $organism_images_root  = '../../../organism_images/';
       $_SESSION['genusname'] = "";
       $prevname  = 'start';
       $lastmap = 'nomaphere';
       $prevmap = '';
 
-      # Read FM Server - Sassan & Yuxin
-      $filenames = array();
-      $image_paths = array();
-
-      try {
-        $command = $fm->newFindCommand('Spencer Entomological Collection');
-        $command->addFindCriterion('Family', $family);
-        $command->addFindCriterion('Order', $order);
-        $records = $command->execute()->getRecords();
-
-        foreach ($records as $record) {
-          $file_sep = explode(", ", $record->getField('Image Filenames'));
-          $image_path = $record->getField('Path To Images');
-
-          $num = count($file_sep);
-
-          for ($c = 0; $c < $num; $c++) {
-            if (strpos($file_sep[$c], '.jpg') !== false) {
-              array_push($filenames, $file_sep[$c]);
-              array_push($image_paths, $organism_images_root . $image_path);
-            }
-          }
-        }
-      } catch (FileMakerException $e) {
-        echo 'An error occured ' . $e->getMessage() . ' - Code : ' . $e->getCode();
-      }
-
-      sort($filenames, SORT_STRING);
-      $i = 0;
+      $organism_images = SearchDatabaseForImages($family, $order, $path);
 
       $dir = '.';
       $files = scandir($dir);
-      foreach ($filenames as $entry) {
+      foreach ($organism_images as $entry) {
 
-        $entryext = pathinfo($entry, PATHINFO_EXTENSION);
+        $entryext = pathinfo($entry->filename, PATHINFO_EXTENSION);
 
-        if ($entry != "." && $entry != ".."  && $entryext == "jpg") {
+        if ($entry->filename != "." && $entry->filename != ".."  && $entryext == "jpg") {
 
-          $chunks = explode(" (", $entry);
+          $chunks = explode(" (", $entry->filename);
           $name = $chunks[0];
           $badwords = array(' female', ' male', ' Form A', ' Form B', ' Form C', ' Form E', ' Form F', ' form A', ' form B', ' form C', ' form E', ' form F', ' queen', ' worker', ' drone', ' exuvium', ' Paratype');
           $replace = '';
@@ -179,7 +145,7 @@
 
           echo '<div class="span6">';
           echo '	<section class="gallery">';
-          echo '		<a href="' . $image_paths[$i] . $entry . '" class="image fit"><img src="' . $image_paths[$i] . $entry . '" alt="" /></a>';
+          echo '		<a href="' . $entry->filepath . $entry->filename . '" class="image fit"><img src="' . $entry->filepath . $entry->filename . '" alt="" /></a>';
           echo '	</section>';
           echo ' </div>';
 
@@ -187,7 +153,6 @@
           $prevmap = $mapfilename;
           $lastmap = $mapfilename;
         }
-        $i++;
       }
 
       echo '</div>';
