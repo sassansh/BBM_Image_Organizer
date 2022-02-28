@@ -161,7 +161,8 @@ def parse_result(result):
     try:
         for row in result:
             if "SEM" in row[1].upper():
-                SEM_number = "SEM" + row[1].upper().split("SEM")[1].split(" (")[0]
+                SEM_number = "SEM" + \
+                    row[1].upper().split("SEM")[1].split(" (")[0]
                 break
     except Exception as e:
         logger.info("ERROR:")
@@ -178,7 +179,7 @@ def parse_result(result):
 # Main Body
 # Global Static Variables
 MIN_CONFIDENCE = 0.75
-IMAGES_ROOT_DIRECTORY = "images/"
+IMAGES_ROOT_DIRECTORY = "website/Main/"
 CSV_HEADER = [
     "id",
     "file_path",
@@ -287,7 +288,8 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + "**/*", recursive=True):
         if sem_conf_cropped_orignal < MIN_CONFIDENCE:
             logger.info("Poor detection, trying red channel")
             # Perform cropped red OCR
-            result_red, sem_conf_cropped_red = cropped_scan(image, "red", reader)
+            result_red, sem_conf_cropped_red = cropped_scan(
+                image, "red", reader)
 
             logger.info("RED OCR:")
             logger.info(result_red)
