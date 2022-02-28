@@ -44,7 +44,7 @@ def parse_filename(filename):
 
 # Main Body
 # Global Static Variables
-IMAGES_ROOT_DIRECTORY = "website/Main"
+IMAGES_ROOT_DIRECTORY = "website/Main/"
 
 
 # Initialize time & OCR Reader
@@ -119,7 +119,7 @@ for imagePath in glob.iglob(IMAGES_ROOT_DIRECTORY + "**/*", recursive=True):
     # Copy the image to a new folder
 
     original = imagePath
-    target = "website/organism_images" + imagePath.split("website/Main/")[1]
+    target = "website/organism_images/" + imagePath.split("website/Main/")[1]
     os.makedirs(os.path.dirname(target), exist_ok=True)
     shutil.copy(original, target)
 

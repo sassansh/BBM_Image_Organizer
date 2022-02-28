@@ -44,7 +44,7 @@ def parse_filename(filename):
 
 # Main Body
 # Global Static Variables
-IMAGES_ROOT_DIRECTORY = "Main/"
+IMAGES_ROOT_DIRECTORY = "website/Main/"
 
 
 # Initialize time & OCR Reader
