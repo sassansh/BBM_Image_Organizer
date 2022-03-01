@@ -18,12 +18,8 @@ def write_csv(filename, data):
 RESULTS_CSV_FILENAME = "csv/results_01-13-2022 00.19.19.csv"
 PROCESSED_CSV_HEADER = [
     "SEM #",
-    "Dorsal Photo Filename",
-    "Ventral Photo Filename",
-    "Lateral Photo Filename",
-    "Front Photo Filename",
-    "Other Photo Filenames",
-    "Path To Images"
+    "Path To Images",
+    "Filenames"
 ]
 FAILED_CSV_HEADER = [
     "id",
@@ -131,12 +127,8 @@ with open(RESULTS_CSV_FILENAME, "r", encoding="UTF8") as f:
         if sem_number not in data_dict:
             data_dict[sem_number] = {
                 "SEM #": sem_number,
-                "Dorsal Photo Filename": "",
-                "Ventral Photo Filename": "",
-                "Lateral Photo Filename": "",
-                "Front Photo Filename": "",
-                "Other Photo Filenames": "",
-                "Path To Images": ""
+                "Path To Images": "",
+                "Filenames": ""
             }
 
         # get photo path
@@ -145,25 +137,9 @@ with open(RESULTS_CSV_FILENAME, "r", encoding="UTF8") as f:
         photo_path = photo_path.replace(row[2], "")
         data_dict[sem_number]["Path To Images"] = photo_path
 
-        # figure out other photos
-        if row[7] not in ["dorsal", "ventral", "lateral", "front"]:
-            data_dict[sem_number]["Other Photo Filenames"] += row[7].strip() + \
-                ": " + row[2] + ", "
+        # add filename
+        data_dict[sem_number]["Filenames"] += row[2] + ", "
 
-        # find the photo type and add the filename to the data_dict
-        if row[7] == "dorsal":
-            data_dict[sem_number]["Dorsal Photo Filename"] = row[2]
-
-        if row[7] == "ventral":
-            data_dict[sem_number]["Ventral Photo Filename"] = row[2]
-
-        if row[7] == "lateral":
-            data_dict[sem_number]["Lateral Photo Filename"] = row[2]
-
-        if row[7] == "front":
-            data_dict[sem_number]["Front Photo Filename"] = row[2]
-
-        # logger.info("added: " + str(sem_number))
 
 # write the data_dict to the processed csv file
 for key in data_dict:
