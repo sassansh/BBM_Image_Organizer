@@ -32,5 +32,5 @@ tail -f /Applications/MAMP/logs/php_error.log
 # If Python import Issues, add the following to `~/.zprofile`
 
 ```
-export PYTHONPATH=/Users/USERNAME/miniforge3/envs/beaty/lib/python3.9/site-packages:$PYTHONPATH
+export PYTHONPATH=/Users/USERNAME/miniconda3/envs/beaty/lib/python3.9/site-packages:$PYTHONPATH
 ```
